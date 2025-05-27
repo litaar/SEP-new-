@@ -1,7 +1,17 @@
--- database: ./database.db
+--database: ./database.db
+CREATE TABLE IF NOT EXISTS "QuizQ"(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+name TEXT NOT NULL, 
+type TEXT NOT NULL,
+answer TEXT NOT NULL,
+category TEXT
+    
+);
 
--- CREATE TABLE id7-tusers(id INTEGER PRIMARY KEY autoincrement,username TEXT NOT NULL UNIQUE, password TEXT NOT NULL);
 
--- INSERT INTO id7-tusers(username,password) VALUES ("","");
 
--- SELECT * FROM extension;
+--INSERT INTO QuizQ (id, name, type, answer, category)
+--VALUES(1,note,free text,) 
+
+--ALTER TABLE quiz ADD category TEXT;
+--UPDATE quiz SET category = "5-6" WHERE id = "2";

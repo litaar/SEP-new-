@@ -61,10 +61,36 @@ def root():
 def index():
     return render_template("/index.html")
 
+# create method for user to play quiz
+@app.route("/play.html", methods=["POST","GET"])
+def play():
+    if request.method == "POST":
+        # Get answer from quiz
+        answer = request.form["answer"]
+        # We will get the original answer from the quiz
+        original_ans = request.form["actual_answer"]
+        print(answer, original_ans)
+            
+        # We will check if the answer is correct
+        if answer == original_ans:
+                return render_template("/play.html", game_ans="Correct!", answer=answer)
+        else:
+            print("Incorrect answer")
+        #alert incorrect message and show the question again
+            return render_template(
+            "/play.html",
+            game_ans=request.form["game_ans"],
+            answer=request.form["answer"],
+            alert_message="incorrect"
+                )
+    # If the request method is GET, we will get a random question from the database
+    # and blank out the longest word in the verse
+    og_verse = db.getRandomVerse() #get the verse as a tuple
+    game_verse,word = blankOutVerse(og_verse[1])
+    # We will return the original verse and the blanked out verse
+    print(game_verse,word)
+    return render_template("/play.html",game_ans=game_verse, answer=word)
 
-@app.route("/privacy.html", methods=["GET"])
-def privacy():
-    return render_template("/privacy.html")
 
 
 # example CSRF protected form

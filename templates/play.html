@@ -1,29 +1,27 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <h2>HTML Forms</h2>
+<div class="container">
+  <div class="row">
+    <h1 class="display-1">Play Game</h1>
+  </div>
 
-    <form action="/action_page.php">
-      <label for="fname">First name:</label><br />
-      <input type="text" id="fname" name="fname" value="John" /><br />
-      <label for="lname">Last name:</label><br />
-      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
-      <input type="submit" value="Submit" />
+  <div class="row">
+    <form action="/play" method="POST" class="box">
+      <p>{{ quiz }}</p>
+      <input type="hidden" name="quiz" value="{{ quiz }}" />
+      <p>
+        Your answer:
+        <input
+          type="text"
+          name="answer"
+          id="answer"
+          placeholder="Type your answer here"
+        />
+        <input type="hidden" name="actual_answer" value="{{ answer }}" />
+        <button class="btn btn-primary" id="submit-answer">Submit</button>
+      </p>
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+      {% if alert_message == "incorrect" %}
+      <p>Incorrect</p>
+      {% endif %}
     </form>
-
-    <p>
-      If you click the "Submit" button, the form-data will be sent to a page
-      called "/action_page.php".
-    </p>
-
-    <div class="container">
-      <div class="row">
-        <h1 class="display-1">How well do you know music theory?</h1>
-        <form action="/play.html" method="POST">
-          <button class="btn btn-primary mb-3">Play</button>
-        </form>
-      </div>
-      <div class="row"></div>
-    </div>
-  </body>
-</html>
+  </div>
+</div>

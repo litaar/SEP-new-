@@ -24,3 +24,11 @@
     </form>
   </div>
 </div>
+<!--Display next question button if user_answer is correct-->
+{% if alert_message == 'correct' %}
+<div class="container">
+  <form action="/play" method="GET">
+    <button class="btn btn-primary mb-3">Next question</button>
+  </form>
+</div>
+{% endif %}

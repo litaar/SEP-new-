@@ -462,3 +462,477 @@
 2025-05-29 22:50:34,428 127.0.0.1 - - [29/May/2025 22:50:34] "GET /play HTTP/1.1" 200 -
 2025-05-29 22:50:44,392 127.0.0.1 - - [29/May/2025 22:50:44] "GET / HTTP/1.1" 200 -
 2025-05-29 22:50:46,946 127.0.0.1 - - [29/May/2025 22:50:46] "GET /play HTTP/1.1" 200 -
+2025-05-29 22:51:54,130 127.0.0.1 - - [29/May/2025 22:51:54] "GET /play HTTP/1.1" 200 -
+2025-05-29 22:54:00,054 127.0.0.1 - - [29/May/2025 22:54:00] "POST /play HTTP/1.1" 200 -
+2025-05-29 22:54:01,258 127.0.0.1 - - [29/May/2025 22:54:01] "POST /play HTTP/1.1" 200 -
+2025-05-29 22:54:07,403 127.0.0.1 - - [29/May/2025 22:54:07] "POST /play HTTP/1.1" 200 -
+2025-05-29 22:58:18,483  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-29 22:58:18,525  * Restarting with stat
+2025-05-29 22:58:18,792  * Debugger is active!
+2025-05-29 22:58:18,793  * Debugger PIN: 741-200-269
+2025-05-29 22:59:28,366  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-29 22:59:28,404  * Restarting with stat
+2025-05-29 23:02:51,290 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.207:5000
+2025-05-29 23:02:51,290 [33mPress CTRL+C to quit[0m
+2025-05-29 23:02:51,291  * Restarting with stat
+2025-05-29 23:02:51,540  * Debugger is active!
+2025-05-29 23:02:51,541  * Debugger PIN: 741-200-269
+2025-05-29 23:02:52,169 127.0.0.1 - - [29/May/2025 23:02:52] "GET / HTTP/1.1" 200 -
+2025-05-29 23:02:52,369 127.0.0.1 - - [29/May/2025 23:02:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:02:52,540 127.0.0.1 - - [29/May/2025 23:02:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:02:52,673 127.0.0.1 - - [29/May/2025 23:02:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:02:52,791 127.0.0.1 - - [29/May/2025 23:02:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:02:52,918 127.0.0.1 - - [29/May/2025 23:02:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:02:53,478 127.0.0.1 - - [29/May/2025 23:02:53] "[35m[1mGET /play HTTP/1.1[0m" 500 -
+2025-05-29 23:02:53,529 127.0.0.1 - - [29/May/2025 23:02:53] "[36mGET /play?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:02:53,531 127.0.0.1 - - [29/May/2025 23:02:53] "[36mGET /play?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-29 23:02:53,579 127.0.0.1 - - [29/May/2025 23:02:53] "GET /play?__debugger__=yes&cmd=resource&f=console.png&s=0oL2cQAN96uMYlM0BrvD HTTP/1.1" 200 -
+2025-05-29 23:02:53,640 127.0.0.1 - - [29/May/2025 23:02:53] "[36mGET /play?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-29 23:03:26,977  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-29 23:03:27,014  * Restarting with stat
+2025-05-29 23:03:27,252  * Debugger is active!
+2025-05-29 23:03:27,252  * Debugger PIN: 741-200-269
+2025-05-29 23:03:54,021  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-29 23:03:54,063  * Restarting with stat
+2025-05-29 23:03:54,310  * Debugger is active!
+2025-05-29 23:03:54,310  * Debugger PIN: 741-200-269
+2025-05-29 23:03:56,046 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.207:5000
+2025-05-29 23:03:56,047 [33mPress CTRL+C to quit[0m
+2025-05-29 23:03:56,047  * Restarting with stat
+2025-05-29 23:03:56,292  * Debugger is active!
+2025-05-29 23:03:56,292  * Debugger PIN: 741-200-269
+2025-05-29 23:03:58,036 127.0.0.1 - - [29/May/2025 23:03:58] "GET / HTTP/1.1" 200 -
+2025-05-29 23:03:58,095 127.0.0.1 - - [29/May/2025 23:03:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:03:58,142 127.0.0.1 - - [29/May/2025 23:03:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:03:58,178 127.0.0.1 - - [29/May/2025 23:03:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:03:58,213 127.0.0.1 - - [29/May/2025 23:03:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:03:58,246 127.0.0.1 - - [29/May/2025 23:03:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:03:59,146 127.0.0.1 - - [29/May/2025 23:03:59] "[35m[1mGET /play HTTP/1.1[0m" 500 -
+2025-05-29 23:03:59,218 127.0.0.1 - - [29/May/2025 23:03:59] "[36mGET /play?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:03:59,221 127.0.0.1 - - [29/May/2025 23:03:59] "[36mGET /play?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-29 23:03:59,258 127.0.0.1 - - [29/May/2025 23:03:59] "GET /play?__debugger__=yes&cmd=resource&f=console.png&s=1A3q96EANiw2SvuUk89f HTTP/1.1" 200 -
+2025-05-29 23:04:40,113  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-29 23:04:40,160  * Restarting with stat
+2025-05-29 23:04:40,426  * Debugger is active!
+2025-05-29 23:04:40,426  * Debugger PIN: 741-200-269
+2025-05-29 23:04:45,149 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.207:5000
+2025-05-29 23:04:45,149 [33mPress CTRL+C to quit[0m
+2025-05-29 23:04:45,150  * Restarting with stat
+2025-05-29 23:04:45,394  * Debugger is active!
+2025-05-29 23:04:45,395  * Debugger PIN: 741-200-269
+2025-05-29 23:04:47,435 127.0.0.1 - - [29/May/2025 23:04:47] "GET / HTTP/1.1" 200 -
+2025-05-29 23:04:47,492 127.0.0.1 - - [29/May/2025 23:04:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:04:47,531 127.0.0.1 - - [29/May/2025 23:04:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:04:47,562 127.0.0.1 - - [29/May/2025 23:04:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:04:47,599 127.0.0.1 - - [29/May/2025 23:04:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:04:47,633 127.0.0.1 - - [29/May/2025 23:04:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:04:48,450 127.0.0.1 - - [29/May/2025 23:04:48] "[35m[1mGET /play HTTP/1.1[0m" 500 -
+2025-05-29 23:04:48,498 127.0.0.1 - - [29/May/2025 23:04:48] "[36mGET /play?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:04:48,507 127.0.0.1 - - [29/May/2025 23:04:48] "[36mGET /play?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-29 23:04:48,547 127.0.0.1 - - [29/May/2025 23:04:48] "GET /play?__debugger__=yes&cmd=resource&f=console.png&s=hbyFepM9IhjlDhnUYlfF HTTP/1.1" 200 -
+2025-05-29 23:05:06,133  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-29 23:05:06,184  * Restarting with stat
+2025-05-29 23:05:06,436  * Debugger is active!
+2025-05-29 23:05:06,436  * Debugger PIN: 741-200-269
+2025-05-29 23:05:09,253 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.207:5000
+2025-05-29 23:05:09,254 [33mPress CTRL+C to quit[0m
+2025-05-29 23:05:09,254  * Restarting with stat
+2025-05-29 23:05:09,494  * Debugger is active!
+2025-05-29 23:05:09,495  * Debugger PIN: 741-200-269
+2025-05-29 23:05:21,480 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.207:5000
+2025-05-29 23:05:21,480 [33mPress CTRL+C to quit[0m
+2025-05-29 23:05:21,480  * Restarting with stat
+2025-05-29 23:05:21,725  * Debugger is active!
+2025-05-29 23:05:21,725  * Debugger PIN: 741-200-269
+2025-05-29 23:05:22,399 127.0.0.1 - - [29/May/2025 23:05:22] "GET / HTTP/1.1" 200 -
+2025-05-29 23:05:22,452 127.0.0.1 - - [29/May/2025 23:05:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:05:22,489 127.0.0.1 - - [29/May/2025 23:05:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:05:22,524 127.0.0.1 - - [29/May/2025 23:05:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:05:22,559 127.0.0.1 - - [29/May/2025 23:05:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:05:22,592 127.0.0.1 - - [29/May/2025 23:05:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:05:23,748 127.0.0.1 - - [29/May/2025 23:05:23] "[35m[1mGET /play HTTP/1.1[0m" 500 -
+2025-05-29 23:05:23,809 127.0.0.1 - - [29/May/2025 23:05:23] "[36mGET /play?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:05:23,825 127.0.0.1 - - [29/May/2025 23:05:23] "[36mGET /play?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-29 23:05:23,868 127.0.0.1 - - [29/May/2025 23:05:23] "GET /play?__debugger__=yes&cmd=resource&f=console.png&s=Ic414KIVid2jocDwOsKI HTTP/1.1" 200 -
+2025-05-29 23:06:06,769  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-29 23:06:06,808  * Restarting with stat
+2025-05-29 23:06:07,051  * Debugger is active!
+2025-05-29 23:06:07,052  * Debugger PIN: 741-200-269
+2025-05-29 23:06:08,749 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.207:5000
+2025-05-29 23:06:08,749 [33mPress CTRL+C to quit[0m
+2025-05-29 23:06:08,750  * Restarting with stat
+2025-05-29 23:06:08,993  * Debugger is active!
+2025-05-29 23:06:08,994  * Debugger PIN: 741-200-269
+2025-05-29 23:06:18,615 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.207:5000
+2025-05-29 23:06:18,615 [33mPress CTRL+C to quit[0m
+2025-05-29 23:06:18,616  * Restarting with stat
+2025-05-29 23:06:18,852  * Debugger is active!
+2025-05-29 23:06:18,853  * Debugger PIN: 741-200-269
+2025-05-29 23:06:29,652  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-29 23:06:29,689  * Restarting with stat
+2025-05-29 23:06:29,955  * Debugger is active!
+2025-05-29 23:06:29,955  * Debugger PIN: 741-200-269
+2025-05-29 23:06:33,220 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.207:5000
+2025-05-29 23:06:33,220 [33mPress CTRL+C to quit[0m
+2025-05-29 23:06:33,221  * Restarting with stat
+2025-05-29 23:06:33,471  * Debugger is active!
+2025-05-29 23:06:33,471  * Debugger PIN: 741-200-269
+2025-05-29 23:06:34,415 127.0.0.1 - - [29/May/2025 23:06:34] "GET / HTTP/1.1" 200 -
+2025-05-29 23:06:34,546 127.0.0.1 - - [29/May/2025 23:06:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:06:34,586 127.0.0.1 - - [29/May/2025 23:06:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:06:34,623 127.0.0.1 - - [29/May/2025 23:06:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:06:34,662 127.0.0.1 - - [29/May/2025 23:06:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:06:34,696 127.0.0.1 - - [29/May/2025 23:06:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:06:35,530 127.0.0.1 - - [29/May/2025 23:06:35] "[35m[1mGET /play HTTP/1.1[0m" 500 -
+2025-05-29 23:06:35,586 127.0.0.1 - - [29/May/2025 23:06:35] "[36mGET /play?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:06:35,596 127.0.0.1 - - [29/May/2025 23:06:35] "[36mGET /play?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-29 23:06:35,640 127.0.0.1 - - [29/May/2025 23:06:35] "GET /play?__debugger__=yes&cmd=resource&f=console.png&s=nKg2h6vKqUZd3D6EkmI8 HTTP/1.1" 200 -
+2025-05-29 23:07:18,860  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-29 23:07:18,904  * Restarting with stat
+2025-05-29 23:07:19,176  * Debugger is active!
+2025-05-29 23:07:19,177  * Debugger PIN: 741-200-269
+2025-05-29 23:07:49,970  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-29 23:07:50,013  * Restarting with stat
+2025-05-29 23:07:50,274  * Debugger is active!
+2025-05-29 23:07:50,274  * Debugger PIN: 741-200-269
+2025-05-29 23:09:59,098 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.207:5000
+2025-05-29 23:09:59,098 [33mPress CTRL+C to quit[0m
+2025-05-29 23:09:59,099  * Restarting with stat
+2025-05-29 23:09:59,345  * Debugger is active!
+2025-05-29 23:09:59,345  * Debugger PIN: 741-200-269
+2025-05-29 23:09:59,828 127.0.0.1 - - [29/May/2025 23:09:59] "GET / HTTP/1.1" 200 -
+2025-05-29 23:09:59,983 127.0.0.1 - - [29/May/2025 23:09:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-29 23:10:00,115 127.0.0.1 - - [29/May/2025 23:10:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-29 23:10:00,240 127.0.0.1 - - [29/May/2025 23:10:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-29 23:10:00,348 127.0.0.1 - - [29/May/2025 23:10:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-29 23:10:00,453 127.0.0.1 - - [29/May/2025 23:10:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-29 23:10:01,005 127.0.0.1 - - [29/May/2025 23:10:01] "GET /play HTTP/1.1" 200 -
+2025-05-30 00:34:27,507 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 00:34:27,507 [33mPress CTRL+C to quit[0m
+2025-05-30 00:34:27,508  * Restarting with stat
+2025-05-30 00:34:27,761  * Debugger is active!
+2025-05-30 00:34:27,762  * Debugger PIN: 126-498-721
+2025-05-30 00:34:31,838 127.0.0.1 - - [30/May/2025 00:34:31] "GET / HTTP/1.1" 200 -
+2025-05-30 00:34:32,104 127.0.0.1 - - [30/May/2025 00:34:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 00:34:32,220 127.0.0.1 - - [30/May/2025 00:34:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 00:34:32,332 127.0.0.1 - - [30/May/2025 00:34:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 00:34:32,445 127.0.0.1 - - [30/May/2025 00:34:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 00:34:32,564 127.0.0.1 - - [30/May/2025 00:34:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 00:34:35,318 127.0.0.1 - - [30/May/2025 00:34:35] "[35m[1mGET /play HTTP/1.1[0m" 500 -
+2025-05-30 00:34:35,435 127.0.0.1 - - [30/May/2025 00:34:35] "[36mGET /play?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-30 00:34:35,464 127.0.0.1 - - [30/May/2025 00:34:35] "[36mGET /play?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-30 00:34:35,508 127.0.0.1 - - [30/May/2025 00:34:35] "GET /play?__debugger__=yes&cmd=resource&f=console.png&s=H0TEp4Ob5ex4fCYjb684 HTTP/1.1" 200 -
+2025-05-30 00:34:35,769 127.0.0.1 - - [30/May/2025 00:34:35] "[36mGET /play?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-30 00:36:48,744  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 00:36:48,781  * Restarting with stat
+2025-05-30 00:36:49,047  * Debugger is active!
+2025-05-30 00:36:49,047  * Debugger PIN: 126-498-721
+2025-05-30 00:36:52,181 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 00:36:52,181 [33mPress CTRL+C to quit[0m
+2025-05-30 00:36:52,182  * Restarting with stat
+2025-05-30 00:36:52,454  * Debugger is active!
+2025-05-30 00:36:52,454  * Debugger PIN: 126-498-721
+2025-05-30 00:37:01,180 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 00:37:01,181 [33mPress CTRL+C to quit[0m
+2025-05-30 00:37:01,181  * Restarting with stat
+2025-05-30 00:37:01,420  * Debugger is active!
+2025-05-30 00:37:01,420  * Debugger PIN: 126-498-721
+2025-05-30 00:37:03,201 127.0.0.1 - - [30/May/2025 00:37:03] "GET / HTTP/1.1" 200 -
+2025-05-30 00:37:03,359 127.0.0.1 - - [30/May/2025 00:37:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 00:37:03,570 127.0.0.1 - - [30/May/2025 00:37:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 00:37:03,698 127.0.0.1 - - [30/May/2025 00:37:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 00:37:03,815 127.0.0.1 - - [30/May/2025 00:37:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 00:37:03,925 127.0.0.1 - - [30/May/2025 00:37:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 00:37:04,941 127.0.0.1 - - [30/May/2025 00:37:04] "GET /play HTTP/1.1" 200 -
+2025-05-30 00:38:52,492  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 00:38:52,547  * Restarting with stat
+2025-05-30 00:38:52,790  * Debugger is active!
+2025-05-30 00:38:52,790  * Debugger PIN: 126-498-721
+2025-05-30 00:48:02,114  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 00:48:02,165  * Restarting with stat
+2025-05-30 00:48:02,462  * Debugger is active!
+2025-05-30 00:48:02,462  * Debugger PIN: 126-498-721
+2025-05-30 01:03:31,316  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:03:31,357  * Restarting with stat
+2025-05-30 01:03:31,702  * Debugger is active!
+2025-05-30 01:03:31,702  * Debugger PIN: 126-498-721
+2025-05-30 01:03:42,202  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:03:42,294  * Restarting with stat
+2025-05-30 01:03:43,119  * Debugger is active!
+2025-05-30 01:03:43,120  * Debugger PIN: 126-498-721
+2025-05-30 01:03:54,822  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:03:54,869  * Restarting with stat
+2025-05-30 01:03:55,115  * Debugger is active!
+2025-05-30 01:03:55,115  * Debugger PIN: 126-498-721
+2025-05-30 01:03:58,707 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:03:58,707 [33mPress CTRL+C to quit[0m
+2025-05-30 01:03:58,708  * Restarting with stat
+2025-05-30 01:03:58,947  * Debugger is active!
+2025-05-30 01:03:58,947  * Debugger PIN: 126-498-721
+2025-05-30 01:03:59,933 127.0.0.1 - - [30/May/2025 01:03:59] "GET / HTTP/1.1" 200 -
+2025-05-30 01:04:00,081 127.0.0.1 - - [30/May/2025 01:04:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:04:00,281 127.0.0.1 - - [30/May/2025 01:04:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:04:00,387 127.0.0.1 - - [30/May/2025 01:04:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:04:00,488 127.0.0.1 - - [30/May/2025 01:04:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:04:00,594 127.0.0.1 - - [30/May/2025 01:04:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:04:12,801 127.0.0.1 - - [30/May/2025 01:04:12] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:04:53,159 127.0.0.1 - - [30/May/2025 01:04:53] "POST /play HTTP/1.1" 200 -
+2025-05-30 01:09:39,171 127.0.0.1 - - [30/May/2025 01:09:39] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:16:47,705  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:16:47,752  * Restarting with stat
+2025-05-30 01:16:47,999  * Debugger is active!
+2025-05-30 01:16:48,000  * Debugger PIN: 126-498-721
+2025-05-30 01:17:32,529  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:17:32,570  * Restarting with stat
+2025-05-30 01:17:32,814  * Debugger is active!
+2025-05-30 01:17:32,815  * Debugger PIN: 126-498-721
+2025-05-30 01:17:59,419 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:17:59,419 [33mPress CTRL+C to quit[0m
+2025-05-30 01:17:59,420  * Restarting with stat
+2025-05-30 01:17:59,675  * Debugger is active!
+2025-05-30 01:17:59,676  * Debugger PIN: 126-498-721
+2025-05-30 01:18:01,248 127.0.0.1 - - [30/May/2025 01:18:01] "GET / HTTP/1.1" 200 -
+2025-05-30 01:18:01,403 127.0.0.1 - - [30/May/2025 01:18:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:18:01,554 127.0.0.1 - - [30/May/2025 01:18:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:18:01,688 127.0.0.1 - - [30/May/2025 01:18:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:18:01,828 127.0.0.1 - - [30/May/2025 01:18:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:18:01,958 127.0.0.1 - - [30/May/2025 01:18:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:18:02,611 127.0.0.1 - - [30/May/2025 01:18:02] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:18:05,697 127.0.0.1 - - [30/May/2025 01:18:05] "POST /play HTTP/1.1" 200 -
+2025-05-30 01:20:51,060  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:20:51,095  * Restarting with stat
+2025-05-30 01:21:20,804 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:21:20,804 [33mPress CTRL+C to quit[0m
+2025-05-30 01:21:20,805  * Restarting with stat
+2025-05-30 01:21:21,042  * Debugger is active!
+2025-05-30 01:21:21,043  * Debugger PIN: 126-498-721
+2025-05-30 01:21:22,997 127.0.0.1 - - [30/May/2025 01:21:22] "GET / HTTP/1.1" 200 -
+2025-05-30 01:21:23,160 127.0.0.1 - - [30/May/2025 01:21:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:21:23,286 127.0.0.1 - - [30/May/2025 01:21:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:21:23,414 127.0.0.1 - - [30/May/2025 01:21:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:21:23,525 127.0.0.1 - - [30/May/2025 01:21:23] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:21:23,636 127.0.0.1 - - [30/May/2025 01:21:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:21:24,360 127.0.0.1 - - [30/May/2025 01:21:24] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:21:28,265 127.0.0.1 - - [30/May/2025 01:21:28] "POST /play HTTP/1.1" 200 -
+2025-05-30 01:22:18,446  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:22:18,485  * Restarting with stat
+2025-05-30 01:22:18,727  * Debugger is active!
+2025-05-30 01:22:18,728  * Debugger PIN: 126-498-721
+2025-05-30 01:23:37,189  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:23:37,229  * Restarting with stat
+2025-05-30 01:23:37,472  * Debugger is active!
+2025-05-30 01:23:37,472  * Debugger PIN: 126-498-721
+2025-05-30 01:24:14,155  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:24:14,193  * Restarting with stat
+2025-05-30 01:24:14,437  * Debugger is active!
+2025-05-30 01:24:14,438  * Debugger PIN: 126-498-721
+2025-05-30 01:25:01,895  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:25:01,941  * Restarting with stat
+2025-05-30 01:25:02,231  * Debugger is active!
+2025-05-30 01:25:02,231  * Debugger PIN: 126-498-721
+2025-05-30 01:25:33,727  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:25:33,763  * Restarting with stat
+2025-05-30 01:25:34,013  * Debugger is active!
+2025-05-30 01:25:34,013  * Debugger PIN: 126-498-721
+2025-05-30 01:26:03,875  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:26:03,913  * Restarting with stat
+2025-05-30 01:26:04,176  * Debugger is active!
+2025-05-30 01:26:04,176  * Debugger PIN: 126-498-721
+2025-05-30 01:26:05,850 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:26:05,850 [33mPress CTRL+C to quit[0m
+2025-05-30 01:26:05,850  * Restarting with stat
+2025-05-30 01:26:06,102  * Debugger is active!
+2025-05-30 01:26:06,102  * Debugger PIN: 126-498-721
+2025-05-30 01:26:48,934 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:26:48,935 [33mPress CTRL+C to quit[0m
+2025-05-30 01:26:48,935  * Restarting with stat
+2025-05-30 01:26:49,174  * Debugger is active!
+2025-05-30 01:26:49,174  * Debugger PIN: 126-498-721
+2025-05-30 01:26:58,512 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:26:58,512 [33mPress CTRL+C to quit[0m
+2025-05-30 01:26:58,513  * Restarting with stat
+2025-05-30 01:26:58,751  * Debugger is active!
+2025-05-30 01:26:58,752  * Debugger PIN: 126-498-721
+2025-05-30 01:27:00,221 127.0.0.1 - - [30/May/2025 01:27:00] "GET / HTTP/1.1" 200 -
+2025-05-30 01:27:00,364 127.0.0.1 - - [30/May/2025 01:27:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:27:00,483 127.0.0.1 - - [30/May/2025 01:27:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:27:00,692 127.0.0.1 - - [30/May/2025 01:27:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:27:00,807 127.0.0.1 - - [30/May/2025 01:27:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:27:00,920 127.0.0.1 - - [30/May/2025 01:27:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:27:01,526 127.0.0.1 - - [30/May/2025 01:27:01] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:27:05,000 127.0.0.1 - - [30/May/2025 01:27:05] "POST /play HTTP/1.1" 200 -
+2025-05-30 01:30:34,185  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:30:34,224  * Restarting with stat
+2025-05-30 01:30:34,487  * Debugger is active!
+2025-05-30 01:30:34,488  * Debugger PIN: 126-498-721
+2025-05-30 01:30:37,350 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:30:37,350 [33mPress CTRL+C to quit[0m
+2025-05-30 01:30:37,350  * Restarting with stat
+2025-05-30 01:30:37,589  * Debugger is active!
+2025-05-30 01:30:37,589  * Debugger PIN: 126-498-721
+2025-05-30 01:30:44,830 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:30:44,830 [33mPress CTRL+C to quit[0m
+2025-05-30 01:30:44,831  * Restarting with stat
+2025-05-30 01:30:45,070  * Debugger is active!
+2025-05-30 01:30:45,070  * Debugger PIN: 126-498-721
+2025-05-30 01:30:46,427 127.0.0.1 - - [30/May/2025 01:30:46] "GET / HTTP/1.1" 200 -
+2025-05-30 01:30:46,641 127.0.0.1 - - [30/May/2025 01:30:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:30:46,741 127.0.0.1 - - [30/May/2025 01:30:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:30:46,848 127.0.0.1 - - [30/May/2025 01:30:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:30:46,951 127.0.0.1 - - [30/May/2025 01:30:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:30:47,136 127.0.0.1 - - [30/May/2025 01:30:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:30:47,657 127.0.0.1 - - [30/May/2025 01:30:47] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:30:52,818 127.0.0.1 - - [30/May/2025 01:30:52] "POST /play HTTP/1.1" 200 -
+2025-05-30 01:31:27,672  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:31:27,716  * Restarting with stat
+2025-05-30 01:31:27,976  * Debugger is active!
+2025-05-30 01:31:27,976  * Debugger PIN: 126-498-721
+2025-05-30 01:31:31,349 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:31:31,349 [33mPress CTRL+C to quit[0m
+2025-05-30 01:31:31,349  * Restarting with stat
+2025-05-30 01:31:31,607  * Debugger is active!
+2025-05-30 01:31:31,607  * Debugger PIN: 126-498-721
+2025-05-30 01:31:32,044 127.0.0.1 - - [30/May/2025 01:31:32] "GET / HTTP/1.1" 200 -
+2025-05-30 01:31:32,222 127.0.0.1 - - [30/May/2025 01:31:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:31:32,262 127.0.0.1 - - [30/May/2025 01:31:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:31:32,374 127.0.0.1 - - [30/May/2025 01:31:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:31:32,407 127.0.0.1 - - [30/May/2025 01:31:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:31:32,438 127.0.0.1 - - [30/May/2025 01:31:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:31:33,447 127.0.0.1 - - [30/May/2025 01:31:33] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:31:36,483 127.0.0.1 - - [30/May/2025 01:31:36] "POST /play HTTP/1.1" 200 -
+2025-05-30 01:32:25,357  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:32:25,398  * Restarting with stat
+2025-05-30 01:32:25,647  * Debugger is active!
+2025-05-30 01:32:25,647  * Debugger PIN: 126-498-721
+2025-05-30 01:33:16,982  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:33:17,019  * Restarting with stat
+2025-05-30 01:33:17,305  * Debugger is active!
+2025-05-30 01:33:17,305  * Debugger PIN: 126-498-721
+2025-05-30 01:33:20,192 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:33:20,192 [33mPress CTRL+C to quit[0m
+2025-05-30 01:33:20,193  * Restarting with stat
+2025-05-30 01:33:20,442  * Debugger is active!
+2025-05-30 01:33:20,442  * Debugger PIN: 126-498-721
+2025-05-30 01:33:26,533 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:33:26,533 [33mPress CTRL+C to quit[0m
+2025-05-30 01:33:26,533  * Restarting with stat
+2025-05-30 01:33:26,770  * Debugger is active!
+2025-05-30 01:33:26,771  * Debugger PIN: 126-498-721
+2025-05-30 01:33:37,759 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:33:37,759 [33mPress CTRL+C to quit[0m
+2025-05-30 01:33:37,760  * Restarting with stat
+2025-05-30 01:33:38,002  * Debugger is active!
+2025-05-30 01:33:38,002  * Debugger PIN: 126-498-721
+2025-05-30 01:33:39,836 127.0.0.1 - - [30/May/2025 01:33:39] "GET / HTTP/1.1" 200 -
+2025-05-30 01:33:40,043 127.0.0.1 - - [30/May/2025 01:33:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:33:40,223 127.0.0.1 - - [30/May/2025 01:33:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:33:40,345 127.0.0.1 - - [30/May/2025 01:33:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:33:40,448 127.0.0.1 - - [30/May/2025 01:33:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:33:40,553 127.0.0.1 - - [30/May/2025 01:33:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:33:42,236 127.0.0.1 - - [30/May/2025 01:33:42] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:33:45,915 127.0.0.1 - - [30/May/2025 01:33:45] "POST /play HTTP/1.1" 200 -
+2025-05-30 01:34:41,140 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:34:41,140 [33mPress CTRL+C to quit[0m
+2025-05-30 01:34:41,141  * Restarting with stat
+2025-05-30 01:34:41,376  * Debugger is active!
+2025-05-30 01:34:41,376  * Debugger PIN: 126-498-721
+2025-05-30 01:34:54,731 127.0.0.1 - - [30/May/2025 01:34:54] "GET / HTTP/1.1" 200 -
+2025-05-30 01:34:54,785 127.0.0.1 - - [30/May/2025 01:34:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:34:54,820 127.0.0.1 - - [30/May/2025 01:34:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:34:54,942 127.0.0.1 - - [30/May/2025 01:34:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:34:55,069 127.0.0.1 - - [30/May/2025 01:34:55] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:34:55,118 127.0.0.1 - - [30/May/2025 01:34:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:34:57,388 127.0.0.1 - - [30/May/2025 01:34:57] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:35:02,749 127.0.0.1 - - [30/May/2025 01:35:02] "POST /play HTTP/1.1" 200 -
+2025-05-30 01:37:35,967 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:37:35,967 [33mPress CTRL+C to quit[0m
+2025-05-30 01:37:35,968  * Restarting with stat
+2025-05-30 01:37:36,208  * Debugger is active!
+2025-05-30 01:37:36,209  * Debugger PIN: 126-498-721
+2025-05-30 01:37:37,136 127.0.0.1 - - [30/May/2025 01:37:37] "GET / HTTP/1.1" 200 -
+2025-05-30 01:37:37,268 127.0.0.1 - - [30/May/2025 01:37:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:37:37,376 127.0.0.1 - - [30/May/2025 01:37:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:37:37,486 127.0.0.1 - - [30/May/2025 01:37:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:37:37,648 127.0.0.1 - - [30/May/2025 01:37:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:37:37,780 127.0.0.1 - - [30/May/2025 01:37:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:37:38,798 127.0.0.1 - - [30/May/2025 01:37:38] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:37:41,781 127.0.0.1 - - [30/May/2025 01:37:41] "POST /play HTTP/1.1" 200 -
+2025-05-30 01:37:46,673 127.0.0.1 - - [30/May/2025 01:37:46] "POST /play HTTP/1.1" 200 -

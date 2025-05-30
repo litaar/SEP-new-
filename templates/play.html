@@ -11,17 +11,16 @@
         Your answer:
         <input
           type="text"
-          name="answer"
-          id="answer"
+          name="user_answer"
+          id="user_answer"
           placeholder="Type your answer here"
         />
+        <!-- Stores correct answer -->
         <input type="hidden" name="actual_answer" value="{{ answer }}" />
         <button class="btn btn-primary" id="submit-answer">Submit</button>
       </p>
       <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
-      {% if alert_message == "incorrect" %}
-      <p>Incorrect</p>
-      {% endif %}
+      <p>{{ alert_message }}</p>
     </form>
   </div>
 </div>

@@ -3,9 +3,20 @@ from flask import redirect
 from flask import render_template
 from flask import request
 from flask_wtf.csrf import CSRFProtect
+import databaseManager as dbHandler
+
+
+# Connect to database
+DATABASE = 'your_database_name.db'  # Change this to your DB file
 
 app = Flask(__name__)
 app.secret_key = 'your-secret-key'  # Required for CSRF protection
+
+@app.teardown_appcontext
+def close_db(error):
+    db = g.pop('db', None)
+    if db is not None:
+        db.close()
 
 csrf = CSRFProtect(app)
 
@@ -15,7 +26,6 @@ from flask_wtf import CSRFProtect
 from flask_csp.csp import csp_header
 import logging
 
-import userManagement as dbHandler
 
 # Code snippet for logging a message
 # app.logger.critical("message")
@@ -27,6 +37,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format="%(asctime)s %(message)s",
 )
+
 
 # Generate a unique basic 16 key: https://acte.ltd/utils/randomkeygen
 app = Flask(__name__)
@@ -69,17 +80,28 @@ def index():
     return render_template("/index.html")
 
 # create method for user to play quiz
-@app.route("/play", methods=["GET", "POST"])
-@app.route('/play', methods=['GET', 'POST'])
-def play():
-    if request.method == 'POST':
-        user_answer = request.form.get('answer')
-        actual_answer = request.form.get('actual_answer')
-        alert_message = 'incorrect' if user_answer != actual_answer else 'correct'
-        return render_template('play.html', quiz="Sample Question", answer=actual_answer, alert_message=alert_message)
-    
-    return render_template('play.html', quiz="Sample Question", answer="correct answer")
 
+@app.route("/play", methods=["GET", "POST"])
+def play():
+    # Check answer
+    if request.method == 'POST':
+        
+        # Answer submitted by user
+        user_answer = request.form.get('user_answer', '').strip().lower()
+        
+        # Answer stored in database
+        actual_answer = request.form.get('actual_answer', '').strip().lower()
+        alert_message = 'incorrect' if user_answer != actual_answer else 'correct'
+        print(actual_answer,user_answer)
+
+        return render_template('play.html', quiz=request.form.get('quiz'), answer=request.form.get('actual_answer'), alert_message=alert_message)
+# grabbing specific rows from database
+    questionRow = dbHandler.getQ() 
+    question = questionRow[1]
+    answer = questionRow[3]
+
+    print(question[1]) 
+    return render_template('play.html', quiz=question, answer=answer)
 
 
 # example CSRF protected form

@@ -12,6 +12,9 @@ DATABASE = 'your_database_name.db'  # Change this to your DB file
 app = Flask(__name__)
 app.secret_key = 'your-secret-key'  # Required for CSRF protection
 
+
+
+
 @app.teardown_appcontext
 def close_db(error):
     db = g.pop('db', None)
@@ -115,6 +118,17 @@ def form():
         return render_template("/form.html")
 
 
+# Adding route functions for cards
+@app.route('/play-notes')
+def play_notes():
+    # You can customize what you pass to the template
+    return render_template('play.html')
+
+@app.route('/play-terms')
+def play_terms():
+    # You can customize what you pass to the template
+    return render_template('terms.html')
+
 # Endpoint for logging CSP violations
 @app.route("/csp_report", methods=["POST"])
 @csrf.exempt
@@ -125,3 +139,4 @@ def csp_report():
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
+

@@ -956,3 +956,1163 @@
 2025-05-30 01:44:24,624 127.0.0.1 - - [30/May/2025 01:44:24] "GET /play HTTP/1.1" 200 -
 2025-05-30 01:44:39,517 127.0.0.1 - - [30/May/2025 01:44:39] "POST /play HTTP/1.1" 200 -
 2025-05-30 01:44:40,546 127.0.0.1 - - [30/May/2025 01:44:40] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:48:43,972  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:48:44,014  * Restarting with stat
+2025-05-30 01:48:44,262  * Debugger is active!
+2025-05-30 01:48:44,263  * Debugger PIN: 126-498-721
+2025-05-30 01:51:16,397  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:51:16,432  * Restarting with stat
+2025-05-30 01:51:16,670  * Debugger is active!
+2025-05-30 01:51:16,670  * Debugger PIN: 126-498-721
+2025-05-30 01:53:08,154  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:53:08,192  * Restarting with stat
+2025-05-30 01:53:08,440  * Debugger is active!
+2025-05-30 01:53:08,441  * Debugger PIN: 126-498-721
+2025-05-30 01:53:45,459  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:53:45,509  * Restarting with stat
+2025-05-30 01:53:45,758  * Debugger is active!
+2025-05-30 01:53:45,759  * Debugger PIN: 126-498-721
+2025-05-30 01:54:44,139  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:54:44,178  * Restarting with stat
+2025-05-30 01:55:42,366 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:55:42,366 [33mPress CTRL+C to quit[0m
+2025-05-30 01:55:42,366  * Restarting with stat
+2025-05-30 01:55:42,603  * Debugger is active!
+2025-05-30 01:55:42,603  * Debugger PIN: 126-498-721
+2025-05-30 01:55:44,271 127.0.0.1 - - [30/May/2025 01:55:44] "GET / HTTP/1.1" 200 -
+2025-05-30 01:55:44,465 127.0.0.1 - - [30/May/2025 01:55:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:55:44,581 127.0.0.1 - - [30/May/2025 01:55:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:55:44,759 127.0.0.1 - - [30/May/2025 01:55:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:55:44,912 127.0.0.1 - - [30/May/2025 01:55:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:55:45,038 127.0.0.1 - - [30/May/2025 01:55:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:55:45,519 127.0.0.1 - - [30/May/2025 01:55:45] "[35m[1mGET /play HTTP/1.1[0m" 500 -
+2025-05-30 01:55:45,711 127.0.0.1 - - [30/May/2025 01:55:45] "[36mGET /play?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:55:45,714 127.0.0.1 - - [30/May/2025 01:55:45] "[36mGET /play?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-30 01:55:45,759 127.0.0.1 - - [30/May/2025 01:55:45] "GET /play?__debugger__=yes&cmd=resource&f=console.png&s=AlunIVGwZFBxSSvz6g4C HTTP/1.1" 200 -
+2025-05-30 01:55:45,819 127.0.0.1 - - [30/May/2025 01:55:45] "[36mGET /play?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-05-30 01:55:47,828 127.0.0.1 - - [30/May/2025 01:55:47] "GET / HTTP/1.1" 200 -
+2025-05-30 01:57:09,273  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-05-30 01:57:09,315  * Restarting with stat
+2025-05-30 01:57:09,556  * Debugger is active!
+2025-05-30 01:57:09,557  * Debugger PIN: 126-498-721
+2025-05-30 01:57:11,137 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.236:5000
+2025-05-30 01:57:11,137 [33mPress CTRL+C to quit[0m
+2025-05-30 01:57:11,138  * Restarting with stat
+2025-05-30 01:57:11,384  * Debugger is active!
+2025-05-30 01:57:11,384  * Debugger PIN: 126-498-721
+2025-05-30 01:57:13,127 127.0.0.1 - - [30/May/2025 01:57:13] "GET / HTTP/1.1" 200 -
+2025-05-30 01:57:13,283 127.0.0.1 - - [30/May/2025 01:57:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-30 01:57:13,320 127.0.0.1 - - [30/May/2025 01:57:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-05-30 01:57:13,356 127.0.0.1 - - [30/May/2025 01:57:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-05-30 01:57:13,394 127.0.0.1 - - [30/May/2025 01:57:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-05-30 01:57:13,430 127.0.0.1 - - [30/May/2025 01:57:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-05-30 01:57:14,353 127.0.0.1 - - [30/May/2025 01:57:14] "GET /play HTTP/1.1" 200 -
+2025-05-30 01:57:16,717 127.0.0.1 - - [30/May/2025 01:57:16] "POST /play HTTP/1.1" 200 -
+2025-05-30 01:57:17,551 127.0.0.1 - - [30/May/2025 01:57:17] "GET /play HTTP/1.1" 200 -
+2025-06-02 02:06:55,659 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.5:5000
+2025-06-02 02:06:55,659 [33mPress CTRL+C to quit[0m
+2025-06-02 02:06:55,660  * Restarting with stat
+2025-06-02 02:06:55,921  * Debugger is active!
+2025-06-02 02:06:55,922  * Debugger PIN: 103-195-961
+2025-06-02 02:07:01,529 127.0.0.1 - - [02/Jun/2025 02:07:01] "GET / HTTP/1.1" 200 -
+2025-06-02 02:07:01,692 127.0.0.1 - - [02/Jun/2025 02:07:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 02:07:01,812 127.0.0.1 - - [02/Jun/2025 02:07:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-06-02 02:07:02,035 127.0.0.1 - - [02/Jun/2025 02:07:02] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-06-02 02:07:02,185 127.0.0.1 - - [02/Jun/2025 02:07:02] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-06-02 02:07:02,301 127.0.0.1 - - [02/Jun/2025 02:07:02] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-06-02 02:07:02,552 127.0.0.1 - - [02/Jun/2025 02:07:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 02:07:02,568 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,694 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,695 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,695 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,703 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,707 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,718 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,722 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,722 127.0.0.1 - - [02/Jun/2025 02:07:02] "GET / HTTP/1.1" 200 -
+2025-06-02 02:07:02,723 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,725 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,737 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,753 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2025-06-02 02:07:02,765 127.0.0.1 - - [02/Jun/2025 02:07:02] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2025-06-02 02:07:06,734 127.0.0.1 - - [02/Jun/2025 02:07:06] "GET /play HTTP/1.1" 200 -
+2025-06-02 02:07:11,466 127.0.0.1 - - [02/Jun/2025 02:07:11] "POST /play HTTP/1.1" 200 -
+2025-06-02 02:07:13,269 127.0.0.1 - - [02/Jun/2025 02:07:13] "GET /play HTTP/1.1" 200 -
+2025-06-02 02:16:36,971 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.5:5000
+2025-06-02 02:16:36,971 [33mPress CTRL+C to quit[0m
+2025-06-02 02:16:36,972  * Restarting with stat
+2025-06-02 02:16:37,223  * Debugger is active!
+2025-06-02 02:16:37,224  * Debugger PIN: 103-195-961
+2025-06-02 02:16:39,103 127.0.0.1 - - [02/Jun/2025 02:16:39] "GET / HTTP/1.1" 200 -
+2025-06-02 02:16:39,258 127.0.0.1 - - [02/Jun/2025 02:16:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 02:16:39,384 127.0.0.1 - - [02/Jun/2025 02:16:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 02:16:39,506 127.0.0.1 - - [02/Jun/2025 02:16:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 02:16:39,628 127.0.0.1 - - [02/Jun/2025 02:16:39] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 02:16:39,740 127.0.0.1 - - [02/Jun/2025 02:16:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 02:17:05,528 127.0.0.1 - - [02/Jun/2025 02:17:05] "GET /play HTTP/1.1" 200 -
+2025-06-02 02:17:15,482 127.0.0.1 - - [02/Jun/2025 02:17:15] "POST /play HTTP/1.1" 200 -
+2025-06-02 02:17:28,759 127.0.0.1 - - [02/Jun/2025 02:17:28] "GET /play HTTP/1.1" 200 -
+2025-06-02 02:17:41,137 127.0.0.1 - - [02/Jun/2025 02:17:41] "POST /play HTTP/1.1" 200 -
+2025-06-02 03:51:14,485 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 03:51:14,486 [33mPress CTRL+C to quit[0m
+2025-06-02 03:51:14,487  * Restarting with stat
+2025-06-02 03:51:14,737  * Debugger is active!
+2025-06-02 03:51:14,738  * Debugger PIN: 505-403-826
+2025-06-02 03:51:18,401 127.0.0.1 - - [02/Jun/2025 03:51:18] "GET / HTTP/1.1" 200 -
+2025-06-02 03:51:18,557 127.0.0.1 - - [02/Jun/2025 03:51:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 03:51:18,676 127.0.0.1 - - [02/Jun/2025 03:51:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 03:51:18,786 127.0.0.1 - - [02/Jun/2025 03:51:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 03:51:18,938 127.0.0.1 - - [02/Jun/2025 03:51:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 03:51:19,053 127.0.0.1 - - [02/Jun/2025 03:51:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 03:52:51,129 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 03:52:51,129 [33mPress CTRL+C to quit[0m
+2025-06-02 03:52:51,129  * Restarting with stat
+2025-06-02 03:52:51,381  * Debugger is active!
+2025-06-02 03:52:51,381  * Debugger PIN: 505-403-826
+2025-06-02 03:52:58,182 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 03:52:58,182 [33mPress CTRL+C to quit[0m
+2025-06-02 03:52:58,183  * Restarting with stat
+2025-06-02 03:52:58,435  * Debugger is active!
+2025-06-02 03:52:58,435  * Debugger PIN: 505-403-826
+2025-06-02 03:53:13,241 127.0.0.1 - - [02/Jun/2025 03:53:13] "GET / HTTP/1.1" 200 -
+2025-06-02 03:53:13,393 127.0.0.1 - - [02/Jun/2025 03:53:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 03:53:13,514 127.0.0.1 - - [02/Jun/2025 03:53:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 03:53:13,640 127.0.0.1 - - [02/Jun/2025 03:53:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 03:53:13,772 127.0.0.1 - - [02/Jun/2025 03:53:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 03:53:13,883 127.0.0.1 - - [02/Jun/2025 03:53:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:01:40,135 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:01:40,135 [33mPress CTRL+C to quit[0m
+2025-06-02 04:01:40,136  * Restarting with stat
+2025-06-02 04:01:40,374  * Debugger is active!
+2025-06-02 04:01:40,375  * Debugger PIN: 505-403-826
+2025-06-02 04:01:41,806 127.0.0.1 - - [02/Jun/2025 04:01:41] "GET / HTTP/1.1" 200 -
+2025-06-02 04:01:41,983 127.0.0.1 - - [02/Jun/2025 04:01:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 04:01:42,095 127.0.0.1 - - [02/Jun/2025 04:01:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:01:42,358 127.0.0.1 - - [02/Jun/2025 04:01:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:01:42,363 127.0.0.1 - - [02/Jun/2025 04:01:42] "GET /static/images/keyboard.png HTTP/1.1" 200 -
+2025-06-02 04:01:42,490 127.0.0.1 - - [02/Jun/2025 04:01:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:01:42,518 127.0.0.1 - - [02/Jun/2025 04:01:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:01:59,923 127.0.0.1 - - [02/Jun/2025 04:01:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:01:59,926 127.0.0.1 - - [02/Jun/2025 04:01:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 04:02:00,204 127.0.0.1 - - [02/Jun/2025 04:02:00] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-06-02 04:02:00,216 127.0.0.1 - - [02/Jun/2025 04:02:00] "[33mGET /static/css/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-06-02 04:02:53,902 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:02:53,902 [33mPress CTRL+C to quit[0m
+2025-06-02 04:02:53,902  * Restarting with stat
+2025-06-02 04:02:54,138  * Debugger is active!
+2025-06-02 04:02:54,138  * Debugger PIN: 505-403-826
+2025-06-02 04:02:55,408 127.0.0.1 - - [02/Jun/2025 04:02:55] "GET / HTTP/1.1" 200 -
+2025-06-02 04:02:55,464 127.0.0.1 - - [02/Jun/2025 04:02:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 04:02:55,504 127.0.0.1 - - [02/Jun/2025 04:02:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:02:55,634 127.0.0.1 - - [02/Jun/2025 04:02:55] "[36mGET /static/images/keyboard.png HTTP/1.1[0m" 304 -
+2025-06-02 04:02:55,706 127.0.0.1 - - [02/Jun/2025 04:02:55] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:02:55,743 127.0.0.1 - - [02/Jun/2025 04:02:55] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:02:55,773 127.0.0.1 - - [02/Jun/2025 04:02:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:03:12,836 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:03:12,836 [33mPress CTRL+C to quit[0m
+2025-06-02 04:03:12,837  * Restarting with stat
+2025-06-02 04:03:13,105  * Debugger is active!
+2025-06-02 04:03:13,106  * Debugger PIN: 505-403-826
+2025-06-02 04:03:18,401 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:03:18,401 [33mPress CTRL+C to quit[0m
+2025-06-02 04:03:18,401  * Restarting with stat
+2025-06-02 04:03:18,639  * Debugger is active!
+2025-06-02 04:03:18,639  * Debugger PIN: 505-403-826
+2025-06-02 04:03:20,021 127.0.0.1 - - [02/Jun/2025 04:03:20] "GET / HTTP/1.1" 200 -
+2025-06-02 04:03:20,078 127.0.0.1 - - [02/Jun/2025 04:03:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 04:03:20,112 127.0.0.1 - - [02/Jun/2025 04:03:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:03:20,147 127.0.0.1 - - [02/Jun/2025 04:03:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:03:20,150 127.0.0.1 - - [02/Jun/2025 04:03:20] "[36mGET /static/images/keyboard.png HTTP/1.1[0m" 304 -
+2025-06-02 04:03:20,267 127.0.0.1 - - [02/Jun/2025 04:03:20] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:03:20,298 127.0.0.1 - - [02/Jun/2025 04:03:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:04:05,489 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:04:05,489 [33mPress CTRL+C to quit[0m
+2025-06-02 04:04:05,490  * Restarting with stat
+2025-06-02 04:04:05,725  * Debugger is active!
+2025-06-02 04:04:05,725  * Debugger PIN: 505-403-826
+2025-06-02 04:04:07,343 127.0.0.1 - - [02/Jun/2025 04:04:07] "GET / HTTP/1.1" 200 -
+2025-06-02 04:04:07,513 127.0.0.1 - - [02/Jun/2025 04:04:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 04:04:07,550 127.0.0.1 - - [02/Jun/2025 04:04:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:04:07,597 127.0.0.1 - - [02/Jun/2025 04:04:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:04:07,600 127.0.0.1 - - [02/Jun/2025 04:04:07] "[36mGET /static/images/keyboard.png HTTP/1.1[0m" 304 -
+2025-06-02 04:04:07,648 127.0.0.1 - - [02/Jun/2025 04:04:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:04:07,683 127.0.0.1 - - [02/Jun/2025 04:04:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:04:24,304 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:04:24,304 [33mPress CTRL+C to quit[0m
+2025-06-02 04:04:24,305  * Restarting with stat
+2025-06-02 04:04:24,540  * Debugger is active!
+2025-06-02 04:04:24,540  * Debugger PIN: 505-403-826
+2025-06-02 04:04:31,625 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:04:31,625 [33mPress CTRL+C to quit[0m
+2025-06-02 04:04:31,626  * Restarting with stat
+2025-06-02 04:04:31,863  * Debugger is active!
+2025-06-02 04:04:31,863  * Debugger PIN: 505-403-826
+2025-06-02 04:04:36,363 127.0.0.1 - - [02/Jun/2025 04:04:36] "GET / HTTP/1.1" 200 -
+2025-06-02 04:04:36,432 127.0.0.1 - - [02/Jun/2025 04:04:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 04:04:36,461 127.0.0.1 - - [02/Jun/2025 04:04:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:04:36,503 127.0.0.1 - - [02/Jun/2025 04:04:36] "[36mGET /static/images/keyboard.png HTTP/1.1[0m" 304 -
+2025-06-02 04:04:36,506 127.0.0.1 - - [02/Jun/2025 04:04:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:04:36,620 127.0.0.1 - - [02/Jun/2025 04:04:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:04:36,679 127.0.0.1 - - [02/Jun/2025 04:04:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:05:57,856 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:05:57,856 [33mPress CTRL+C to quit[0m
+2025-06-02 04:05:57,856  * Restarting with stat
+2025-06-02 04:05:58,097  * Debugger is active!
+2025-06-02 04:05:58,097  * Debugger PIN: 505-403-826
+2025-06-02 04:06:04,826 127.0.0.1 - - [02/Jun/2025 04:06:04] "GET / HTTP/1.1" 200 -
+2025-06-02 04:06:04,914 127.0.0.1 - - [02/Jun/2025 04:06:04] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 04:06:05,020 127.0.0.1 - - [02/Jun/2025 04:06:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:06:05,068 127.0.0.1 - - [02/Jun/2025 04:06:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:06:05,112 127.0.0.1 - - [02/Jun/2025 04:06:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:06:05,147 127.0.0.1 - - [02/Jun/2025 04:06:05] "[36mGET /static/images/keyboard.png HTTP/1.1[0m" 304 -
+2025-06-02 04:06:05,149 127.0.0.1 - - [02/Jun/2025 04:06:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:13:33,045 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:13:33,045 [33mPress CTRL+C to quit[0m
+2025-06-02 04:13:33,046  * Restarting with stat
+2025-06-02 04:13:33,282  * Debugger is active!
+2025-06-02 04:13:33,283  * Debugger PIN: 505-403-826
+2025-06-02 04:13:35,491 127.0.0.1 - - [02/Jun/2025 04:13:35] "GET / HTTP/1.1" 200 -
+2025-06-02 04:13:35,718 127.0.0.1 - - [02/Jun/2025 04:13:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 04:13:35,879 127.0.0.1 - - [02/Jun/2025 04:13:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:13:36,059 127.0.0.1 - - [02/Jun/2025 04:13:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:13:36,062 127.0.0.1 - - [02/Jun/2025 04:13:36] "GET /static/images/boarder.png HTTP/1.1" 200 -
+2025-06-02 04:13:36,232 127.0.0.1 - - [02/Jun/2025 04:13:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:13:36,313 127.0.0.1 - - [02/Jun/2025 04:13:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:15:39,736 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:15:39,736 [33mPress CTRL+C to quit[0m
+2025-06-02 04:15:39,737  * Restarting with stat
+2025-06-02 04:15:40,114  * Debugger is active!
+2025-06-02 04:15:40,116  * Debugger PIN: 505-403-826
+2025-06-02 04:15:43,746 127.0.0.1 - - [02/Jun/2025 04:15:43] "GET / HTTP/1.1" 200 -
+2025-06-02 04:15:44,173 127.0.0.1 - - [02/Jun/2025 04:15:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 04:15:44,425 127.0.0.1 - - [02/Jun/2025 04:15:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:15:44,697 127.0.0.1 - - [02/Jun/2025 04:15:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:15:44,717 127.0.0.1 - - [02/Jun/2025 04:15:44] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 04:15:44,923 127.0.0.1 - - [02/Jun/2025 04:15:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:15:44,981 127.0.0.1 - - [02/Jun/2025 04:15:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:17:32,471 127.0.0.1 - - [02/Jun/2025 04:17:32] "GET / HTTP/1.1" 200 -
+2025-06-02 04:17:32,735 127.0.0.1 - - [02/Jun/2025 04:17:32] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 04:17:32,747 127.0.0.1 - - [02/Jun/2025 04:17:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 04:17:32,771 127.0.0.1 - - [02/Jun/2025 04:17:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:17:32,773 127.0.0.1 - - [02/Jun/2025 04:17:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:17:32,912 127.0.0.1 - - [02/Jun/2025 04:17:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:17:32,949 127.0.0.1 - - [02/Jun/2025 04:17:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:17:33,464 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 04:17:33,464 127.0.0.1 - - [02/Jun/2025 04:17:33] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 04:18:39,212 127.0.0.1 - - [02/Jun/2025 04:18:39] "GET / HTTP/1.1" 200 -
+2025-06-02 04:18:39,359 127.0.0.1 - - [02/Jun/2025 04:18:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 04:18:39,362 127.0.0.1 - - [02/Jun/2025 04:18:39] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 04:18:39,364 127.0.0.1 - - [02/Jun/2025 04:18:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:18:39,367 127.0.0.1 - - [02/Jun/2025 04:18:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:18:39,406 127.0.0.1 - - [02/Jun/2025 04:18:39] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:18:39,435 127.0.0.1 - - [02/Jun/2025 04:18:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:18:39,722 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 04:18:39,722 127.0.0.1 - - [02/Jun/2025 04:18:39] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 04:20:21,922 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:20:21,922 [33mPress CTRL+C to quit[0m
+2025-06-02 04:20:21,923  * Restarting with stat
+2025-06-02 04:20:22,161  * Debugger is active!
+2025-06-02 04:20:22,161  * Debugger PIN: 505-403-826
+2025-06-02 04:20:29,246 127.0.0.1 - - [02/Jun/2025 04:20:29] "GET / HTTP/1.1" 200 -
+2025-06-02 04:20:29,346 127.0.0.1 - - [02/Jun/2025 04:20:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:20:29,482 127.0.0.1 - - [02/Jun/2025 04:20:29] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 04:20:29,485 127.0.0.1 - - [02/Jun/2025 04:20:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:20:29,487 127.0.0.1 - - [02/Jun/2025 04:20:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 04:20:29,686 127.0.0.1 - - [02/Jun/2025 04:20:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:20:29,720 127.0.0.1 - - [02/Jun/2025 04:20:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:20:30,214 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 04:20:30,215 127.0.0.1 - - [02/Jun/2025 04:20:30] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 04:20:54,036 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:20:54,036 [33mPress CTRL+C to quit[0m
+2025-06-02 04:20:54,037  * Restarting with stat
+2025-06-02 04:20:54,295  * Debugger is active!
+2025-06-02 04:20:54,295  * Debugger PIN: 505-403-826
+2025-06-02 04:21:02,260 127.0.0.1 - - [02/Jun/2025 04:21:02] "GET / HTTP/1.1" 200 -
+2025-06-02 04:21:02,351 127.0.0.1 - - [02/Jun/2025 04:21:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:21:02,352 127.0.0.1 - - [02/Jun/2025 04:21:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 04:21:02,356 127.0.0.1 - - [02/Jun/2025 04:21:02] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 04:21:02,359 127.0.0.1 - - [02/Jun/2025 04:21:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:21:02,406 127.0.0.1 - - [02/Jun/2025 04:21:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:21:02,436 127.0.0.1 - - [02/Jun/2025 04:21:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:21:02,709 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 04:21:02,709 127.0.0.1 - - [02/Jun/2025 04:21:02] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 04:21:42,631 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:21:42,632 [33mPress CTRL+C to quit[0m
+2025-06-02 04:21:42,632  * Restarting with stat
+2025-06-02 04:21:42,871  * Debugger is active!
+2025-06-02 04:21:42,871  * Debugger PIN: 505-403-826
+2025-06-02 04:21:47,195 127.0.0.1 - - [02/Jun/2025 04:21:47] "GET / HTTP/1.1" 200 -
+2025-06-02 04:21:47,287 127.0.0.1 - - [02/Jun/2025 04:21:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:21:47,288 127.0.0.1 - - [02/Jun/2025 04:21:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 04:21:47,291 127.0.0.1 - - [02/Jun/2025 04:21:47] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 04:21:47,294 127.0.0.1 - - [02/Jun/2025 04:21:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:21:47,337 127.0.0.1 - - [02/Jun/2025 04:21:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:21:47,364 127.0.0.1 - - [02/Jun/2025 04:21:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:21:47,655 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 04:21:47,655 127.0.0.1 - - [02/Jun/2025 04:21:47] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 04:22:26,562 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:22:26,562 [33mPress CTRL+C to quit[0m
+2025-06-02 04:22:26,563  * Restarting with stat
+2025-06-02 04:22:26,814  * Debugger is active!
+2025-06-02 04:22:26,814  * Debugger PIN: 505-403-826
+2025-06-02 04:22:49,691 127.0.0.1 - - [02/Jun/2025 04:22:49] "GET / HTTP/1.1" 200 -
+2025-06-02 04:22:49,799 127.0.0.1 - - [02/Jun/2025 04:22:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:22:49,800 127.0.0.1 - - [02/Jun/2025 04:22:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 04:22:49,801 127.0.0.1 - - [02/Jun/2025 04:22:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:22:49,810 127.0.0.1 - - [02/Jun/2025 04:22:49] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 04:22:49,860 127.0.0.1 - - [02/Jun/2025 04:22:49] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:22:49,896 127.0.0.1 - - [02/Jun/2025 04:22:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:22:50,408 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 04:22:50,408 127.0.0.1 - - [02/Jun/2025 04:22:50] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 04:22:55,807 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:22:55,808 [33mPress CTRL+C to quit[0m
+2025-06-02 04:22:55,808  * Restarting with stat
+2025-06-02 04:22:56,066  * Debugger is active!
+2025-06-02 04:22:56,067  * Debugger PIN: 505-403-826
+2025-06-02 04:22:58,198 127.0.0.1 - - [02/Jun/2025 04:22:58] "GET / HTTP/1.1" 200 -
+2025-06-02 04:22:58,270 127.0.0.1 - - [02/Jun/2025 04:22:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:22:58,274 127.0.0.1 - - [02/Jun/2025 04:22:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 04:22:58,276 127.0.0.1 - - [02/Jun/2025 04:22:58] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 04:22:58,280 127.0.0.1 - - [02/Jun/2025 04:22:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:22:58,321 127.0.0.1 - - [02/Jun/2025 04:22:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:22:58,349 127.0.0.1 - - [02/Jun/2025 04:22:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:22:58,677 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 04:22:58,677 127.0.0.1 - - [02/Jun/2025 04:22:58] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 04:24:55,212 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.188:5000
+2025-06-02 04:24:55,213 [33mPress CTRL+C to quit[0m
+2025-06-02 04:24:55,213  * Restarting with stat
+2025-06-02 04:24:55,450  * Debugger is active!
+2025-06-02 04:24:55,451  * Debugger PIN: 505-403-826
+2025-06-02 04:24:56,289 127.0.0.1 - - [02/Jun/2025 04:24:56] "GET / HTTP/1.1" 200 -
+2025-06-02 04:24:56,520 127.0.0.1 - - [02/Jun/2025 04:24:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 04:24:56,554 127.0.0.1 - - [02/Jun/2025 04:24:56] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 04:24:56,564 127.0.0.1 - - [02/Jun/2025 04:24:56] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 04:24:56,573 127.0.0.1 - - [02/Jun/2025 04:24:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 04:24:56,684 127.0.0.1 - - [02/Jun/2025 04:24:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 04:24:56,713 127.0.0.1 - - [02/Jun/2025 04:24:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 04:24:57,287 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 04:24:57,287 127.0.0.1 - - [02/Jun/2025 04:24:57] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:40:03,206 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:40:03,207 [33mPress CTRL+C to quit[0m
+2025-06-02 11:40:03,208  * Restarting with stat
+2025-06-02 11:40:03,530  * Debugger is active!
+2025-06-02 11:40:03,531  * Debugger PIN: 127-050-208
+2025-06-02 11:40:07,018 127.0.0.1 - - [02/Jun/2025 11:40:07] "GET / HTTP/1.1" 200 -
+2025-06-02 11:40:07,429 127.0.0.1 - - [02/Jun/2025 11:40:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:40:07,467 127.0.0.1 - - [02/Jun/2025 11:40:07] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:40:07,476 127.0.0.1 - - [02/Jun/2025 11:40:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 11:40:07,480 127.0.0.1 - - [02/Jun/2025 11:40:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-06-02 11:40:07,807 127.0.0.1 - - [02/Jun/2025 11:40:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:40:07,837 127.0.0.1 - - [02/Jun/2025 11:40:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:40:08,221 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:40:08,221 127.0.0.1 - - [02/Jun/2025 11:40:08] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:41:14,635 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:41:14,635 [33mPress CTRL+C to quit[0m
+2025-06-02 11:41:14,636  * Restarting with stat
+2025-06-02 11:41:14,975  * Debugger is active!
+2025-06-02 11:41:14,975  * Debugger PIN: 127-050-208
+2025-06-02 11:41:16,569 127.0.0.1 - - [02/Jun/2025 11:41:16] "GET / HTTP/1.1" 200 -
+2025-06-02 11:41:16,661 127.0.0.1 - - [02/Jun/2025 11:41:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 11:41:16,667 127.0.0.1 - - [02/Jun/2025 11:41:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:41:16,685 127.0.0.1 - - [02/Jun/2025 11:41:16] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:41:16,742 127.0.0.1 - - [02/Jun/2025 11:41:16] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:41:16,792 127.0.0.1 - - [02/Jun/2025 11:41:16] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:41:16,795 127.0.0.1 - - [02/Jun/2025 11:41:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:41:17,187 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:41:17,187 127.0.0.1 - - [02/Jun/2025 11:41:17] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:42:18,903 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:42:18,903 [33mPress CTRL+C to quit[0m
+2025-06-02 11:42:18,903  * Restarting with stat
+2025-06-02 11:42:19,151  * Debugger is active!
+2025-06-02 11:42:19,152  * Debugger PIN: 127-050-208
+2025-06-02 11:42:20,465 127.0.0.1 - - [02/Jun/2025 11:42:20] "GET / HTTP/1.1" 200 -
+2025-06-02 11:42:20,545 127.0.0.1 - - [02/Jun/2025 11:42:20] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:42:20,547 127.0.0.1 - - [02/Jun/2025 11:42:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:42:20,550 127.0.0.1 - - [02/Jun/2025 11:42:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 11:42:20,552 127.0.0.1 - - [02/Jun/2025 11:42:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:42:20,597 127.0.0.1 - - [02/Jun/2025 11:42:20] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:42:20,638 127.0.0.1 - - [02/Jun/2025 11:42:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:42:21,125 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:42:21,125 127.0.0.1 - - [02/Jun/2025 11:42:21] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:43:33,900 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:43:33,900 [33mPress CTRL+C to quit[0m
+2025-06-02 11:43:33,901  * Restarting with stat
+2025-06-02 11:43:34,156  * Debugger is active!
+2025-06-02 11:43:34,157  * Debugger PIN: 127-050-208
+2025-06-02 11:43:36,170 127.0.0.1 - - [02/Jun/2025 11:43:36] "GET / HTTP/1.1" 200 -
+2025-06-02 11:43:36,284 127.0.0.1 - - [02/Jun/2025 11:43:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:43:36,285 127.0.0.1 - - [02/Jun/2025 11:43:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 11:43:36,286 127.0.0.1 - - [02/Jun/2025 11:43:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:43:36,371 127.0.0.1 - - [02/Jun/2025 11:43:36] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:43:36,391 127.0.0.1 - - [02/Jun/2025 11:43:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:43:36,428 127.0.0.1 - - [02/Jun/2025 11:43:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:43:36,924 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:43:36,924 127.0.0.1 - - [02/Jun/2025 11:43:36] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:44:23,268 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:44:23,268 [33mPress CTRL+C to quit[0m
+2025-06-02 11:44:23,268  * Restarting with stat
+2025-06-02 11:44:23,509  * Debugger is active!
+2025-06-02 11:44:23,509  * Debugger PIN: 127-050-208
+2025-06-02 11:44:25,290 127.0.0.1 - - [02/Jun/2025 11:44:25] "GET / HTTP/1.1" 200 -
+2025-06-02 11:44:25,378 127.0.0.1 - - [02/Jun/2025 11:44:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:44:25,379 127.0.0.1 - - [02/Jun/2025 11:44:25] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:44:25,380 127.0.0.1 - - [02/Jun/2025 11:44:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:44:25,380 127.0.0.1 - - [02/Jun/2025 11:44:25] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 11:44:25,439 127.0.0.1 - - [02/Jun/2025 11:44:25] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:44:25,467 127.0.0.1 - - [02/Jun/2025 11:44:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:44:25,747 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:44:25,748 127.0.0.1 - - [02/Jun/2025 11:44:25] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:45:33,023 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:45:33,023 [33mPress CTRL+C to quit[0m
+2025-06-02 11:45:33,024  * Restarting with stat
+2025-06-02 11:45:33,274  * Debugger is active!
+2025-06-02 11:45:33,274  * Debugger PIN: 127-050-208
+2025-06-02 11:45:35,090 127.0.0.1 - - [02/Jun/2025 11:45:35] "GET / HTTP/1.1" 200 -
+2025-06-02 11:45:35,194 127.0.0.1 - - [02/Jun/2025 11:45:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:45:35,197 127.0.0.1 - - [02/Jun/2025 11:45:35] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:45:35,198 127.0.0.1 - - [02/Jun/2025 11:45:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:45:35,279 127.0.0.1 - - [02/Jun/2025 11:45:35] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 11:45:35,401 127.0.0.1 - - [02/Jun/2025 11:45:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:45:35,442 127.0.0.1 - - [02/Jun/2025 11:45:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:45:35,484 127.0.0.1 - - [02/Jun/2025 11:45:35] "GET /static/images/background.jpg HTTP/1.1" 200 -
+2025-06-02 11:45:35,727 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:45:35,727 127.0.0.1 - - [02/Jun/2025 11:45:35] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:45:53,224 127.0.0.1 - - [02/Jun/2025 11:45:53] "GET /play HTTP/1.1" 200 -
+2025-06-02 11:45:53,548 127.0.0.1 - - [02/Jun/2025 11:45:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-02 11:45:54,791 127.0.0.1 - - [02/Jun/2025 11:45:54] "GET / HTTP/1.1" 200 -
+2025-06-02 11:45:55,140 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:45:55,141 127.0.0.1 - - [02/Jun/2025 11:45:55] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:49:28,663 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:49:28,663 [33mPress CTRL+C to quit[0m
+2025-06-02 11:49:28,664  * Restarting with stat
+2025-06-02 11:49:28,909  * Debugger is active!
+2025-06-02 11:49:28,909  * Debugger PIN: 127-050-208
+2025-06-02 11:49:30,944 127.0.0.1 - - [02/Jun/2025 11:49:30] "GET / HTTP/1.1" 200 -
+2025-06-02 11:49:31,179 127.0.0.1 - - [02/Jun/2025 11:49:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 11:49:31,229 127.0.0.1 - - [02/Jun/2025 11:49:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:49:31,245 127.0.0.1 - - [02/Jun/2025 11:49:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:49:31,248 127.0.0.1 - - [02/Jun/2025 11:49:31] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:49:31,395 127.0.0.1 - - [02/Jun/2025 11:49:31] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-02 11:49:31,417 127.0.0.1 - - [02/Jun/2025 11:49:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:49:31,444 127.0.0.1 - - [02/Jun/2025 11:49:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:49:31,724 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:49:31,725 127.0.0.1 - - [02/Jun/2025 11:49:31] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:50:09,280 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:50:09,280 [33mPress CTRL+C to quit[0m
+2025-06-02 11:50:09,281  * Restarting with stat
+2025-06-02 11:50:09,525  * Debugger is active!
+2025-06-02 11:50:09,526  * Debugger PIN: 127-050-208
+2025-06-02 11:50:15,381 127.0.0.1 - - [02/Jun/2025 11:50:15] "GET / HTTP/1.1" 200 -
+2025-06-02 11:50:15,459 127.0.0.1 - - [02/Jun/2025 11:50:15] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 11:50:15,462 127.0.0.1 - - [02/Jun/2025 11:50:15] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:50:15,464 127.0.0.1 - - [02/Jun/2025 11:50:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:50:15,467 127.0.0.1 - - [02/Jun/2025 11:50:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:50:15,510 127.0.0.1 - - [02/Jun/2025 11:50:15] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-02 11:50:15,512 127.0.0.1 - - [02/Jun/2025 11:50:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:50:15,541 127.0.0.1 - - [02/Jun/2025 11:50:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:50:16,030 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:50:16,030 127.0.0.1 - - [02/Jun/2025 11:50:16] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:51:11,474 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:51:11,474 [33mPress CTRL+C to quit[0m
+2025-06-02 11:51:11,474  * Restarting with stat
+2025-06-02 11:51:11,738  * Debugger is active!
+2025-06-02 11:51:11,738  * Debugger PIN: 127-050-208
+2025-06-02 11:51:13,398 127.0.0.1 - - [02/Jun/2025 11:51:13] "GET / HTTP/1.1" 200 -
+2025-06-02 11:51:13,545 127.0.0.1 - - [02/Jun/2025 11:51:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:51:13,545 127.0.0.1 - - [02/Jun/2025 11:51:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:51:13,546 127.0.0.1 - - [02/Jun/2025 11:51:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 11:51:13,547 127.0.0.1 - - [02/Jun/2025 11:51:13] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:51:13,589 127.0.0.1 - - [02/Jun/2025 11:51:13] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-02 11:51:13,591 127.0.0.1 - - [02/Jun/2025 11:51:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:51:13,619 127.0.0.1 - - [02/Jun/2025 11:51:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:51:13,928 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:51:13,928 127.0.0.1 - - [02/Jun/2025 11:51:13] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:51:38,671 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:51:38,671 [33mPress CTRL+C to quit[0m
+2025-06-02 11:51:38,671  * Restarting with stat
+2025-06-02 11:51:38,935  * Debugger is active!
+2025-06-02 11:51:38,936  * Debugger PIN: 127-050-208
+2025-06-02 11:51:39,978 127.0.0.1 - - [02/Jun/2025 11:51:39] "GET / HTTP/1.1" 200 -
+2025-06-02 11:51:40,065 127.0.0.1 - - [02/Jun/2025 11:51:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 11:51:40,065 127.0.0.1 - - [02/Jun/2025 11:51:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:51:40,067 127.0.0.1 - - [02/Jun/2025 11:51:40] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:51:40,068 127.0.0.1 - - [02/Jun/2025 11:51:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:51:40,109 127.0.0.1 - - [02/Jun/2025 11:51:40] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-02 11:51:40,113 127.0.0.1 - - [02/Jun/2025 11:51:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:51:40,141 127.0.0.1 - - [02/Jun/2025 11:51:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:51:40,407 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:51:40,407 127.0.0.1 - - [02/Jun/2025 11:51:40] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:52:33,184 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:52:33,184 [33mPress CTRL+C to quit[0m
+2025-06-02 11:52:33,185  * Restarting with stat
+2025-06-02 11:52:33,437  * Debugger is active!
+2025-06-02 11:52:33,437  * Debugger PIN: 127-050-208
+2025-06-02 11:52:35,458 127.0.0.1 - - [02/Jun/2025 11:52:35] "GET / HTTP/1.1" 200 -
+2025-06-02 11:52:35,546 127.0.0.1 - - [02/Jun/2025 11:52:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:52:35,547 127.0.0.1 - - [02/Jun/2025 11:52:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 11:52:35,550 127.0.0.1 - - [02/Jun/2025 11:52:35] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:52:35,576 127.0.0.1 - - [02/Jun/2025 11:52:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:52:35,590 127.0.0.1 - - [02/Jun/2025 11:52:35] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-02 11:52:35,612 127.0.0.1 - - [02/Jun/2025 11:52:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:52:35,638 127.0.0.1 - - [02/Jun/2025 11:52:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:52:35,917 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:52:35,917 127.0.0.1 - - [02/Jun/2025 11:52:35] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:52:52,626 127.0.0.1 - - [02/Jun/2025 11:52:52] "GET /form.html HTTP/1.1" 200 -
+2025-06-02 11:52:52,865 127.0.0.1 - - [02/Jun/2025 11:52:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 11:52:52,870 127.0.0.1 - - [02/Jun/2025 11:52:52] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:52:52,871 127.0.0.1 - - [02/Jun/2025 11:52:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:52:52,874 127.0.0.1 - - [02/Jun/2025 11:52:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:52:52,920 127.0.0.1 - - [02/Jun/2025 11:52:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:52:52,924 127.0.0.1 - - [02/Jun/2025 11:52:52] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-02 11:52:52,950 127.0.0.1 - - [02/Jun/2025 11:52:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:52:58,787 127.0.0.1 - - [02/Jun/2025 11:52:58] "GET / HTTP/1.1" 200 -
+2025-06-02 11:52:59,080 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:52:59,081 127.0.0.1 - - [02/Jun/2025 11:52:59] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:53:00,840 127.0.0.1 - - [02/Jun/2025 11:53:00] "GET /form.html HTTP/1.1" 200 -
+2025-06-02 11:53:00,908 127.0.0.1 - - [02/Jun/2025 11:53:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 11:53:00,918 127.0.0.1 - - [02/Jun/2025 11:53:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:53:01,000 127.0.0.1 - - [02/Jun/2025 11:53:01] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:53:01,009 127.0.0.1 - - [02/Jun/2025 11:53:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:53:01,038 127.0.0.1 - - [02/Jun/2025 11:53:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:53:01,068 127.0.0.1 - - [02/Jun/2025 11:53:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:53:12,440 127.0.0.1 - - [02/Jun/2025 11:53:12] "[33mGET /privacy.html HTTP/1.1[0m" 404 -
+2025-06-02 11:54:03,645 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.41:5000
+2025-06-02 11:54:03,645 [33mPress CTRL+C to quit[0m
+2025-06-02 11:54:03,646  * Restarting with stat
+2025-06-02 11:54:03,895  * Debugger is active!
+2025-06-02 11:54:03,896  * Debugger PIN: 127-050-208
+2025-06-02 11:54:05,753 127.0.0.1 - - [02/Jun/2025 11:54:05] "GET / HTTP/1.1" 200 -
+2025-06-02 11:54:05,847 127.0.0.1 - - [02/Jun/2025 11:54:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 11:54:05,850 127.0.0.1 - - [02/Jun/2025 11:54:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-02 11:54:05,852 127.0.0.1 - - [02/Jun/2025 11:54:05] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 11:54:05,854 127.0.0.1 - - [02/Jun/2025 11:54:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 11:54:05,885 127.0.0.1 - - [02/Jun/2025 11:54:05] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-02 11:54:06,015 127.0.0.1 - - [02/Jun/2025 11:54:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 11:54:06,044 127.0.0.1 - - [02/Jun/2025 11:54:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 11:54:06,344 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 11:54:06,344 127.0.0.1 - - [02/Jun/2025 11:54:06] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 11:54:29,620 127.0.0.1 - - [02/Jun/2025 11:54:29] "GET /play HTTP/1.1" 200 -
+2025-06-02 23:14:04,033 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.184:5000
+2025-06-02 23:14:04,034 [33mPress CTRL+C to quit[0m
+2025-06-02 23:14:04,035  * Restarting with stat
+2025-06-02 23:14:04,295  * Debugger is active!
+2025-06-02 23:14:04,296  * Debugger PIN: 666-708-440
+2025-06-02 23:14:08,871 127.0.0.1 - - [02/Jun/2025 23:14:08] "GET / HTTP/1.1" 200 -
+2025-06-02 23:14:09,180 127.0.0.1 - - [02/Jun/2025 23:14:09] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-02 23:14:09,180 127.0.0.1 - - [02/Jun/2025 23:14:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-02 23:14:09,181 127.0.0.1 - - [02/Jun/2025 23:14:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-02 23:14:09,181 127.0.0.1 - - [02/Jun/2025 23:14:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-02 23:14:09,242 127.0.0.1 - - [02/Jun/2025 23:14:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-02 23:14:09,268 127.0.0.1 - - [02/Jun/2025 23:14:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-02 23:14:09,325 127.0.0.1 - - [02/Jun/2025 23:14:09] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-02 23:14:09,587 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-02 23:14:09,587 127.0.0.1 - - [02/Jun/2025 23:14:09] "POST /csp_report HTTP/1.1" 200 -
+2025-06-02 23:14:16,780 127.0.0.1 - - [02/Jun/2025 23:14:16] "GET /play HTTP/1.1" 200 -
+2025-06-02 23:14:21,585 127.0.0.1 - - [02/Jun/2025 23:14:21] "POST /play HTTP/1.1" 200 -
+2025-06-11 09:24:32,443 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.88:5000
+2025-06-11 09:24:32,443 [33mPress CTRL+C to quit[0m
+2025-06-11 09:24:32,444  * Restarting with stat
+2025-06-11 09:24:32,737  * Debugger is active!
+2025-06-11 09:24:32,738  * Debugger PIN: 503-034-766
+2025-06-11 09:24:40,647 127.0.0.1 - - [11/Jun/2025 09:24:40] "GET / HTTP/1.1" 200 -
+2025-06-11 09:24:40,964 127.0.0.1 - - [11/Jun/2025 09:24:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-11 09:24:40,965 127.0.0.1 - - [11/Jun/2025 09:24:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-06-11 09:24:40,972 127.0.0.1 - - [11/Jun/2025 09:24:40] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-06-11 09:24:41,046 127.0.0.1 - - [11/Jun/2025 09:24:41] "GET /static/images/boarder.png HTTP/1.1" 200 -
+2025-06-11 09:24:41,105 127.0.0.1 - - [11/Jun/2025 09:24:41] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-06-11 09:24:41,166 127.0.0.1 - - [11/Jun/2025 09:24:41] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-06-11 09:24:41,249 127.0.0.1 - - [11/Jun/2025 09:24:41] "GET /static/images/background.jpg HTTP/1.1" 200 -
+2025-06-11 09:24:41,465 127.0.0.1 - - [11/Jun/2025 09:24:41] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-06-11 09:24:41,700 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-11 09:24:41,701 127.0.0.1 - - [11/Jun/2025 09:24:41] "POST /csp_report HTTP/1.1" 200 -
+2025-06-11 09:24:57,369 127.0.0.1 - - [11/Jun/2025 09:24:57] "GET /play HTTP/1.1" 200 -
+2025-06-11 09:24:57,784 127.0.0.1 - - [11/Jun/2025 09:24:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-11 09:35:43,745 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.88:5000
+2025-06-11 09:35:43,745 [33mPress CTRL+C to quit[0m
+2025-06-11 09:35:43,746  * Restarting with stat
+2025-06-11 09:35:43,979  * Debugger is active!
+2025-06-11 09:35:43,979  * Debugger PIN: 503-034-766
+2025-06-11 09:35:45,753 127.0.0.1 - - [11/Jun/2025 09:35:45] "GET / HTTP/1.1" 200 -
+2025-06-11 09:35:46,053 127.0.0.1 - - [11/Jun/2025 09:35:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-11 09:35:46,063 127.0.0.1 - - [11/Jun/2025 09:35:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-11 09:35:46,077 127.0.0.1 - - [11/Jun/2025 09:35:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-11 09:35:46,080 127.0.0.1 - - [11/Jun/2025 09:35:46] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-11 09:35:46,132 127.0.0.1 - - [11/Jun/2025 09:35:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-11 09:35:46,177 127.0.0.1 - - [11/Jun/2025 09:35:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-11 09:35:46,216 127.0.0.1 - - [11/Jun/2025 09:35:46] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-11 09:35:46,739 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-11 09:35:46,740 127.0.0.1 - - [11/Jun/2025 09:35:46] "POST /csp_report HTTP/1.1" 200 -
+2025-06-11 09:35:49,029 127.0.0.1 - - [11/Jun/2025 09:35:49] "GET /play HTTP/1.1" 200 -
+2025-06-11 09:35:50,600 127.0.0.1 - - [11/Jun/2025 09:35:50] "GET / HTTP/1.1" 200 -
+2025-06-11 09:35:51,038 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-11 09:35:51,039 127.0.0.1 - - [11/Jun/2025 09:35:51] "POST /csp_report HTTP/1.1" 200 -
+2025-06-11 09:36:56,447 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.88:5000
+2025-06-11 09:36:56,447 [33mPress CTRL+C to quit[0m
+2025-06-11 09:36:56,447  * Restarting with stat
+2025-06-11 09:36:56,681  * Debugger is active!
+2025-06-11 09:36:56,681  * Debugger PIN: 503-034-766
+2025-06-11 09:36:57,624 127.0.0.1 - - [11/Jun/2025 09:36:57] "GET / HTTP/1.1" 200 -
+2025-06-11 09:36:57,756 127.0.0.1 - - [11/Jun/2025 09:36:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-11 09:36:57,762 127.0.0.1 - - [11/Jun/2025 09:36:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-11 09:36:57,768 127.0.0.1 - - [11/Jun/2025 09:36:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-11 09:36:57,778 127.0.0.1 - - [11/Jun/2025 09:36:57] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-11 09:36:57,799 127.0.0.1 - - [11/Jun/2025 09:36:57] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-11 09:36:57,816 127.0.0.1 - - [11/Jun/2025 09:36:57] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-11 09:36:57,846 127.0.0.1 - - [11/Jun/2025 09:36:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-11 09:36:58,146 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-11 09:36:58,146 127.0.0.1 - - [11/Jun/2025 09:36:58] "POST /csp_report HTTP/1.1" 200 -
+2025-06-11 09:40:16,065 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.88:5000
+2025-06-11 09:40:16,065 [33mPress CTRL+C to quit[0m
+2025-06-11 09:40:16,066  * Restarting with stat
+2025-06-11 09:40:16,303  * Debugger is active!
+2025-06-11 09:40:16,303  * Debugger PIN: 503-034-766
+2025-06-11 09:40:18,396 127.0.0.1 - - [11/Jun/2025 09:40:18] "GET / HTTP/1.1" 200 -
+2025-06-11 09:40:18,675 127.0.0.1 - - [11/Jun/2025 09:40:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-11 09:40:18,692 127.0.0.1 - - [11/Jun/2025 09:40:18] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-11 09:40:18,713 127.0.0.1 - - [11/Jun/2025 09:40:18] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-11 09:40:18,717 127.0.0.1 - - [11/Jun/2025 09:40:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-11 09:40:18,773 127.0.0.1 - - [11/Jun/2025 09:40:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-11 09:40:18,821 127.0.0.1 - - [11/Jun/2025 09:40:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-11 09:40:18,850 127.0.0.1 - - [11/Jun/2025 09:40:18] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-11 09:40:19,325 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-11 09:40:19,325 127.0.0.1 - - [11/Jun/2025 09:40:19] "POST /csp_report HTTP/1.1" 200 -
+2025-06-11 09:40:20,815 127.0.0.1 - - [11/Jun/2025 09:40:20] "GET /play HTTP/1.1" 200 -
+2025-06-11 09:40:22,316 127.0.0.1 - - [11/Jun/2025 09:40:22] "GET / HTTP/1.1" 200 -
+2025-06-11 09:40:22,695 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-11 09:40:22,695 127.0.0.1 - - [11/Jun/2025 09:40:22] "POST /csp_report HTTP/1.1" 200 -
+2025-06-12 08:20:11,061 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.38:5000
+2025-06-12 08:20:11,089 [33mPress CTRL+C to quit[0m
+2025-06-12 08:20:11,090  * Restarting with stat
+2025-06-12 08:20:11,417  * Debugger is active!
+2025-06-12 08:20:11,418  * Debugger PIN: 226-859-156
+2025-06-12 08:20:19,467 127.0.0.1 - - [12/Jun/2025 08:20:19] "GET / HTTP/1.1" 200 -
+2025-06-12 08:20:19,740 127.0.0.1 - - [12/Jun/2025 08:20:19] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 08:20:19,743 127.0.0.1 - - [12/Jun/2025 08:20:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-06-12 08:20:19,745 127.0.0.1 - - [12/Jun/2025 08:20:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-12 08:20:19,889 127.0.0.1 - - [12/Jun/2025 08:20:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 08:20:20,034 127.0.0.1 - - [12/Jun/2025 08:20:20] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 08:20:20,071 127.0.0.1 - - [12/Jun/2025 08:20:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 08:20:20,113 127.0.0.1 - - [12/Jun/2025 08:20:20] "GET /static/images/background.jpg HTTP/1.1" 200 -
+2025-06-12 08:20:20,572 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-12 08:20:20,572 127.0.0.1 - - [12/Jun/2025 08:20:20] "POST /csp_report HTTP/1.1" 200 -
+2025-06-12 08:33:22,176 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.38:5000
+2025-06-12 08:33:22,176 [33mPress CTRL+C to quit[0m
+2025-06-12 08:33:22,177  * Restarting with stat
+2025-06-12 08:33:22,422  * Debugger is active!
+2025-06-12 08:33:22,422  * Debugger PIN: 226-859-156
+2025-06-12 08:33:30,341 127.0.0.1 - - [12/Jun/2025 08:33:30] "GET / HTTP/1.1" 200 -
+2025-06-12 08:33:30,588 127.0.0.1 - - [12/Jun/2025 08:33:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 08:33:30,618 127.0.0.1 - - [12/Jun/2025 08:33:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 08:33:30,628 127.0.0.1 - - [12/Jun/2025 08:33:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 08:33:30,635 127.0.0.1 - - [12/Jun/2025 08:33:30] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 08:33:30,753 127.0.0.1 - - [12/Jun/2025 08:33:30] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-12 08:33:30,757 127.0.0.1 - - [12/Jun/2025 08:33:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 08:33:30,792 127.0.0.1 - - [12/Jun/2025 08:33:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 08:33:31,284 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-12 08:33:31,285 127.0.0.1 - - [12/Jun/2025 08:33:31] "POST /csp_report HTTP/1.1" 200 -
+2025-06-12 08:33:32,324 127.0.0.1 - - [12/Jun/2025 08:33:32] "GET /play HTTP/1.1" 200 -
+2025-06-12 08:33:32,594 127.0.0.1 - - [12/Jun/2025 08:33:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 08:33:32,632 127.0.0.1 - - [12/Jun/2025 08:33:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 08:33:32,646 127.0.0.1 - - [12/Jun/2025 08:33:32] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-12 08:33:32,677 127.0.0.1 - - [12/Jun/2025 08:33:32] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 08:33:32,680 127.0.0.1 - - [12/Jun/2025 08:33:32] "[33mGET /static/images/staff-example.png HTTP/1.1[0m" 404 -
+2025-06-12 08:33:32,682 127.0.0.1 - - [12/Jun/2025 08:33:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 08:33:32,714 127.0.0.1 - - [12/Jun/2025 08:33:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 08:33:32,745 127.0.0.1 - - [12/Jun/2025 08:33:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 08:34:23,564 127.0.0.1 - - [12/Jun/2025 08:34:23] "GET / HTTP/1.1" 200 -
+2025-06-12 08:34:23,641 127.0.0.1 - - [12/Jun/2025 08:34:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 08:34:23,645 127.0.0.1 - - [12/Jun/2025 08:34:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-12 08:34:23,647 127.0.0.1 - - [12/Jun/2025 08:34:23] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 08:34:23,649 127.0.0.1 - - [12/Jun/2025 08:34:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 08:34:23,676 127.0.0.1 - - [12/Jun/2025 08:34:23] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-12 08:34:23,691 127.0.0.1 - - [12/Jun/2025 08:34:23] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 08:34:23,717 127.0.0.1 - - [12/Jun/2025 08:34:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 08:34:24,203 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-12 08:34:24,203 127.0.0.1 - - [12/Jun/2025 08:34:24] "POST /csp_report HTTP/1.1" 200 -
+2025-06-12 08:34:25,772 127.0.0.1 - - [12/Jun/2025 08:34:25] "GET /play HTTP/1.1" 200 -
+2025-06-12 08:34:25,827 127.0.0.1 - - [12/Jun/2025 08:34:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 08:34:25,866 127.0.0.1 - - [12/Jun/2025 08:34:25] "[36mGET /static/images/background.jpg HTTP/1.1[0m" 304 -
+2025-06-12 08:34:25,868 127.0.0.1 - - [12/Jun/2025 08:34:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 08:34:25,905 127.0.0.1 - - [12/Jun/2025 08:34:25] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 08:34:25,911 127.0.0.1 - - [12/Jun/2025 08:34:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 08:34:25,913 127.0.0.1 - - [12/Jun/2025 08:34:25] "[33mGET /static/images/staff-example.png HTTP/1.1[0m" 404 -
+2025-06-12 08:34:25,945 127.0.0.1 - - [12/Jun/2025 08:34:25] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 08:34:25,975 127.0.0.1 - - [12/Jun/2025 08:34:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 08:36:35,788 127.0.0.1 - - [12/Jun/2025 08:36:35] "GET / HTTP/1.1" 200 -
+2025-06-12 08:36:36,042 127.0.0.1 - - [12/Jun/2025 08:36:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-12 08:36:36,047 127.0.0.1 - - [12/Jun/2025 08:36:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 08:36:36,052 127.0.0.1 - - [12/Jun/2025 08:36:36] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 08:36:36,060 127.0.0.1 - - [12/Jun/2025 08:36:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 08:36:36,110 127.0.0.1 - - [12/Jun/2025 08:36:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 08:36:36,222 127.0.0.1 - - [12/Jun/2025 08:36:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 08:36:36,706 {"csp-report":{"document-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/","referrer":"https://legendary-spork-4jqv5jvwj96gcqw95.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://legendary-spork-4jqv5jvwj96gcqw95-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-06-12 08:36:36,706 127.0.0.1 - - [12/Jun/2025 08:36:36] "POST /csp_report HTTP/1.1" 200 -
+2025-06-12 08:36:37,372 127.0.0.1 - - [12/Jun/2025 08:36:37] "GET /play HTTP/1.1" 200 -
+2025-06-12 08:36:37,418 127.0.0.1 - - [12/Jun/2025 08:36:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 08:36:37,446 127.0.0.1 - - [12/Jun/2025 08:36:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 08:36:37,491 127.0.0.1 - - [12/Jun/2025 08:36:37] "[33mGET /static/images/staff-example.png HTTP/1.1[0m" 404 -
+2025-06-12 08:36:37,497 127.0.0.1 - - [12/Jun/2025 08:36:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 08:36:37,500 127.0.0.1 - - [12/Jun/2025 08:36:37] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 08:36:37,528 127.0.0.1 - - [12/Jun/2025 08:36:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 08:36:37,555 127.0.0.1 - - [12/Jun/2025 08:36:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 08:40:55,533 127.0.0.1 - - [12/Jun/2025 08:40:55] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-12 08:40:55,707 127.0.0.1 - - [12/Jun/2025 08:40:55] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-06-12 08:40:55,710 127.0.0.1 - - [12/Jun/2025 08:40:55] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-06-12 08:40:55,853 127.0.0.1 - - [12/Jun/2025 08:40:55] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=YRKpQsHT4tXP0KlbUyzD HTTP/1.1" 200 -
+2025-06-12 08:40:56,073 127.0.0.1 - - [12/Jun/2025 08:40:56] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-06-12 08:41:44,808 127.0.0.1 - - [12/Jun/2025 08:41:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-12 08:41:44,874 127.0.0.1 - - [12/Jun/2025 08:41:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-12 08:41:44,876 127.0.0.1 - - [12/Jun/2025 08:41:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-12 08:41:44,927 127.0.0.1 - - [12/Jun/2025 08:41:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=YRKpQsHT4tXP0KlbUyzD HTTP/1.1[0m" 304 -
+2025-06-12 08:42:02,178 127.0.0.1 - - [12/Jun/2025 08:42:02] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-12 08:42:02,236 127.0.0.1 - - [12/Jun/2025 08:42:02] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-12 08:42:02,238 127.0.0.1 - - [12/Jun/2025 08:42:02] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-12 08:42:02,286 127.0.0.1 - - [12/Jun/2025 08:42:02] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=YRKpQsHT4tXP0KlbUyzD HTTP/1.1[0m" 304 -
+2025-06-12 08:43:05,299 127.0.0.1 - - [12/Jun/2025 08:43:05] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-12 08:43:05,359 127.0.0.1 - - [12/Jun/2025 08:43:05] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-06-12 08:43:05,362 127.0.0.1 - - [12/Jun/2025 08:43:05] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-06-12 08:43:05,409 127.0.0.1 - - [12/Jun/2025 08:43:05] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png&s=YRKpQsHT4tXP0KlbUyzD HTTP/1.1[0m" 304 -
+2025-06-12 08:43:42,258 127.0.0.1 - - [12/Jun/2025 08:43:42] "GET / HTTP/1.1" 200 -
+2025-06-12 08:43:42,328 127.0.0.1 - - [12/Jun/2025 08:43:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 08:43:42,434 127.0.0.1 - - [12/Jun/2025 08:43:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 08:43:42,486 127.0.0.1 - - [12/Jun/2025 08:43:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 08:43:42,554 127.0.0.1 - - [12/Jun/2025 08:43:42] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 08:43:42,590 127.0.0.1 - - [12/Jun/2025 08:43:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 08:43:42,617 127.0.0.1 - - [12/Jun/2025 08:43:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 08:43:45,408 127.0.0.1 - - [12/Jun/2025 08:43:45] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 08:43:46,739 127.0.0.1 - - [12/Jun/2025 08:43:46] "GET / HTTP/1.1" 200 -
+2025-06-12 08:43:48,605 127.0.0.1 - - [12/Jun/2025 08:43:48] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 08:44:02,959 127.0.0.1 - - [12/Jun/2025 08:44:02] "GET / HTTP/1.1" 200 -
+2025-06-12 08:44:03,018 127.0.0.1 - - [12/Jun/2025 08:44:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-12 08:44:03,052 127.0.0.1 - - [12/Jun/2025 08:44:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 08:44:03,093 127.0.0.1 - - [12/Jun/2025 08:44:03] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 08:44:03,094 127.0.0.1 - - [12/Jun/2025 08:44:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 08:44:03,131 127.0.0.1 - - [12/Jun/2025 08:44:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 08:44:03,163 127.0.0.1 - - [12/Jun/2025 08:44:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 08:44:05,567 127.0.0.1 - - [12/Jun/2025 08:44:05] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 08:46:33,247 127.0.0.1 - - [12/Jun/2025 08:46:33] "GET / HTTP/1.1" 200 -
+2025-06-12 08:46:33,428 127.0.0.1 - - [12/Jun/2025 08:46:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-12 08:46:33,531 127.0.0.1 - - [12/Jun/2025 08:46:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 08:46:33,685 127.0.0.1 - - [12/Jun/2025 08:46:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 08:46:33,690 127.0.0.1 - - [12/Jun/2025 08:46:33] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 08:46:33,796 127.0.0.1 - - [12/Jun/2025 08:46:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 08:46:33,828 127.0.0.1 - - [12/Jun/2025 08:46:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 08:46:39,990 127.0.0.1 - - [12/Jun/2025 08:46:39] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 08:46:41,197 127.0.0.1 - - [12/Jun/2025 08:46:41] "GET / HTTP/1.1" 200 -
+2025-06-12 08:46:48,054 127.0.0.1 - - [12/Jun/2025 08:46:48] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 08:47:19,323 127.0.0.1 - - [12/Jun/2025 08:47:19] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 08:47:48,179 127.0.0.1 - - [12/Jun/2025 08:47:48] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 09:05:42,122  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-06-12 09:05:42,163  * Restarting with stat
+2025-06-12 09:05:42,445  * Debugger is active!
+2025-06-12 09:05:42,445  * Debugger PIN: 226-859-156
+2025-06-12 09:05:42,884 127.0.0.1 - - [12/Jun/2025 09:05:42] "GET / HTTP/1.1" 200 -
+2025-06-12 09:05:43,081 127.0.0.1 - - [12/Jun/2025 09:05:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 09:05:43,257 127.0.0.1 - - [12/Jun/2025 09:05:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 09:05:43,471 127.0.0.1 - - [12/Jun/2025 09:05:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 09:05:43,478 127.0.0.1 - - [12/Jun/2025 09:05:43] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 09:05:43,625 127.0.0.1 - - [12/Jun/2025 09:05:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 09:05:43,665 127.0.0.1 - - [12/Jun/2025 09:05:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 09:05:44,480 127.0.0.1 - - [12/Jun/2025 09:05:44] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 09:05:45,734 127.0.0.1 - - [12/Jun/2025 09:05:45] "GET / HTTP/1.1" 200 -
+2025-06-12 09:06:04,947  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-06-12 09:06:04,992  * Restarting with stat
+2025-06-12 09:06:05,269  * Debugger is active!
+2025-06-12 09:06:05,270  * Debugger PIN: 226-859-156
+2025-06-12 09:06:06,720 127.0.0.1 - - [12/Jun/2025 09:06:06] "GET / HTTP/1.1" 200 -
+2025-06-12 09:06:06,782 127.0.0.1 - - [12/Jun/2025 09:06:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 09:06:06,819 127.0.0.1 - - [12/Jun/2025 09:06:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 09:06:06,862 127.0.0.1 - - [12/Jun/2025 09:06:06] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 09:06:06,865 127.0.0.1 - - [12/Jun/2025 09:06:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 09:06:06,903 127.0.0.1 - - [12/Jun/2025 09:06:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 09:06:06,932 127.0.0.1 - - [12/Jun/2025 09:06:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 09:06:07,464 127.0.0.1 - - [12/Jun/2025 09:06:07] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 09:06:09,290 127.0.0.1 - - [12/Jun/2025 09:06:09] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 09:22:44,966 127.0.0.1 - - [12/Jun/2025 09:22:44] "GET / HTTP/1.1" 200 -
+2025-06-12 09:22:45,138 127.0.0.1 - - [12/Jun/2025 09:22:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 09:22:45,275 127.0.0.1 - - [12/Jun/2025 09:22:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 09:22:45,430 127.0.0.1 - - [12/Jun/2025 09:22:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 09:22:45,433 127.0.0.1 - - [12/Jun/2025 09:22:45] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 09:22:45,554 127.0.0.1 - - [12/Jun/2025 09:22:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 09:22:45,587 127.0.0.1 - - [12/Jun/2025 09:22:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 09:22:48,339 127.0.0.1 - - [12/Jun/2025 09:22:48] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 09:24:12,933 127.0.0.1 - - [12/Jun/2025 09:24:12] "GET / HTTP/1.1" 200 -
+2025-06-12 09:24:13,072 127.0.0.1 - - [12/Jun/2025 09:24:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 09:24:13,108 127.0.0.1 - - [12/Jun/2025 09:24:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 09:24:13,152 127.0.0.1 - - [12/Jun/2025 09:24:13] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 09:24:13,155 127.0.0.1 - - [12/Jun/2025 09:24:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 09:24:13,259 127.0.0.1 - - [12/Jun/2025 09:24:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 09:24:13,288 127.0.0.1 - - [12/Jun/2025 09:24:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 09:24:13,760 127.0.0.1 - - [12/Jun/2025 09:24:13] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 09:24:14,938 127.0.0.1 - - [12/Jun/2025 09:24:14] "GET / HTTP/1.1" 200 -
+2025-06-12 09:24:15,796 127.0.0.1 - - [12/Jun/2025 09:24:15] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 09:34:35,145 127.0.0.1 - - [12/Jun/2025 09:34:35] "GET / HTTP/1.1" 200 -
+2025-06-12 09:34:35,360 127.0.0.1 - - [12/Jun/2025 09:34:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 09:34:35,493 127.0.0.1 - - [12/Jun/2025 09:34:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 09:34:35,684 127.0.0.1 - - [12/Jun/2025 09:34:35] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 09:34:35,688 127.0.0.1 - - [12/Jun/2025 09:34:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 09:34:35,812 127.0.0.1 - - [12/Jun/2025 09:34:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 09:34:35,850 127.0.0.1 - - [12/Jun/2025 09:34:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 09:34:36,542 127.0.0.1 - - [12/Jun/2025 09:34:36] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 09:34:37,453 127.0.0.1 - - [12/Jun/2025 09:34:37] "GET / HTTP/1.1" 200 -
+2025-06-12 09:34:38,094 127.0.0.1 - - [12/Jun/2025 09:34:38] "[33mGET /note-quiz HTTP/1.1[0m" 404 -
+2025-06-12 10:14:10,012 127.0.0.1 - - [12/Jun/2025 10:14:10] "GET / HTTP/1.1" 200 -
+2025-06-12 10:14:10,174 127.0.0.1 - - [12/Jun/2025 10:14:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 10:14:10,283 127.0.0.1 - - [12/Jun/2025 10:14:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 10:14:10,566 127.0.0.1 - - [12/Jun/2025 10:14:10] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 10:14:10,571 127.0.0.1 - - [12/Jun/2025 10:14:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 10:14:10,612 127.0.0.1 - - [12/Jun/2025 10:14:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 10:14:10,645 127.0.0.1 - - [12/Jun/2025 10:14:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 10:14:11,605 127.0.0.1 - - [12/Jun/2025 10:14:11] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 10:14:12,872 127.0.0.1 - - [12/Jun/2025 10:14:12] "GET / HTTP/1.1" 200 -
+2025-06-12 10:15:09,085 127.0.0.1 - - [12/Jun/2025 10:15:09] "GET / HTTP/1.1" 200 -
+2025-06-12 10:15:09,145 127.0.0.1 - - [12/Jun/2025 10:15:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 10:15:09,189 127.0.0.1 - - [12/Jun/2025 10:15:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 10:15:09,237 127.0.0.1 - - [12/Jun/2025 10:15:09] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 10:15:09,240 127.0.0.1 - - [12/Jun/2025 10:15:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 10:15:09,281 127.0.0.1 - - [12/Jun/2025 10:15:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 10:15:09,311 127.0.0.1 - - [12/Jun/2025 10:15:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 10:15:10,584 127.0.0.1 - - [12/Jun/2025 10:15:10] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 10:15:11,595 127.0.0.1 - - [12/Jun/2025 10:15:11] "GET / HTTP/1.1" 200 -
+2025-06-12 10:15:12,122 127.0.0.1 - - [12/Jun/2025 10:15:12] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 10:16:15,102 127.0.0.1 - - [12/Jun/2025 10:16:15] "GET / HTTP/1.1" 200 -
+2025-06-12 10:16:15,155 127.0.0.1 - - [12/Jun/2025 10:16:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:15,189 127.0.0.1 - - [12/Jun/2025 10:16:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:15,226 127.0.0.1 - - [12/Jun/2025 10:16:15] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 10:16:15,228 127.0.0.1 - - [12/Jun/2025 10:16:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:15,335 127.0.0.1 - - [12/Jun/2025 10:16:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:15,360 127.0.0.1 - - [12/Jun/2025 10:16:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:16,105 127.0.0.1 - - [12/Jun/2025 10:16:16] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 10:16:17,051 127.0.0.1 - - [12/Jun/2025 10:16:17] "GET / HTTP/1.1" 200 -
+2025-06-12 10:16:17,609 127.0.0.1 - - [12/Jun/2025 10:16:17] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 10:16:28,811 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.38:5000
+2025-06-12 10:16:28,811 [33mPress CTRL+C to quit[0m
+2025-06-12 10:16:28,811  * Restarting with stat
+2025-06-12 10:16:29,053  * Debugger is active!
+2025-06-12 10:16:29,053  * Debugger PIN: 226-859-156
+2025-06-12 10:16:36,345 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.38:5000
+2025-06-12 10:16:36,345 [33mPress CTRL+C to quit[0m
+2025-06-12 10:16:36,345  * Restarting with stat
+2025-06-12 10:16:36,593  * Debugger is active!
+2025-06-12 10:16:36,593  * Debugger PIN: 226-859-156
+2025-06-12 10:16:40,833 127.0.0.1 - - [12/Jun/2025 10:16:40] "GET / HTTP/1.1" 200 -
+2025-06-12 10:16:40,889 127.0.0.1 - - [12/Jun/2025 10:16:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:40,921 127.0.0.1 - - [12/Jun/2025 10:16:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:40,966 127.0.0.1 - - [12/Jun/2025 10:16:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:40,969 127.0.0.1 - - [12/Jun/2025 10:16:40] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 10:16:41,003 127.0.0.1 - - [12/Jun/2025 10:16:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:41,032 127.0.0.1 - - [12/Jun/2025 10:16:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:41,731 127.0.0.1 - - [12/Jun/2025 10:16:41] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 10:16:43,245 127.0.0.1 - - [12/Jun/2025 10:16:43] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 10:16:49,866 127.0.0.1 - - [12/Jun/2025 10:16:49] "GET /form.html HTTP/1.1" 200 -
+2025-06-12 10:16:50,157 127.0.0.1 - - [12/Jun/2025 10:16:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:50,175 127.0.0.1 - - [12/Jun/2025 10:16:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:50,180 127.0.0.1 - - [12/Jun/2025 10:16:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:50,183 127.0.0.1 - - [12/Jun/2025 10:16:50] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 10:16:50,211 127.0.0.1 - - [12/Jun/2025 10:16:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:50,243 127.0.0.1 - - [12/Jun/2025 10:16:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:54,447 127.0.0.1 - - [12/Jun/2025 10:16:54] "GET /form.html HTTP/1.1" 200 -
+2025-06-12 10:16:54,530 127.0.0.1 - - [12/Jun/2025 10:16:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:54,534 127.0.0.1 - - [12/Jun/2025 10:16:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:54,536 127.0.0.1 - - [12/Jun/2025 10:16:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:54,539 127.0.0.1 - - [12/Jun/2025 10:16:54] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 10:16:54,568 127.0.0.1 - - [12/Jun/2025 10:16:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:54,598 127.0.0.1 - - [12/Jun/2025 10:16:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:55,779 127.0.0.1 - - [12/Jun/2025 10:16:55] "POST /form.html HTTP/1.1" 200 -
+2025-06-12 10:16:55,832 127.0.0.1 - - [12/Jun/2025 10:16:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:55,845 127.0.0.1 - - [12/Jun/2025 10:16:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:55,859 127.0.0.1 - - [12/Jun/2025 10:16:55] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:55,864 127.0.0.1 - - [12/Jun/2025 10:16:55] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 10:16:55,895 127.0.0.1 - - [12/Jun/2025 10:16:55] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:55,929 127.0.0.1 - - [12/Jun/2025 10:16:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:56,818 127.0.0.1 - - [12/Jun/2025 10:16:56] "POST /form.html HTTP/1.1" 200 -
+2025-06-12 10:16:56,892 127.0.0.1 - - [12/Jun/2025 10:16:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:56,899 127.0.0.1 - - [12/Jun/2025 10:16:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 10:16:56,901 127.0.0.1 - - [12/Jun/2025 10:16:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:56,906 127.0.0.1 - - [12/Jun/2025 10:16:56] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 10:16:56,943 127.0.0.1 - - [12/Jun/2025 10:16:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 10:16:56,971 127.0.0.1 - - [12/Jun/2025 10:16:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 10:40:59,399 127.0.0.1 - - [12/Jun/2025 10:40:59] "GET /form.html HTTP/1.1" 200 -
+2025-06-12 10:47:25,457 127.0.0.1 - - [12/Jun/2025 10:47:25] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 10:56:04,976  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-06-12 10:56:05,012  * Restarting with stat
+2025-06-12 10:56:34,668  * Restarting with stat
+2025-06-12 10:56:34,939  * Debugger is active!
+2025-06-12 10:56:34,939  * Debugger PIN: 226-859-156
+2025-06-12 11:07:52,192  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-06-12 11:07:52,226  * Restarting with stat
+2025-06-12 11:07:52,512  * Debugger is active!
+2025-06-12 11:07:52,512  * Debugger PIN: 226-859-156
+2025-06-12 11:07:54,943 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.38:5000
+2025-06-12 11:07:54,943 [33mPress CTRL+C to quit[0m
+2025-06-12 11:07:54,944  * Restarting with stat
+2025-06-12 11:07:55,187  * Debugger is active!
+2025-06-12 11:07:55,187  * Debugger PIN: 226-859-156
+2025-06-12 11:07:57,155 127.0.0.1 - - [12/Jun/2025 11:07:57] "GET / HTTP/1.1" 200 -
+2025-06-12 11:07:57,339 127.0.0.1 - - [12/Jun/2025 11:07:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 11:07:57,454 127.0.0.1 - - [12/Jun/2025 11:07:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 11:07:57,614 127.0.0.1 - - [12/Jun/2025 11:07:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 11:07:57,616 127.0.0.1 - - [12/Jun/2025 11:07:57] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 11:07:57,733 127.0.0.1 - - [12/Jun/2025 11:07:57] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 11:07:57,764 127.0.0.1 - - [12/Jun/2025 11:07:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 11:07:58,661 127.0.0.1 - - [12/Jun/2025 11:07:58] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 11:07:59,953 127.0.0.1 - - [12/Jun/2025 11:07:59] "GET / HTTP/1.1" 200 -
+2025-06-12 11:08:01,783 127.0.0.1 - - [12/Jun/2025 11:08:01] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 11:10:20,988 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.38:5000
+2025-06-12 11:10:20,988 [33mPress CTRL+C to quit[0m
+2025-06-12 11:10:20,989  * Restarting with stat
+2025-06-12 11:10:21,225  * Debugger is active!
+2025-06-12 11:10:21,226  * Debugger PIN: 226-859-156
+2025-06-12 11:10:22,835 127.0.0.1 - - [12/Jun/2025 11:10:22] "GET / HTTP/1.1" 200 -
+2025-06-12 11:10:23,011 127.0.0.1 - - [12/Jun/2025 11:10:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 11:10:23,148 127.0.0.1 - - [12/Jun/2025 11:10:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 11:10:23,327 127.0.0.1 - - [12/Jun/2025 11:10:23] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 11:10:23,328 127.0.0.1 - - [12/Jun/2025 11:10:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 11:10:23,450 127.0.0.1 - - [12/Jun/2025 11:10:23] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 11:10:23,485 127.0.0.1 - - [12/Jun/2025 11:10:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 11:10:24,229 127.0.0.1 - - [12/Jun/2025 11:10:24] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 11:10:25,286 127.0.0.1 - - [12/Jun/2025 11:10:25] "GET / HTTP/1.1" 200 -
+2025-06-12 11:10:25,854 127.0.0.1 - - [12/Jun/2025 11:10:25] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 11:10:55,504  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-06-12 11:10:55,542  * Restarting with stat
+2025-06-12 11:10:56,649 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.38:5000
+2025-06-12 11:10:56,649 [33mPress CTRL+C to quit[0m
+2025-06-12 11:10:56,650  * Restarting with stat
+2025-06-12 11:10:56,902  * Debugger is active!
+2025-06-12 11:10:56,903  * Debugger PIN: 226-859-156
+2025-06-12 11:11:41,139 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.38:5000
+2025-06-12 11:11:41,140 [33mPress CTRL+C to quit[0m
+2025-06-12 11:11:41,140  * Restarting with stat
+2025-06-12 11:11:41,378  * Debugger is active!
+2025-06-12 11:11:41,378  * Debugger PIN: 226-859-156
+2025-06-12 11:11:42,950 127.0.0.1 - - [12/Jun/2025 11:11:42] "GET / HTTP/1.1" 200 -
+2025-06-12 11:11:43,002 127.0.0.1 - - [12/Jun/2025 11:11:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 11:11:43,131 127.0.0.1 - - [12/Jun/2025 11:11:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 11:11:43,181 127.0.0.1 - - [12/Jun/2025 11:11:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 11:11:43,228 127.0.0.1 - - [12/Jun/2025 11:11:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 11:11:43,264 127.0.0.1 - - [12/Jun/2025 11:11:43] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 11:11:43,269 127.0.0.1 - - [12/Jun/2025 11:11:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 11:11:44,679 127.0.0.1 - - [12/Jun/2025 11:11:44] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 11:11:45,915 127.0.0.1 - - [12/Jun/2025 11:11:45] "GET / HTTP/1.1" 200 -
+2025-06-12 11:11:46,543 127.0.0.1 - - [12/Jun/2025 11:11:46] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 11:16:09,696 127.0.0.1 - - [12/Jun/2025 11:16:09] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 11:18:32,272 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.38:5000
+2025-06-12 11:18:32,272 [33mPress CTRL+C to quit[0m
+2025-06-12 11:18:32,272  * Restarting with stat
+2025-06-12 11:18:32,508  * Debugger is active!
+2025-06-12 11:18:32,509  * Debugger PIN: 226-859-156
+2025-06-12 11:18:33,475 127.0.0.1 - - [12/Jun/2025 11:18:33] "GET / HTTP/1.1" 200 -
+2025-06-12 11:18:33,610 127.0.0.1 - - [12/Jun/2025 11:18:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 11:18:33,727 127.0.0.1 - - [12/Jun/2025 11:18:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 11:18:33,869 127.0.0.1 - - [12/Jun/2025 11:18:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 11:18:33,870 127.0.0.1 - - [12/Jun/2025 11:18:33] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 11:18:33,984 127.0.0.1 - - [12/Jun/2025 11:18:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 11:18:34,017 127.0.0.1 - - [12/Jun/2025 11:18:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 11:18:35,490 127.0.0.1 - - [12/Jun/2025 11:18:35] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 11:18:36,875 127.0.0.1 - - [12/Jun/2025 11:18:36] "GET / HTTP/1.1" 200 -
+2025-06-12 11:18:37,536 127.0.0.1 - - [12/Jun/2025 11:18:37] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 11:18:57,731 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.38:5000
+2025-06-12 11:18:57,732 [33mPress CTRL+C to quit[0m
+2025-06-12 11:18:57,732  * Restarting with stat
+2025-06-12 11:18:57,986  * Debugger is active!
+2025-06-12 11:18:57,986  * Debugger PIN: 226-859-156
+2025-06-12 11:19:02,614 127.0.0.1 - - [12/Jun/2025 11:19:02] "GET / HTTP/1.1" 200 -
+2025-06-12 11:19:02,670 127.0.0.1 - - [12/Jun/2025 11:19:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 11:19:02,709 127.0.0.1 - - [12/Jun/2025 11:19:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 11:19:02,757 127.0.0.1 - - [12/Jun/2025 11:19:02] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 11:19:02,760 127.0.0.1 - - [12/Jun/2025 11:19:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 11:19:02,805 127.0.0.1 - - [12/Jun/2025 11:19:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 11:19:02,837 127.0.0.1 - - [12/Jun/2025 11:19:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 11:19:03,662 127.0.0.1 - - [12/Jun/2025 11:19:03] "[33mGET /play-notes HTTP/1.1[0m" 404 -
+2025-06-12 11:20:13,532 127.0.0.1 - - [12/Jun/2025 11:20:13] "GET / HTTP/1.1" 200 -
+2025-06-12 11:20:13,689 127.0.0.1 - - [12/Jun/2025 11:20:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 11:20:13,725 127.0.0.1 - - [12/Jun/2025 11:20:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 11:20:13,773 127.0.0.1 - - [12/Jun/2025 11:20:13] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 11:20:13,777 127.0.0.1 - - [12/Jun/2025 11:20:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 11:20:13,814 127.0.0.1 - - [12/Jun/2025 11:20:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 11:20:13,844 127.0.0.1 - - [12/Jun/2025 11:20:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 11:20:14,985 127.0.0.1 - - [12/Jun/2025 11:20:14] "[33mGET /play-terms HTTP/1.1[0m" 404 -
+2025-06-12 11:21:11,252  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-06-12 11:21:11,304  * Restarting with stat
+2025-06-12 11:21:11,576  * Debugger is active!
+2025-06-12 11:21:11,576  * Debugger PIN: 226-859-156
+2025-06-12 11:21:13,579 127.0.0.1 - - [12/Jun/2025 11:21:13] "GET / HTTP/1.1" 200 -
+2025-06-12 11:21:13,649 127.0.0.1 - - [12/Jun/2025 11:21:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 11:21:13,693 127.0.0.1 - - [12/Jun/2025 11:21:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 11:21:13,736 127.0.0.1 - - [12/Jun/2025 11:21:13] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 11:21:13,740 127.0.0.1 - - [12/Jun/2025 11:21:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 11:21:13,785 127.0.0.1 - - [12/Jun/2025 11:21:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 11:21:13,819 127.0.0.1 - - [12/Jun/2025 11:21:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 11:21:15,336 127.0.0.1 - - [12/Jun/2025 11:21:15] "GET /play-terms HTTP/1.1" 200 -
+2025-06-12 11:21:15,412 127.0.0.1 - - [12/Jun/2025 11:21:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 11:21:15,415 127.0.0.1 - - [12/Jun/2025 11:21:15] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 11:21:15,417 127.0.0.1 - - [12/Jun/2025 11:21:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 11:21:15,419 127.0.0.1 - - [12/Jun/2025 11:21:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 11:21:15,457 127.0.0.1 - - [12/Jun/2025 11:21:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 11:21:15,489 127.0.0.1 - - [12/Jun/2025 11:21:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 11:21:20,958 127.0.0.1 - - [12/Jun/2025 11:21:20] "GET / HTTP/1.1" 200 -
+2025-06-12 11:21:21,928 127.0.0.1 - - [12/Jun/2025 11:21:21] "GET /play-notes HTTP/1.1" 200 -
+2025-06-12 11:21:21,985 127.0.0.1 - - [12/Jun/2025 11:21:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 11:21:22,014 127.0.0.1 - - [12/Jun/2025 11:21:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 11:21:22,057 127.0.0.1 - - [12/Jun/2025 11:21:22] "[33mGET /static/images/staff-example.png HTTP/1.1[0m" 404 -
+2025-06-12 11:21:22,059 127.0.0.1 - - [12/Jun/2025 11:21:22] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 11:21:22,061 127.0.0.1 - - [12/Jun/2025 11:21:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 11:21:22,092 127.0.0.1 - - [12/Jun/2025 11:21:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 11:21:22,124 127.0.0.1 - - [12/Jun/2025 11:21:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-06-12 11:21:25,690 127.0.0.1 - - [12/Jun/2025 11:21:25] "GET /play-terms HTTP/1.1" 200 -
+2025-06-12 11:21:25,769 127.0.0.1 - - [12/Jun/2025 11:21:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-06-12 11:21:25,771 127.0.0.1 - - [12/Jun/2025 11:21:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-12 11:21:25,774 127.0.0.1 - - [12/Jun/2025 11:21:25] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-06-12 11:21:25,776 127.0.0.1 - - [12/Jun/2025 11:21:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-06-12 11:21:25,808 127.0.0.1 - - [12/Jun/2025 11:21:25] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-06-12 11:21:25,836 127.0.0.1 - - [12/Jun/2025 11:21:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -

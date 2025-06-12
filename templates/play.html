@@ -1,20 +1,4 @@
-<div class="container">
-  <div class="row">
-    <h1 class="display-1">Play Game</h1>
-  </div>
 
-  <div class="row">
-    <form action="/play" method="POST" class="box">
-      <p>{{ quiz }}</p>
-      <input type="hidden" name="quiz" value="{{ quiz }}" />
-      <p>
-        Your answer:
-        <input
-          type="text"
-          name="user_answer"
-          id="user_answer"
-          placeholder="Type your answer here"
-        />
         <!-- Stores correct answer -->
         <input type="hidden" name="actual_answer" value="{{ answer }}" />
         <button class="btn btn-primary" id="submit-answer">Submit</button>
@@ -31,4 +15,24 @@
     <button class="btn btn-primary mb-3">Next question</button>
   </form>
 </div>
-{% endif %}
+
+
+<!--quiz webpage-->
+{% endif %} {% extends 'layout.html' %} {% block content %}
+<div class="quiz-container">
+  <div class="quiz-display">
+    <!-- Replace with your staff SVG or image -->
+    <img
+      src="/static/images/staff-example.png"
+      alt="Staff"
+      class="quiz-staff"
+    />
+  </div>
+  <div class="quiz-options">
+    <button class="quiz-btn">C</button>
+    <button class="quiz-btn">D</button>
+    <button class="quiz-btn">E</button>
+    <!-- Add more buttons as needed -->
+  </div>
+</div>
+{% endblock %}

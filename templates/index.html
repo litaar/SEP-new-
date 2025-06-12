@@ -1,13 +1,18 @@
-# Create play button for user to start quiz {% extends 'layout.html' %} {% block
-content %}
-<div class="container">
-  <div class="row">
-    <h1 class="display-1">How well do you know music theory?</h1>
-    <!--This code navigates user to play.html page (quiz)-->
-    <form action="/play" method="GET">
-      <button class="btn btn-primary mb-3">Play</button>
-    </form>
-  </div>
+<!--Create play button for user to start quiz-->
+<{% extends 'layout.html' %} {% block content %}
+<div class="exercise-grid">
+  <a href="/play-terms" class="exercise-card">
+    <div class="exercise-title">Musical Terms</div>
+    <div class="exercise-desc">Test your knowledge of music vocabulary.</div>
+  </a>
+  <a href="/play-notes" class="exercise-card">
+    <div class="exercise-title">Note Identification</div>
+    <div class="exercise-desc">Identify notes on the staff.</div>
+  </a>
+</div>
+
+
+  <!--Sample secure form Link-->
   <div class="row"></div>
 </div>
 <div class="container">
@@ -35,5 +40,25 @@ content %}
         {% endblock %}
       </form>
     </div>
+  </div>
+</div>
+
+
+
+
+<div class="quiz-container" id="note-quiz">
+  <div class="quiz-display">
+    <!-- Place your staff SVG or image here -->
+    <img
+      src="/static/images/staff-example.png"
+      alt="Staff"
+      class="quiz-staff"
+    />
+  </div>
+  <div class="quiz-options">
+    <button class="quiz-btn">C</button>
+    <button class="quiz-btn">D</button>
+    <button class="quiz-btn">E</button>
+    <!-- Add more buttons as needed -->
   </div>
 </div>

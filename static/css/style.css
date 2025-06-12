@@ -1,13 +1,174 @@
-*   {
+/* Remove any HTML or broken selectors above */
+body {
+  background-color: #bbf7ff;
+  background-image: url("/static/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
+.top-border-img {
+  width: 100%;
+  height: 80px;
+  display: block;
+  margin-bottom: 0;
+}
+
+body {
+  background-image: url("/static/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar {
+  background: #222;
+  color: #fff;
+  padding: 0.5rem 0;
+}
+.navbar-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+.navbar-link:hover {
+  color: #ffd700;
+}
+
+.lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.lesson-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  padding: 1.5rem;
+  text-align: center;
+  transition: box-shadow 0.2s;
+}
+.lesson-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.13);
 }
 body {
-
-}
-.container {
-
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #222;
 }
 
-.row {
-    
+/* Quiz Page Styles */
+.quiz-container {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f6f6f6;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  max-width: 480px;
+  margin: 3rem auto;
+  padding: 2rem 2.5rem;
+}
+
+.quiz-display {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-staff {
+  max-width: 320px;
+  height: auto;
+}
+
+.quiz-options {
+  display: flex;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quiz-btn {
+  background: #e0e0e0;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  padding: 0.7rem 1.5rem;
+  margin: 0.2rem;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+.quiz-btn:hover {
+  background: #ffd700;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background: #f6f6f6;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #222;
+}
+
+/*Customising the two quiz options for user into boxes*/
+.exercise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.exercise-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 2rem 1.5rem;
+  text-decoration: none;
+  color: #222;
+  transition: box-shadow 0.2s, transform 0.2s;
+  border: 2px solid transparent;
+}
+
+.exercise-card:hover {
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.13);
+  border-color: #836dff;
+  transform: translateY(-4px) scale(1.03);
+}
+
+.exercise-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.7rem;
+}
+
+.exercise-desc {
+  font-size: 1rem;
+  color: #444;
 }

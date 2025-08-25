@@ -1,14 +1,24 @@
 {% extends 'layout.html' %} {% block content %}
 <div class="quiz-container">
   <div class="quiz-display">
-    <!-- Add your musical terms quiz content here -->
     <h2>Musical Terms Quiz</h2>
-    <!-- Example question/answer UI -->
+    {% if alert_message %}
+    <p>{{ alert_message }}</p>
+    {% endif %} {% if finished %}
+    <p><strong>Final Score:</strong> {{ score }}</p>
+    <a href="/play"><button class="quiz-btn">Play Again</button></a>
+    {% endif %}
   </div>
-  <div class="quiz-options">
-    <button class="quiz-btn">Allegro</button>
-    <button class="quiz-btn">Adagio</button>
-    <!-- Add more buttons as needed -->
-  </div>
+
+  {% if not finished %}
+  <form method="POST">
+    <p>{{ quiz }}</p>
+    <input type="hidden" name="actual_answer" value="{{ answer }}" />
+    <input type="hidden" name="quiz" value="{{ quiz }}" />
+    <input type="text" name="user_answer" placeholder="Type your answer..." />
+    <button type="submit" class="quiz-btn">Submit</button>
+  </form>
+  <p>Score: {{ score }}</p>
+  {% endif %}
 </div>
 {% endblock %}

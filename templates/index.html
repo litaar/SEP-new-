@@ -1,25 +1,142 @@
-<!--Create play button for user to start quiz-->
-<{% extends 'layout.html' %} {% block content %}
+{% extends 'layout.html' %} {% block content %}
+<style>
+  .exercise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .exercise-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .exercise-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .exercise-card .exercise-header {
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+
+  .musical-terms-header {
+    background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+  }
+
+  .note-identification-header {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+  }
+
+  .exercise-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  .exercise-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .exercise-desc {
+    font-size: 16px;
+    opacity: 0.9;
+    padding: 20px;
+    text-align: center;
+    background: #f8f9fa;
+    color: #333;
+  }
+
+  .page-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 40px 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .page-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .page-subtitle {
+    font-size: 18px;
+    color: #666;
+  }
+
+  @media (max-width: 768px) {
+    .exercise-grid {
+      grid-template-columns: 1fr;
+      padding: 15px;
+      gap: 15px;
+    }
+
+    .exercise-title {
+      font-size: 20px;
+    }
+
+    .exercise-icon {
+      font-size: 40px;
+    }
+  }
+</style>
+
+<div class="page-header">
+  <h1 class="page-title">Music Theory Exercises</h1>
+  <p class="page-subtitle">
+    Test your musical knowledge and improve your skills
+  </p>
+</div>
+
 <div class="exercise-grid">
+  <!-- Musical Terms Card -->
   <a href="/play-terms" class="exercise-card">
-    <div class="exercise-title">Musical Terms</div>
-    <div class="exercise-desc">Test your knowledge of music vocabulary.</div>
+    <div class="exercise-header musical-terms-header">
+      <div class="exercise-icon">📚</div>
+      <div class="exercise-title">Musical Terms</div>
+    </div>
+    <div class="exercise-desc">
+      Test your knowledge of music vocabulary, symbols, and concepts. Build your
+      musical vocabulary with terms ranging from basic to advanced.
+    </div>
   </a>
+
+  <!-- Note Identification Card -->
   <a href="/play-notes" class="exercise-card">
-    <div class="exercise-title">Note Identification</div>
-    <div class="exercise-desc">Identify notes on the staff.</div>
+    <div class="exercise-header note-identification-header">
+      <div class="exercise-icon">♪</div>
+      <div class="exercise-title">Note Identification</div>
+    </div>
+    <div class="exercise-desc">
+      Identify notes on the staff. Practice reading music notation on both
+      treble and bass clefs.
+    </div>
   </a>
 </div>
 
-
-  <!--Sample secure form Link-->
-  <div class="row"></div>
-</div>
-<div class="container">
+<!-- Keep your existing form section if needed -->
+<div class="container" style="margin-top: 60px">
   <div class="row">
-    <h1>Sample Secure Form</h1>
+    <h2>Sample Secure Form</h2>
   </div>
-  <!--Create input fields-->
   <div class="container">
     <div class="row">
       <form action="/form.html" method="POST" class="box">
@@ -32,33 +149,15 @@
             type="email"
             class="form-control"
             id="exampleFormControlInput1"
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
             placeholder="name@example.com"
           />
         </div>
-
-        {% endblock %}
+        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
   </div>
 </div>
 
-
-
-
-<div class="quiz-container" id="note-quiz">
-  <div class="quiz-display">
-    <!-- Place your staff SVG or image here -->
-    <img
-      src="/static/images/staff-example.png"
-      alt="Staff"
-      class="quiz-staff"
-    />
-  </div>
-  <div class="quiz-options">
-    <button class="quiz-btn">C</button>
-    <button class="quiz-btn">D</button>
-    <button class="quiz-btn">E</button>
-    <!-- Add more buttons as needed -->
-  </div>
-</div>
+{% endblock %}

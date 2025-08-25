@@ -1,38 +1,28 @@
-
-        <!-- Stores correct answer -->
-        <input type="hidden" name="actual_answer" value="{{ answer }}" />
-        <button class="btn btn-primary" id="submit-answer">Submit</button>
-      </p>
-      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
-      <p>{{ alert_message }}</p>
-    </form>
-  </div>
-</div>
-<!--Display next question button if user_answer is correct-->
-{% if alert_message == 'correct' %}
-<div class="container">
-  <form action="/play" method="GET">
-    <button class="btn btn-primary mb-3">Next question</button>
-  </form>
-</div>
-
-
-<!--quiz webpage-->
-{% endif %} {% extends 'layout.html' %} {% block content %}
+{% extends 'layout.html' %} {% block content %}
 <div class="quiz-container">
   <div class="quiz-display">
-    <!-- Replace with your staff SVG or image -->
-    <img
-      src="/static/images/staff-example.png"
-      alt="Staff"
-      class="quiz-staff"
-    />
+    <h2>{{ quiz }}</h2>
   </div>
-  <div class="quiz-options">
-    <button class="quiz-btn">C</button>
-    <button class="quiz-btn">D</button>
-    <button class="quiz-btn">E</button>
-    <!-- Add more buttons as needed -->
-  </div>
+
+  {% if not finished %}
+  <form method="POST" action="/play">
+    <input type="text" name="user_answer" placeholder="Your answer" />
+
+    <!-- hidden correct answer and question text -->
+    <input type="hidden" name="actual_answer" value="{{ answer }}" />
+    <input type="hidden" name="quiz" value="{{ quiz }}" />
+
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
+  {% endif %} {% if alert_message %}
+  <p>{{ alert_message }}</p>
+  {% endif %} {% if alert_message and not finished %}
+  <form action="/play" method="GET">
+    <button class="btn btn-primary">Next question</button>
+  </form>
+  {% endif %} {% if score is not none %}
+  <p><strong>Current Score:</strong> {{ score }}</p>
+  {% endif %}
 </div>
 {% endblock %}

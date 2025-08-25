@@ -5,6 +5,14 @@ from flask import request
 from flask_wtf.csrf import CSRFProtect
 import databaseManager as dbHandler
 
+# Session
+from flask import Flask, render_template, request, session
+import os
+
+app = Flask(__name__)
+app.secret_key = os.urandom(24)  # needed for sessions
+
+
 
 # Connect to database
 DATABASE = 'your_database_name.db'  # Change this to your DB file
@@ -86,25 +94,65 @@ def index():
 
 @app.route("/play", methods=["GET", "POST"])
 def play():
-    # Check answer
-    if request.method == 'POST':
-        
-        # Answer submitted by user
-        user_answer = request.form.get('user_answer', '').strip().lower()
-        
-        # Answer stored in database
-        actual_answer = request.form.get('actual_answer', '').strip().lower()
-        alert_message = 'incorrect' if user_answer != actual_answer else 'correct'
-        print(actual_answer,user_answer)
+    # Initialize session vars if not set
+    if "score" not in session:
+        session["score"] = 0
+    if "asked_ids" not in session:
+        session["asked_ids"] = []
 
-        return render_template('play.html', quiz=request.form.get('quiz'), answer=request.form.get('actual_answer'), alert_message=alert_message)
-# grabbing specific rows from database
-    questionRow = dbHandler.getQ() 
-    question = questionRow[1]
-    answer = questionRow[3]
+    # Handle form submission (POST)
+    if request.method == "POST":
+        user_answer = request.form.get("user_answer", "").strip().lower()
+        actual_answer = request.form.get("actual_answer", "").strip().lower()
+        quiz = request.form.get("quiz")
 
-    print(question[1]) 
-    return render_template('play.html', quiz=question, answer=answer)
+        if user_answer == actual_answer:
+            session["score"] += 1
+            alert_message = "✅ Correct!"
+        else:
+            alert_message = f"❌ Incorrect! The answer was {actual_answer}"
+
+        return render_template(
+            "play.html",
+            quiz=quiz,
+            answer=actual_answer,
+            alert_message=alert_message,
+            score=session["score"],
+            finished=False
+        )
+
+    # Handle new question (GET)
+    row = dbHandler.getQExclude(session["asked_ids"])
+
+    if not row:  # No more questions left
+        final_score = session["score"]
+        total_questions = len(session["asked_ids"])
+
+        # Reset for next round
+        session.pop("score", None)
+        session.pop("asked_ids", None)
+
+        return render_template(
+            "play.html",
+            quiz=f"🎉 You finished all {total_questions} questions!",
+            answer="",
+            alert_message=f"Your final score: {final_score}/{total_questions}",
+            score=final_score,
+            finished=True
+        )
+
+    # Otherwise, show next question
+    qid, name, qtype, answer, category = row
+    session["asked_ids"].append(qid)
+
+    return render_template(
+        "play.html",
+        quiz=name,      # question text
+        answer=answer,  # correct answer
+        alert_message="",
+        score=session["score"],
+        finished=False
+    )
 
 
 # example CSRF protected form
@@ -139,4 +187,3 @@ def csp_report():
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
-

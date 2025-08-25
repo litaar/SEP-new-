@@ -172,3 +172,33 @@ body {
   font-size: 1rem;
   color: #444;
 }
+
+.quiz-container {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.quiz-btn {
+  display: block;
+  width: 100%;
+  margin: 5px 0;
+  padding: 10px;
+  background: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+.quiz-btn.correct {
+  background: #d4edda;
+}
+
+.quiz-btn.wrong {
+  background: #f8d7da;
+}
+
+#quiz-feedback {
+  margin: 15px 0;
+  min-height: 1.5em;
+  font-weight: bold;
+}

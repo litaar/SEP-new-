@@ -22,3 +22,199 @@
     <script src="static/js/app.js"></script>
   </body>
 </html>
+
+.quiz-container { max-width: 600px; margin: 20px auto; text-align: center; }
+.quiz-btn { display: block; width: 100%; margin: 5px 0; padding: 10px;
+background: #f0f0f0; border: none; cursor: pointer; } .quiz-btn.correct {
+background: #d4edda; } .quiz-btn.wrong { background: #f8d7da; } #quiz-feedback {
+margin: 15px 0; min-height: 1.5em; font-weight: bold; }
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const questions = [
+      {
+        question: "What does 'Allegro' mean?",
+        options: ["Slow", "Fast", "Very fast", "Moderate"],
+        answer: 1,
+      },
+      {
+        question: "What does 'Adagio' mean?",
+        options: ["Very fast", "Moderate", "Slow", "Loud"],
+        answer: 2,
+      },
+      {
+        question: "What does 'Piano' (in music) mean?",
+        options: ["Soft", "Loud", "Very loud", "Quietly"],
+        answer: 0,
+      },
+      // Add more questions as needed...
+    ];
+
+    let currentIndex = 0;
+    let score = 0;
+
+    const questionNumberEl = document.getElementById("question-number");
+    const questionTextEl = document.getElementById("question-text");
+    const optionsEl = document.getElementById("quiz-options");
+    const feedbackEl = document.getElementById("quiz-feedback");
+    const nextBtn = document.getElementById("next-btn");
+
+    function loadQuestion() {
+      const q = questions[currentIndex];
+      questionNumberEl.textContent = `Question ${currentIndex + 1} of ${
+        questions.length
+      }`;
+      questionTextEl.textContent = q.question;
+      feedbackEl.textContent = "";
+      nextBtn.style.display = "none";
+      optionsEl.innerHTML = "";
+
+      q.options.forEach((opt, i) => {
+        const btn = document.createElement("button");
+        btn.textContent = opt;
+        btn.className = "quiz-btn";
+        btn.addEventListener("click", () => handleAnswer(i));
+        optionsEl.appendChild(btn);
+      });
+    }
+
+    function handleAnswer(selected) {
+      const q = questions[currentIndex];
+      const buttons = optionsEl.querySelectorAll("button");
+
+      buttons.forEach((btn, i) => {
+        btn.disabled = true;
+        if (i === q.answer) {
+          btn.classList.add("correct");
+        }
+        if (i === selected && i !== q.answer) {
+          btn.classList.add("wrong");
+        }
+      });
+
+      if (selected === q.answer) {
+        feedbackEl.textContent = "Correct!";
+        score++;
+      } else {
+        feedbackEl.textContent = `Wrong — the correct answer was "${
+          q.options[q.answer]
+        }".`;
+      }
+      nextBtn.style.display = "block";
+    }
+
+    nextBtn.addEventListener("click", () => {
+      currentIndex++;
+      if (currentIndex < questions.length) {
+        loadQuestion();
+      } else {
+        showResults();
+      }
+    });
+
+    function showResults() {
+      questionNumberEl.textContent = "Quiz Complete!";
+      questionTextEl.textContent = `Your score: ${score} out of ${questions.length}`;
+      optionsEl.innerHTML = "";
+      feedbackEl.textContent = "";
+      nextBtn.style.display = "none";
+    }
+
+    loadQuestion();
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const questions = [
+      {
+        question: "What does 'Allegro' mean?",
+        options: ["Slow", "Fast", "Very fast", "Moderate"],
+        answer: 1,
+      },
+      {
+        question: "What does 'Adagio' mean?",
+        options: ["Very fast", "Moderate", "Slow", "Loud"],
+        answer: 2,
+      },
+      {
+        question: "What does 'Piano' (in music) mean?",
+        options: ["Soft", "Loud", "Very loud", "Quietly"],
+        answer: 0,
+      },
+      // Add more questions as needed...
+    ];
+
+    let currentIndex = 0;
+    let score = 0;
+
+    const questionNumberEl = document.getElementById("question-number");
+    const questionTextEl = document.getElementById("question-text");
+    const optionsEl = document.getElementById("quiz-options");
+    const feedbackEl = document.getElementById("quiz-feedback");
+    const nextBtn = document.getElementById("next-btn");
+
+    function loadQuestion() {
+      const q = questions[currentIndex];
+      questionNumberEl.textContent = `Question ${currentIndex + 1} of ${
+        questions.length
+      }`;
+      questionTextEl.textContent = q.question;
+      feedbackEl.textContent = "";
+      nextBtn.style.display = "none";
+      optionsEl.innerHTML = "";
+
+      q.options.forEach((opt, i) => {
+        const btn = document.createElement("button");
+        btn.textContent = opt;
+        btn.className = "quiz-btn";
+        btn.addEventListener("click", () => handleAnswer(i));
+        optionsEl.appendChild(btn);
+      });
+    }
+
+    function handleAnswer(selected) {
+      const q = questions[currentIndex];
+      const buttons = optionsEl.querySelectorAll("button");
+
+      buttons.forEach((btn, i) => {
+        btn.disabled = true;
+        if (i === q.answer) {
+          btn.classList.add("correct");
+        }
+        if (i === selected && i !== q.answer) {
+          btn.classList.add("wrong");
+        }
+      });
+
+      if (selected === q.answer) {
+        feedbackEl.textContent = "Correct!";
+        score++;
+      } else {
+        feedbackEl.textContent = `Wrong — the correct answer was "${
+          q.options[q.answer]
+        }".`;
+      }
+      nextBtn.style.display = "block";
+    }
+
+    nextBtn.addEventListener("click", () => {
+      currentIndex++;
+      if (currentIndex < questions.length) {
+        loadQuestion();
+      } else {
+        showResults();
+      }
+    });
+
+    function showResults() {
+      questionNumberEl.textContent = "Quiz Complete!";
+      questionTextEl.textContent = `Your score: ${score} out of ${questions.length}`;
+      optionsEl.innerHTML = "";
+      feedbackEl.textContent = "";
+      nextBtn.style.display = "none";
+    }
+
+    loadQuestion();
+  });
+</script>

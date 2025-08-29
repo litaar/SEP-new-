@@ -1,46 +1,38 @@
-from flask import Flask
-from flask import redirect
-from flask import render_template
-from flask import request
+# ----------------------
+# imports
+# ----------------------
+from flask import Flask, redirect, render_template, request, session, g
 from flask_wtf.csrf import CSRFProtect
+from flask_csp.csp import csp_header
+import sqlite3
+import logging
 import databaseManager as dbHandler
+import userManagement as um
 
-# Session
-from flask import Flask, render_template, request, session
-import os
-
+# ----------------------
+# App setup
+# ----------------------
 app = Flask(__name__)
-app.secret_key = os.urandom(24)  # needed for sessions
+app.secret_key = b"_53oi3uriq9pifpff;apl"  # keep ONE consistent key
+csrf = CSRFProtect(app)
 
+# Database setup
+DATABASE = "databaseFiles/database.db"
 
-
-# Connect to database
-DATABASE = 'your_database_name.db'  # Change this to your DB file
-
-app = Flask(__name__)
-app.secret_key = 'your-secret-key'  # Required for CSRF protection
-
-
-
+def get_db():
+    if "db" not in g:
+        g.db = sqlite3.connect(DATABASE)
+    return g.db
 
 @app.teardown_appcontext
 def close_db(error):
-    db = g.pop('db', None)
+    db = g.pop("db", None)
     if db is not None:
         db.close()
 
-csrf = CSRFProtect(app)
-
-from flask import jsonify
-import requests
-from flask_wtf import CSRFProtect
-from flask_csp.csp import csp_header
-import logging
-
-
-# Code snippet for logging a message
-# app.logger.critical("message")
-
+# ----------------------
+# Logging setup
+# ----------------------
 app_log = logging.getLogger(__name__)
 logging.basicConfig(
     filename="security_log.log",
@@ -49,51 +41,88 @@ logging.basicConfig(
     format="%(asctime)s %(message)s",
 )
 
+# ----------------------
+# Routes
+# ----------------------
 
-# Generate a unique basic 16 key: https://acte.ltd/utils/randomkeygen
-app = Flask(__name__)
-app.secret_key = b"_53oi3uriq9pifpff;apl"
-csrf = CSRFProtect(app)
-
-
-# Redirect index.html to domain root for consistent UX
-@app.route("/index", methods=["GET"])
-@app.route("/index.htm", methods=["GET"])
-@app.route("/index.asp", methods=["GET"])
-@app.route("/index.php", methods=["GET"])
-@app.route("/index.html", methods=["GET"])
+# Root route → send to login if not logged in
+@app.route("/")
 def root():
-    return redirect("/", 302)
+    if "user_id" in session:
+        print("User logged in:", session["user_id"])
+        return redirect("/index")  # user already logged in → dashboard
+    return redirect("/login")      # not logged in → login page
 
-
-@app.route("/", methods=["POST", "GET"])
-@csp_header(
-    {
-        # Server Side CSP is consistent with meta CSP in layout.html
-        "base-uri": "'self'",
-        "default-src": "'self'",
-        "style-src": "'self'",
-        "script-src": "'self'",
-        "img-src": "'self' data:",
-        "media-src": "'self'",
-        "font-src": "'self'",
-        "object-src": "'self'",
-        "child-src": "'self'",
-        "connect-src": "'self'",
-        "worker-src": "'self'",
-        "report-uri": "/csp_report",
-        "frame-ancestors": "'none'",
-        "form-action": "'self'",
-        "frame-src": "'none'",
-    }
-)
+# Dashboard (protected)
+@app.route("/index")
 def index():
-    return render_template("/index.html")
+    if "user_id" not in session:
+        return redirect("/login")
+    return render_template("index.html", username=session["user_id"])
 
-# create method for user to play quiz
+# --- Register ---
+@app.route("/register", methods=["GET", "POST"])
+def register():
+    if request.method == "POST":
+        username = request.form["username"]
+        password = request.form["password"]
 
+        conn = sqlite3.connect("databaseFiles/database.db")
+        cur = conn.cursor()
+
+        # check if username already exists
+        cur.execute("SELECT id FROM users WHERE username = ?", (username,))
+        existing_user = cur.fetchone()
+
+        if existing_user:
+            conn.close()
+            return "❌ Username already taken"
+
+        # insert new user
+        cur.execute("INSERT INTO users (username, password) VALUES (?, ?)", (username, password))
+        conn.commit()
+        conn.close()
+
+        return redirect("/login")
+    return render_template("register.html")
+
+# -- Login -- #
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    if request.method == "POST":
+        logout()
+        username = request.form["username"]
+        password = request.form["password"]
+
+        isLoggedIn = um.retrieveUsers(username, password)
+        if isLoggedIn:
+            session["user_id"] = username
+            return redirect("/index")   # go to dashboard
+        else:
+            return "❌ Invalid username or password"
+    
+    return render_template("login.html")
+
+# --- Menu ---
+@app.route("/menu")
+def menu():
+    if "user_id" not in session:
+        return redirect("/login")
+    return render_template("menu.html", username=session["user_id"])
+
+# --- Logout ---
+@app.route("/logout")
+def logout():
+    session.clear()
+    return redirect("/login")
+
+# --- Play page ---
 @app.route("/play", methods=["GET", "POST"])
 def play():
+    # Protect route: force login
+    if "user_id" not in session:
+        return redirect("/login")
+
     # Initialize session vars if not set
     if "score" not in session:
         session["score"] = 0
@@ -118,17 +147,15 @@ def play():
             answer=actual_answer,
             alert_message=alert_message,
             score=session["score"],
-            finished=False
+            finished=False,
         )
 
-    # Handle new question (GET)
+    # GET: fetch new question
     row = dbHandler.getQExclude(session["asked_ids"])
 
-    if not row:  # No more questions left
+    if not row:  # no more questions
         final_score = session["score"]
         total_questions = len(session["asked_ids"])
-
-        # Reset for next round
         session.pop("score", None)
         session.pop("asked_ids", None)
 
@@ -138,52 +165,48 @@ def play():
             answer="",
             alert_message=f"Your final score: {final_score}/{total_questions}",
             score=final_score,
-            finished=True
+            finished=True,
         )
 
-    # Otherwise, show next question
     qid, name, qtype, answer, category = row
     session["asked_ids"].append(qid)
 
     return render_template(
         "play.html",
-        quiz=name,      # question text
-        answer=answer,  # correct answer
+        quiz=name,
+        answer=answer,
         alert_message="",
         score=session["score"],
-        finished=False
+        finished=False,
     )
 
-
-# example CSRF protected form
+# Example CSRF-protected form
 @app.route("/form.html", methods=["POST", "GET"])
 def form():
     if request.method == "POST":
         email = request.form["email"]
         text = request.form["text"]
-        return render_template("/form.html")
-    else:
-        return render_template("/form.html")
+        return render_template("form.html")
+    return render_template("form.html")
 
-
-# Adding route functions for cards
-@app.route('/play-notes')
+# Extra pages
+@app.route("/play-notes")
 def play_notes():
-    # You can customize what you pass to the template
-    return render_template('play.html')
+    return render_template("play.html")
 
-@app.route('/play-terms')
+@app.route("/play-terms")
 def play_terms():
-    # You can customize what you pass to the template
-    return render_template('terms.html')
+    return render_template("terms.html")
 
-# Endpoint for logging CSP violations
+# CSP report endpoint
 @app.route("/csp_report", methods=["POST"])
 @csrf.exempt
 def csp_report():
     app.logger.critical(request.data.decode())
     return "done"
 
-
+# ----------------------
+# Run app
+# ----------------------
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)

@@ -3988,3 +3988,1462 @@
 2025-08-25 02:34:36,222 127.0.0.1 - - [25/Aug/2025 02:34:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
 2025-08-25 02:34:36,262 127.0.0.1 - - [25/Aug/2025 02:34:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2025-08-25 02:34:36,348 127.0.0.1 - - [25/Aug/2025 02:34:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:50,097 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.116:5000
+2025-08-25 02:57:50,097 [33mPress CTRL+C to quit[0m
+2025-08-25 02:57:50,098  * Restarting with stat
+2025-08-25 02:57:50,343  * Debugger is active!
+2025-08-25 02:57:50,343  * Debugger PIN: 482-587-608
+2025-08-25 02:57:50,953 127.0.0.1 - - [25/Aug/2025 02:57:50] "GET / HTTP/1.1" 200 -
+2025-08-25 02:57:51,043 127.0.0.1 - - [25/Aug/2025 02:57:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:51,451 127.0.0.1 - - [25/Aug/2025 02:57:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:51,475 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":40,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 02:57:51,475 127.0.0.1 - - [25/Aug/2025 02:57:51] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 02:57:51,487 127.0.0.1 - - [25/Aug/2025 02:57:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:51,503 127.0.0.1 - - [25/Aug/2025 02:57:51] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:51,518 127.0.0.1 - - [25/Aug/2025 02:57:51] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:51,525 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":174,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 02:57:51,525 127.0.0.1 - - [25/Aug/2025 02:57:51] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 02:57:51,620 127.0.0.1 - - [25/Aug/2025 02:57:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:51,647 127.0.0.1 - - [25/Aug/2025 02:57:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:51,681 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":317,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 02:57:51,681 127.0.0.1 - - [25/Aug/2025 02:57:51] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 02:57:51,684 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":222,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 02:57:51,684 127.0.0.1 - - [25/Aug/2025 02:57:51] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 02:57:51,765 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-08-25 02:57:51,765 127.0.0.1 - - [25/Aug/2025 02:57:51] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 02:57:52,614 127.0.0.1 - - [25/Aug/2025 02:57:52] "GET /play-notes HTTP/1.1" 200 -
+2025-08-25 02:57:52,686 127.0.0.1 - - [25/Aug/2025 02:57:52] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:52,703 127.0.0.1 - - [25/Aug/2025 02:57:52] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:52,708 127.0.0.1 - - [25/Aug/2025 02:57:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:52,711 127.0.0.1 - - [25/Aug/2025 02:57:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:52,713 127.0.0.1 - - [25/Aug/2025 02:57:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:52,756 127.0.0.1 - - [25/Aug/2025 02:57:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:52,850 127.0.0.1 - - [25/Aug/2025 02:57:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:53,916 127.0.0.1 - - [25/Aug/2025 02:57:53] "POST /play HTTP/1.1" 200 -
+2025-08-25 02:57:53,966 127.0.0.1 - - [25/Aug/2025 02:57:53] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:53,980 127.0.0.1 - - [25/Aug/2025 02:57:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:53,996 127.0.0.1 - - [25/Aug/2025 02:57:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:53,998 127.0.0.1 - - [25/Aug/2025 02:57:53] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:54,002 127.0.0.1 - - [25/Aug/2025 02:57:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:54,038 127.0.0.1 - - [25/Aug/2025 02:57:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:54,129 127.0.0.1 - - [25/Aug/2025 02:57:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:54,930 127.0.0.1 - - [25/Aug/2025 02:57:54] "GET /play HTTP/1.1" 200 -
+2025-08-25 02:57:54,971 127.0.0.1 - - [25/Aug/2025 02:57:54] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:55,002 127.0.0.1 - - [25/Aug/2025 02:57:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:55,009 127.0.0.1 - - [25/Aug/2025 02:57:55] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:55,012 127.0.0.1 - - [25/Aug/2025 02:57:55] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:55,016 127.0.0.1 - - [25/Aug/2025 02:57:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:55,054 127.0.0.1 - - [25/Aug/2025 02:57:55] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:55,191 127.0.0.1 - - [25/Aug/2025 02:57:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:56,144 127.0.0.1 - - [25/Aug/2025 02:57:56] "POST /play HTTP/1.1" 200 -
+2025-08-25 02:57:56,191 127.0.0.1 - - [25/Aug/2025 02:57:56] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:56,210 127.0.0.1 - - [25/Aug/2025 02:57:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:56,214 127.0.0.1 - - [25/Aug/2025 02:57:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:56,224 127.0.0.1 - - [25/Aug/2025 02:57:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:56,227 127.0.0.1 - - [25/Aug/2025 02:57:56] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:56,260 127.0.0.1 - - [25/Aug/2025 02:57:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:56,288 127.0.0.1 - - [25/Aug/2025 02:57:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:57,526 127.0.0.1 - - [25/Aug/2025 02:57:57] "GET /play HTTP/1.1" 200 -
+2025-08-25 02:57:57,595 127.0.0.1 - - [25/Aug/2025 02:57:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:57,598 127.0.0.1 - - [25/Aug/2025 02:57:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 02:57:57,601 127.0.0.1 - - [25/Aug/2025 02:57:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:57,604 127.0.0.1 - - [25/Aug/2025 02:57:57] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:57,606 127.0.0.1 - - [25/Aug/2025 02:57:57] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 02:57:57,642 127.0.0.1 - - [25/Aug/2025 02:57:57] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 02:57:57,670 127.0.0.1 - - [25/Aug/2025 02:57:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:23:36,571 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.194:5000
+2025-08-25 23:23:36,571 [33mPress CTRL+C to quit[0m
+2025-08-25 23:23:36,572  * Restarting with stat
+2025-08-25 23:23:36,816  * Debugger is active!
+2025-08-25 23:23:36,817  * Debugger PIN: 375-001-806
+2025-08-25 23:23:41,315 127.0.0.1 - - [25/Aug/2025 23:23:41] "GET / HTTP/1.1" 200 -
+2025-08-25 23:23:41,393 127.0.0.1 - - [25/Aug/2025 23:23:41] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:23:41,784 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":40,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:23:41,784 127.0.0.1 - - [25/Aug/2025 23:23:41] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:23:41,808 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":174,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:23:41,809 127.0.0.1 - - [25/Aug/2025 23:23:41] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:23:41,823 127.0.0.1 - - [25/Aug/2025 23:23:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:23:41,851 127.0.0.1 - - [25/Aug/2025 23:23:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:23:41,852 127.0.0.1 - - [25/Aug/2025 23:23:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:23:41,912 127.0.0.1 - - [25/Aug/2025 23:23:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:23:41,943 127.0.0.1 - - [25/Aug/2025 23:23:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:23:41,982 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":222,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:23:41,982 127.0.0.1 - - [25/Aug/2025 23:23:41] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:23:41,984 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":317,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:23:41,984 127.0.0.1 - - [25/Aug/2025 23:23:41] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:23:42,049 127.0.0.1 - - [25/Aug/2025 23:23:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:23:42,063 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-08-25 23:23:42,063 127.0.0.1 - - [25/Aug/2025 23:23:42] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:23:43,375 127.0.0.1 - - [25/Aug/2025 23:23:43] "GET /play-terms HTTP/1.1" 200 -
+2025-08-25 23:23:43,457 127.0.0.1 - - [25/Aug/2025 23:23:43] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:23:43,462 127.0.0.1 - - [25/Aug/2025 23:23:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:23:43,463 127.0.0.1 - - [25/Aug/2025 23:23:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:23:43,464 127.0.0.1 - - [25/Aug/2025 23:23:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:23:43,468 127.0.0.1 - - [25/Aug/2025 23:23:43] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:23:43,510 127.0.0.1 - - [25/Aug/2025 23:23:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:23:43,590 127.0.0.1 - - [25/Aug/2025 23:23:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:23:47,085 127.0.0.1 - - [25/Aug/2025 23:23:47] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:23:47,693 127.0.0.1 - - [25/Aug/2025 23:23:47] "GET /play-notes HTTP/1.1" 200 -
+2025-08-25 23:23:47,771 127.0.0.1 - - [25/Aug/2025 23:23:47] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:23:47,776 127.0.0.1 - - [25/Aug/2025 23:23:47] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:23:47,781 127.0.0.1 - - [25/Aug/2025 23:23:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:23:47,786 127.0.0.1 - - [25/Aug/2025 23:23:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:23:47,795 127.0.0.1 - - [25/Aug/2025 23:23:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:23:47,834 127.0.0.1 - - [25/Aug/2025 23:23:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:23:47,900 127.0.0.1 - - [25/Aug/2025 23:23:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:23:49,045 127.0.0.1 - - [25/Aug/2025 23:23:49] "[32mPOST /play HTTP/1.1[0m" 302 -
+2025-08-25 23:23:49,091 127.0.0.1 - - [25/Aug/2025 23:23:49] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-08-25 23:23:49,154 127.0.0.1 - - [25/Aug/2025 23:23:49] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-25 23:23:49,157 127.0.0.1 - - [25/Aug/2025 23:23:49] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-25 23:23:49,358 127.0.0.1 - - [25/Aug/2025 23:23:49] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=k7GMNBcnUPjExGdVEWAr HTTP/1.1" 200 -
+2025-08-25 23:23:49,449 127.0.0.1 - - [25/Aug/2025 23:23:49] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-25 23:23:49,462 127.0.0.1 - - [25/Aug/2025 23:23:49] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=k7GMNBcnUPjExGdVEWAr HTTP/1.1" 200 -
+2025-08-25 23:23:49,558 127.0.0.1 - - [25/Aug/2025 23:23:49] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-25 23:23:49,562 127.0.0.1 - - [25/Aug/2025 23:23:49] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-25 23:23:49,570 127.0.0.1 - - [25/Aug/2025 23:23:49] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-25 23:24:21,281 127.0.0.1 - - [25/Aug/2025 23:24:21] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:15,190 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.194:5000
+2025-08-25 23:25:15,190 [33mPress CTRL+C to quit[0m
+2025-08-25 23:25:15,191  * Restarting with stat
+2025-08-25 23:25:15,433  * Debugger is active!
+2025-08-25 23:25:15,433  * Debugger PIN: 375-001-806
+2025-08-25 23:25:17,190 127.0.0.1 - - [25/Aug/2025 23:25:17] "GET / HTTP/1.1" 200 -
+2025-08-25 23:25:17,298 127.0.0.1 - - [25/Aug/2025 23:25:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:25:17,304 127.0.0.1 - - [25/Aug/2025 23:25:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:25:17,318 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":40,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:25:17,319 127.0.0.1 - - [25/Aug/2025 23:25:17] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:25:17,382 127.0.0.1 - - [25/Aug/2025 23:25:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:25:17,469 127.0.0.1 - - [25/Aug/2025 23:25:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:25:17,580 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":174,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:25:17,580 127.0.0.1 - - [25/Aug/2025 23:25:17] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:25:17,599 127.0.0.1 - - [25/Aug/2025 23:25:17] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-08-25 23:25:17,601 127.0.0.1 - - [25/Aug/2025 23:25:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:25:17,610 127.0.0.1 - - [25/Aug/2025 23:25:17] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:17,646 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":317,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:25:17,647 127.0.0.1 - - [25/Aug/2025 23:25:17] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:25:17,650 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":222,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:25:17,650 127.0.0.1 - - [25/Aug/2025 23:25:17] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:25:17,717 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-08-25 23:25:17,718 127.0.0.1 - - [25/Aug/2025 23:25:17] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:25:20,647 127.0.0.1 - - [25/Aug/2025 23:25:20] "GET /play-notes HTTP/1.1" 200 -
+2025-08-25 23:25:20,695 127.0.0.1 - - [25/Aug/2025 23:25:20] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:20,728 127.0.0.1 - - [25/Aug/2025 23:25:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:25:20,729 127.0.0.1 - - [25/Aug/2025 23:25:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:25:20,733 127.0.0.1 - - [25/Aug/2025 23:25:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:25:20,736 127.0.0.1 - - [25/Aug/2025 23:25:20] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:20,774 127.0.0.1 - - [25/Aug/2025 23:25:20] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:25:20,860 127.0.0.1 - - [25/Aug/2025 23:25:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:25:21,756 127.0.0.1 - - [25/Aug/2025 23:25:21] "[32mPOST /play HTTP/1.1[0m" 302 -
+2025-08-25 23:25:21,807 127.0.0.1 - - [25/Aug/2025 23:25:21] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-08-25 23:25:21,873 127.0.0.1 - - [25/Aug/2025 23:25:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:25:21,876 127.0.0.1 - - [25/Aug/2025 23:25:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-25 23:25:21,907 127.0.0.1 - - [25/Aug/2025 23:25:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:22,112 127.0.0.1 - - [25/Aug/2025 23:25:22] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=zpzuFx1bGXzV2y1ELZRk HTTP/1.1" 200 -
+2025-08-25 23:25:22,190 127.0.0.1 - - [25/Aug/2025 23:25:22] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=zpzuFx1bGXzV2y1ELZRk HTTP/1.1" 200 -
+2025-08-25 23:25:23,928 127.0.0.1 - - [25/Aug/2025 23:25:23] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:25,987 127.0.0.1 - - [25/Aug/2025 23:25:25] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:27,128 127.0.0.1 - - [25/Aug/2025 23:25:27] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:27,320 127.0.0.1 - - [25/Aug/2025 23:25:27] "GET / HTTP/1.1" 200 -
+2025-08-25 23:25:27,382 127.0.0.1 - - [25/Aug/2025 23:25:27] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:27,384 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":40,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:25:27,385 127.0.0.1 - - [25/Aug/2025 23:25:27] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:25:27,387 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":174,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:25:27,387 127.0.0.1 - - [25/Aug/2025 23:25:27] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:25:27,389 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":222,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:25:27,389 127.0.0.1 - - [25/Aug/2025 23:25:27] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:25:27,391 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":317,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:25:27,391 127.0.0.1 - - [25/Aug/2025 23:25:27] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:25:27,442 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-08-25 23:25:27,442 127.0.0.1 - - [25/Aug/2025 23:25:27] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:25:29,030 127.0.0.1 - - [25/Aug/2025 23:25:29] "GET /play-terms HTTP/1.1" 200 -
+2025-08-25 23:25:29,080 127.0.0.1 - - [25/Aug/2025 23:25:29] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:29,112 127.0.0.1 - - [25/Aug/2025 23:25:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:25:29,114 127.0.0.1 - - [25/Aug/2025 23:25:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:25:29,117 127.0.0.1 - - [25/Aug/2025 23:25:29] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:29,120 127.0.0.1 - - [25/Aug/2025 23:25:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:25:29,151 127.0.0.1 - - [25/Aug/2025 23:25:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:25:29,248 127.0.0.1 - - [25/Aug/2025 23:25:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:25:31,537 127.0.0.1 - - [25/Aug/2025 23:25:31] "[31m[1mPOST /play-terms HTTP/1.1[0m" 405 -
+2025-08-25 23:25:31,605 127.0.0.1 - - [25/Aug/2025 23:25:31] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:32,896 127.0.0.1 - - [25/Aug/2025 23:25:32] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:25:33,880 127.0.0.1 - - [25/Aug/2025 23:25:33] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:26:35,124  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-25 23:26:35,160  * Restarting with stat
+2025-08-25 23:27:10,748 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.194:5000
+2025-08-25 23:27:10,748 [33mPress CTRL+C to quit[0m
+2025-08-25 23:27:10,749  * Restarting with stat
+2025-08-25 23:27:11,016  * Debugger is active!
+2025-08-25 23:27:11,017  * Debugger PIN: 375-001-806
+2025-08-25 23:27:11,973 127.0.0.1 - - [25/Aug/2025 23:27:11] "GET / HTTP/1.1" 200 -
+2025-08-25 23:27:12,194 127.0.0.1 - - [25/Aug/2025 23:27:12] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:27:12,247 127.0.0.1 - - [25/Aug/2025 23:27:12] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:27:12,290 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":174,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:27:12,291 127.0.0.1 - - [25/Aug/2025 23:27:12] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:27:12,620 127.0.0.1 - - [25/Aug/2025 23:27:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:27:12,668 127.0.0.1 - - [25/Aug/2025 23:27:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:27:12,669 127.0.0.1 - - [25/Aug/2025 23:27:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:27:12,670 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":40,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:27:12,671 127.0.0.1 - - [25/Aug/2025 23:27:12] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:27:12,792 127.0.0.1 - - [25/Aug/2025 23:27:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:27:12,822 127.0.0.1 - - [25/Aug/2025 23:27:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:27:12,857 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":222,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:27:12,857 127.0.0.1 - - [25/Aug/2025 23:27:12] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:27:12,860 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":317,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-25 23:27:12,860 127.0.0.1 - - [25/Aug/2025 23:27:12] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:27:12,919 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-08-25 23:27:12,920 127.0.0.1 - - [25/Aug/2025 23:27:12] "POST /csp_report HTTP/1.1" 200 -
+2025-08-25 23:29:17,476  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-25 23:29:17,512  * Restarting with stat
+2025-08-25 23:41:10,854 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.194:5000
+2025-08-25 23:41:10,854 [33mPress CTRL+C to quit[0m
+2025-08-25 23:41:10,855  * Restarting with stat
+2025-08-25 23:41:11,055  * Debugger is active!
+2025-08-25 23:41:11,055  * Debugger PIN: 375-001-806
+2025-08-25 23:41:12,306 127.0.0.1 - - [25/Aug/2025 23:41:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-25 23:41:12,459 127.0.0.1 - - [25/Aug/2025 23:41:12] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-08-25 23:41:12,793 127.0.0.1 - - [25/Aug/2025 23:41:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:41:12,804 127.0.0.1 - - [25/Aug/2025 23:41:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-25 23:41:12,805 127.0.0.1 - - [25/Aug/2025 23:41:12] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-25 23:41:13,007 127.0.0.1 - - [25/Aug/2025 23:41:13] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=BPinfzCHTugvlmKu24g1 HTTP/1.1" 200 -
+2025-08-25 23:41:13,047 127.0.0.1 - - [25/Aug/2025 23:41:13] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=BPinfzCHTugvlmKu24g1 HTTP/1.1" 200 -
+2025-08-25 23:42:05,632 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.194:5000
+2025-08-25 23:42:05,632 [33mPress CTRL+C to quit[0m
+2025-08-25 23:42:05,633  * Restarting with stat
+2025-08-25 23:42:05,833  * Debugger is active!
+2025-08-25 23:42:05,834  * Debugger PIN: 375-001-806
+2025-08-25 23:42:07,511 127.0.0.1 - - [25/Aug/2025 23:42:07] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-25 23:42:07,548 127.0.0.1 - - [25/Aug/2025 23:42:07] "GET /login HTTP/1.1" 200 -
+2025-08-25 23:42:07,617 127.0.0.1 - - [25/Aug/2025 23:42:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-25 23:42:07,649 127.0.0.1 - - [25/Aug/2025 23:42:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:42:07,653 127.0.0.1 - - [25/Aug/2025 23:42:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:42:07,655 127.0.0.1 - - [25/Aug/2025 23:42:07] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:42:07,658 127.0.0.1 - - [25/Aug/2025 23:42:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:42:07,896 127.0.0.1 - - [25/Aug/2025 23:42:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:42:07,950 127.0.0.1 - - [25/Aug/2025 23:42:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:42:08,013 127.0.0.1 - - [25/Aug/2025 23:42:08] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:42:12,651 127.0.0.1 - - [25/Aug/2025 23:42:12] "GET /register HTTP/1.1" 200 -
+2025-08-25 23:42:12,706 127.0.0.1 - - [25/Aug/2025 23:42:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:42:12,721 127.0.0.1 - - [25/Aug/2025 23:42:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:42:12,725 127.0.0.1 - - [25/Aug/2025 23:42:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:42:12,733 127.0.0.1 - - [25/Aug/2025 23:42:12] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:42:12,772 127.0.0.1 - - [25/Aug/2025 23:42:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:42:12,799 127.0.0.1 - - [25/Aug/2025 23:42:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:42:12,955 127.0.0.1 - - [25/Aug/2025 23:42:12] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:42:27,667 The CSRF token is missing.
+2025-08-25 23:42:27,667 127.0.0.1 - - [25/Aug/2025 23:42:27] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-08-25 23:42:27,744 127.0.0.1 - - [25/Aug/2025 23:42:27] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:42:29,142 127.0.0.1 - - [25/Aug/2025 23:42:29] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:42:30,058 127.0.0.1 - - [25/Aug/2025 23:42:30] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:44:13,591  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-25 23:44:13,635  * Restarting with stat
+2025-08-25 23:49:43,889 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.194:5000
+2025-08-25 23:49:43,889 [33mPress CTRL+C to quit[0m
+2025-08-25 23:49:43,890  * Restarting with stat
+2025-08-25 23:49:44,089  * Debugger is active!
+2025-08-25 23:49:44,089  * Debugger PIN: 375-001-806
+2025-08-25 23:49:45,545 127.0.0.1 - - [25/Aug/2025 23:49:45] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-25 23:49:46,601 127.0.0.1 - - [25/Aug/2025 23:49:46] "GET /login HTTP/1.1" 200 -
+2025-08-25 23:49:46,797 127.0.0.1 - - [25/Aug/2025 23:49:46] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:49:47,604 127.0.0.1 - - [25/Aug/2025 23:49:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:49:47,620 127.0.0.1 - - [25/Aug/2025 23:49:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:49:47,864 127.0.0.1 - - [25/Aug/2025 23:49:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:49:47,869 127.0.0.1 - - [25/Aug/2025 23:49:47] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:49:47,921 127.0.0.1 - - [25/Aug/2025 23:49:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:49:48,092 127.0.0.1 - - [25/Aug/2025 23:49:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:49:59,951 127.0.0.1 - - [25/Aug/2025 23:49:59] "GET /register HTTP/1.1" 200 -
+2025-08-25 23:50:00,039 127.0.0.1 - - [25/Aug/2025 23:50:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:50:00,042 127.0.0.1 - - [25/Aug/2025 23:50:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:50:00,312 127.0.0.1 - - [25/Aug/2025 23:50:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:50:00,316 127.0.0.1 - - [25/Aug/2025 23:50:00] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:50:00,322 127.0.0.1 - - [25/Aug/2025 23:50:00] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:50:00,362 127.0.0.1 - - [25/Aug/2025 23:50:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:50:00,408 127.0.0.1 - - [25/Aug/2025 23:50:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:50:02,169 127.0.0.1 - - [25/Aug/2025 23:50:02] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:50:04,021 127.0.0.1 - - [25/Aug/2025 23:50:04] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:52:35,156  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-25 23:52:35,186  * Restarting with stat
+2025-08-25 23:52:35,390  * Debugger is active!
+2025-08-25 23:52:35,390  * Debugger PIN: 375-001-806
+2025-08-25 23:57:56,512  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-25 23:57:56,541  * Restarting with stat
+2025-08-25 23:57:56,760  * Debugger is active!
+2025-08-25 23:57:56,760  * Debugger PIN: 375-001-806
+2025-08-25 23:57:58,884 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.194:5000
+2025-08-25 23:57:58,884 [33mPress CTRL+C to quit[0m
+2025-08-25 23:57:58,885  * Restarting with stat
+2025-08-25 23:57:59,093  * Debugger is active!
+2025-08-25 23:57:59,094  * Debugger PIN: 375-001-806
+2025-08-25 23:58:00,592 127.0.0.1 - - [25/Aug/2025 23:58:00] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-25 23:58:00,747 127.0.0.1 - - [25/Aug/2025 23:58:00] "GET /login HTTP/1.1" 200 -
+2025-08-25 23:58:01,173 127.0.0.1 - - [25/Aug/2025 23:58:01] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:01,269 127.0.0.1 - - [25/Aug/2025 23:58:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:01,273 127.0.0.1 - - [25/Aug/2025 23:58:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:01,281 127.0.0.1 - - [25/Aug/2025 23:58:01] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:01,306 127.0.0.1 - - [25/Aug/2025 23:58:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:01,358 127.0.0.1 - - [25/Aug/2025 23:58:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:01,388 127.0.0.1 - - [25/Aug/2025 23:58:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:03,934 127.0.0.1 - - [25/Aug/2025 23:58:03] "GET /register HTTP/1.1" 200 -
+2025-08-25 23:58:03,988 127.0.0.1 - - [25/Aug/2025 23:58:03] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:04,005 127.0.0.1 - - [25/Aug/2025 23:58:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:04,011 127.0.0.1 - - [25/Aug/2025 23:58:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:04,014 127.0.0.1 - - [25/Aug/2025 23:58:04] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:04,017 127.0.0.1 - - [25/Aug/2025 23:58:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:04,050 127.0.0.1 - - [25/Aug/2025 23:58:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:04,078 127.0.0.1 - - [25/Aug/2025 23:58:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:05,488 127.0.0.1 - - [25/Aug/2025 23:58:05] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:06,105 127.0.0.1 - - [25/Aug/2025 23:58:06] "GET /register HTTP/1.1" 200 -
+2025-08-25 23:58:06,148 127.0.0.1 - - [25/Aug/2025 23:58:06] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:06,173 127.0.0.1 - - [25/Aug/2025 23:58:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:06,177 127.0.0.1 - - [25/Aug/2025 23:58:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:06,179 127.0.0.1 - - [25/Aug/2025 23:58:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:06,182 127.0.0.1 - - [25/Aug/2025 23:58:06] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:06,219 127.0.0.1 - - [25/Aug/2025 23:58:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:06,245 127.0.0.1 - - [25/Aug/2025 23:58:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:08,702 127.0.0.1 - - [25/Aug/2025 23:58:08] "GET /login HTTP/1.1" 200 -
+2025-08-25 23:58:08,767 127.0.0.1 - - [25/Aug/2025 23:58:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:08,768 127.0.0.1 - - [25/Aug/2025 23:58:08] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:08,771 127.0.0.1 - - [25/Aug/2025 23:58:08] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:08,775 127.0.0.1 - - [25/Aug/2025 23:58:08] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:08,777 127.0.0.1 - - [25/Aug/2025 23:58:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:08,815 127.0.0.1 - - [25/Aug/2025 23:58:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:08,839 127.0.0.1 - - [25/Aug/2025 23:58:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:09,833 127.0.0.1 - - [25/Aug/2025 23:58:09] "GET /register HTTP/1.1" 200 -
+2025-08-25 23:58:09,875 127.0.0.1 - - [25/Aug/2025 23:58:09] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:09,903 127.0.0.1 - - [25/Aug/2025 23:58:09] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:09,909 127.0.0.1 - - [25/Aug/2025 23:58:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:09,910 127.0.0.1 - - [25/Aug/2025 23:58:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:09,912 127.0.0.1 - - [25/Aug/2025 23:58:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:09,947 127.0.0.1 - - [25/Aug/2025 23:58:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:09,973 127.0.0.1 - - [25/Aug/2025 23:58:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:10,617 127.0.0.1 - - [25/Aug/2025 23:58:10] "GET /login HTTP/1.1" 200 -
+2025-08-25 23:58:10,658 127.0.0.1 - - [25/Aug/2025 23:58:10] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:10,679 127.0.0.1 - - [25/Aug/2025 23:58:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:10,684 127.0.0.1 - - [25/Aug/2025 23:58:10] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:10,687 127.0.0.1 - - [25/Aug/2025 23:58:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:10,690 127.0.0.1 - - [25/Aug/2025 23:58:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:10,731 127.0.0.1 - - [25/Aug/2025 23:58:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:10,757 127.0.0.1 - - [25/Aug/2025 23:58:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,244 127.0.0.1 - - [25/Aug/2025 23:58:11] "GET /register HTTP/1.1" 200 -
+2025-08-25 23:58:11,326 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,328 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,334 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,336 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,347 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,370 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,499 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,870 127.0.0.1 - - [25/Aug/2025 23:58:11] "GET /login HTTP/1.1" 200 -
+2025-08-25 23:58:11,933 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,934 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,940 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,940 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,943 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:11,982 127.0.0.1 - - [25/Aug/2025 23:58:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:12,008 127.0.0.1 - - [25/Aug/2025 23:58:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:12,555 127.0.0.1 - - [25/Aug/2025 23:58:12] "GET /register HTTP/1.1" 200 -
+2025-08-25 23:58:12,622 127.0.0.1 - - [25/Aug/2025 23:58:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:12,623 127.0.0.1 - - [25/Aug/2025 23:58:12] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:12,626 127.0.0.1 - - [25/Aug/2025 23:58:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:12,628 127.0.0.1 - - [25/Aug/2025 23:58:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:12,631 127.0.0.1 - - [25/Aug/2025 23:58:12] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:12,664 127.0.0.1 - - [25/Aug/2025 23:58:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:12,694 127.0.0.1 - - [25/Aug/2025 23:58:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,220 127.0.0.1 - - [25/Aug/2025 23:58:13] "GET /login HTTP/1.1" 200 -
+2025-08-25 23:58:13,280 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,285 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,291 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,293 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,296 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,331 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,358 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,908 127.0.0.1 - - [25/Aug/2025 23:58:13] "GET /register HTTP/1.1" 200 -
+2025-08-25 23:58:13,950 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,970 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,971 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,973 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:13,976 127.0.0.1 - - [25/Aug/2025 23:58:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:14,022 127.0.0.1 - - [25/Aug/2025 23:58:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:14,114 127.0.0.1 - - [25/Aug/2025 23:58:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:17,103 127.0.0.1 - - [25/Aug/2025 23:58:17] "GET /login HTTP/1.1" 200 -
+2025-08-25 23:58:17,192 127.0.0.1 - - [25/Aug/2025 23:58:17] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:17,194 127.0.0.1 - - [25/Aug/2025 23:58:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:17,197 127.0.0.1 - - [25/Aug/2025 23:58:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:17,200 127.0.0.1 - - [25/Aug/2025 23:58:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-25 23:58:17,203 127.0.0.1 - - [25/Aug/2025 23:58:17] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-25 23:58:17,234 127.0.0.1 - - [25/Aug/2025 23:58:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-25 23:58:17,362 127.0.0.1 - - [25/Aug/2025 23:58:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 03:43:48,035 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.228:5000
+2025-08-26 03:43:48,067 [33mPress CTRL+C to quit[0m
+2025-08-26 03:43:48,068  * Restarting with stat
+2025-08-26 03:43:48,269  * Debugger is active!
+2025-08-26 03:43:48,270  * Debugger PIN: 609-483-691
+2025-08-26 03:43:54,761 127.0.0.1 - - [26/Aug/2025 03:43:54] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 03:43:55,840 127.0.0.1 - - [26/Aug/2025 03:43:55] "GET /login HTTP/1.1" 200 -
+2025-08-26 03:43:56,863 127.0.0.1 - - [26/Aug/2025 03:43:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 03:43:56,927 127.0.0.1 - - [26/Aug/2025 03:43:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 03:43:57,003 127.0.0.1 - - [26/Aug/2025 03:43:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 03:43:57,012 127.0.0.1 - - [26/Aug/2025 03:43:57] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 03:43:57,119 127.0.0.1 - - [26/Aug/2025 03:43:57] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 03:43:57,313 127.0.0.1 - - [26/Aug/2025 03:43:57] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 03:43:57,391 127.0.0.1 - - [26/Aug/2025 03:43:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 03:44:01,519 127.0.0.1 - - [26/Aug/2025 03:44:01] "GET /register HTTP/1.1" 200 -
+2025-08-26 03:44:01,675 127.0.0.1 - - [26/Aug/2025 03:44:01] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 03:44:01,678 127.0.0.1 - - [26/Aug/2025 03:44:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 03:44:01,706 127.0.0.1 - - [26/Aug/2025 03:44:01] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 03:44:01,925 127.0.0.1 - - [26/Aug/2025 03:44:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 03:44:01,928 127.0.0.1 - - [26/Aug/2025 03:44:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 03:44:02,136 127.0.0.1 - - [26/Aug/2025 03:44:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 03:44:02,211 127.0.0.1 - - [26/Aug/2025 03:44:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:24:51,129 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 22:24:51,130 [33mPress CTRL+C to quit[0m
+2025-08-26 22:24:51,131  * Restarting with stat
+2025-08-26 22:24:51,336  * Debugger is active!
+2025-08-26 22:24:51,337  * Debugger PIN: 870-082-926
+2025-08-26 22:24:54,629 127.0.0.1 - - [26/Aug/2025 22:24:54] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:24:54,827 127.0.0.1 - - [26/Aug/2025 22:24:54] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:24:55,010 127.0.0.1 - - [26/Aug/2025 22:24:55] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:24:55,315 127.0.0.1 - - [26/Aug/2025 22:24:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:24:55,320 127.0.0.1 - - [26/Aug/2025 22:24:55] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:24:55,340 127.0.0.1 - - [26/Aug/2025 22:24:55] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:24:55,353 127.0.0.1 - - [26/Aug/2025 22:24:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:24:55,390 127.0.0.1 - - [26/Aug/2025 22:24:55] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:24:55,430 127.0.0.1 - - [26/Aug/2025 22:24:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:25:35,187 127.0.0.1 - - [26/Aug/2025 22:25:35] "GET /register HTTP/1.1" 200 -
+2025-08-26 22:25:35,258 127.0.0.1 - - [26/Aug/2025 22:25:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:25:35,272 127.0.0.1 - - [26/Aug/2025 22:25:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:25:35,278 127.0.0.1 - - [26/Aug/2025 22:25:35] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:25:35,283 127.0.0.1 - - [26/Aug/2025 22:25:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:25:35,289 127.0.0.1 - - [26/Aug/2025 22:25:35] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:25:35,332 127.0.0.1 - - [26/Aug/2025 22:25:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:25:35,420 127.0.0.1 - - [26/Aug/2025 22:25:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:25:36,286 127.0.0.1 - - [26/Aug/2025 22:25:36] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:25:36,371 127.0.0.1 - - [26/Aug/2025 22:25:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:25:36,374 127.0.0.1 - - [26/Aug/2025 22:25:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:25:36,375 127.0.0.1 - - [26/Aug/2025 22:25:36] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:25:36,378 127.0.0.1 - - [26/Aug/2025 22:25:36] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:25:36,383 127.0.0.1 - - [26/Aug/2025 22:25:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:25:36,415 127.0.0.1 - - [26/Aug/2025 22:25:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:25:36,496 127.0.0.1 - - [26/Aug/2025 22:25:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:26:42,746 127.0.0.1 - - [26/Aug/2025 22:26:42] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:26:42,824 127.0.0.1 - - [26/Aug/2025 22:26:42] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:26:42,828 127.0.0.1 - - [26/Aug/2025 22:26:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:26:42,828 127.0.0.1 - - [26/Aug/2025 22:26:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:26:42,831 127.0.0.1 - - [26/Aug/2025 22:26:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:26:42,849 127.0.0.1 - - [26/Aug/2025 22:26:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:26:42,881 127.0.0.1 - - [26/Aug/2025 22:26:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:26:42,960 127.0.0.1 - - [26/Aug/2025 22:26:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:26:43,011 127.0.0.1 - - [26/Aug/2025 22:26:43] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:28:00,609 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 22:28:00,609 [33mPress CTRL+C to quit[0m
+2025-08-26 22:28:00,610  * Restarting with stat
+2025-08-26 22:28:00,824  * Debugger is active!
+2025-08-26 22:28:00,824  * Debugger PIN: 870-082-926
+2025-08-26 22:28:02,498 127.0.0.1 - - [26/Aug/2025 22:28:02] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:28:02,542 127.0.0.1 - - [26/Aug/2025 22:28:02] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:28:02,621 127.0.0.1 - - [26/Aug/2025 22:28:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:28:02,634 127.0.0.1 - - [26/Aug/2025 22:28:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:28:02,841 127.0.0.1 - - [26/Aug/2025 22:28:02] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:28:02,841 127.0.0.1 - - [26/Aug/2025 22:28:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:32:04,586  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:32:04,616  * Restarting with stat
+2025-08-26 22:32:04,822  * Debugger is active!
+2025-08-26 22:32:04,823  * Debugger PIN: 870-082-926
+2025-08-26 22:32:06,606 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 22:32:06,606 [33mPress CTRL+C to quit[0m
+2025-08-26 22:32:06,607  * Restarting with stat
+2025-08-26 22:32:06,817  * Debugger is active!
+2025-08-26 22:32:06,817  * Debugger PIN: 870-082-926
+2025-08-26 22:32:08,803 127.0.0.1 - - [26/Aug/2025 22:32:08] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:32:09,007 127.0.0.1 - - [26/Aug/2025 22:32:09] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:32:09,101 127.0.0.1 - - [26/Aug/2025 22:32:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:32:09,344 127.0.0.1 - - [26/Aug/2025 22:32:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:32:09,360 127.0.0.1 - - [26/Aug/2025 22:32:09] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:32:09,375 127.0.0.1 - - [26/Aug/2025 22:32:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:32:09,412 127.0.0.1 - - [26/Aug/2025 22:32:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:32:09,440 127.0.0.1 - - [26/Aug/2025 22:32:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:32:09,510 127.0.0.1 - - [26/Aug/2025 22:32:09] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:32:39,496  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:32:39,526  * Restarting with stat
+2025-08-26 22:32:39,729  * Debugger is active!
+2025-08-26 22:32:39,729  * Debugger PIN: 870-082-926
+2025-08-26 22:32:43,299 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 22:32:43,299 [33mPress CTRL+C to quit[0m
+2025-08-26 22:32:43,300  * Restarting with stat
+2025-08-26 22:32:43,531  * Debugger is active!
+2025-08-26 22:32:43,532  * Debugger PIN: 870-082-926
+2025-08-26 22:32:50,878 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 22:32:50,878 [33mPress CTRL+C to quit[0m
+2025-08-26 22:32:50,879  * Restarting with stat
+2025-08-26 22:32:51,080  * Debugger is active!
+2025-08-26 22:32:51,080  * Debugger PIN: 870-082-926
+2025-08-26 22:33:01,821 127.0.0.1 - - [26/Aug/2025 22:33:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:33:01,855 127.0.0.1 - - [26/Aug/2025 22:33:01] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:33:01,927 127.0.0.1 - - [26/Aug/2025 22:33:01] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:33:01,971 127.0.0.1 - - [26/Aug/2025 22:33:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:33:01,974 127.0.0.1 - - [26/Aug/2025 22:33:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:33:01,979 127.0.0.1 - - [26/Aug/2025 22:33:01] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:33:01,985 127.0.0.1 - - [26/Aug/2025 22:33:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:33:02,038 127.0.0.1 - - [26/Aug/2025 22:33:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:33:02,147 127.0.0.1 - - [26/Aug/2025 22:33:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:33:50,004 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 22:33:50,004 [33mPress CTRL+C to quit[0m
+2025-08-26 22:33:50,005  * Restarting with stat
+2025-08-26 22:33:50,205  * Debugger is active!
+2025-08-26 22:33:50,206  * Debugger PIN: 870-082-926
+2025-08-26 22:33:51,316 127.0.0.1 - - [26/Aug/2025 22:33:51] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:33:51,348 127.0.0.1 - - [26/Aug/2025 22:33:51] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:33:51,399 127.0.0.1 - - [26/Aug/2025 22:33:51] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:39:04,164  * Detected change in '/workspaces/SEP-new-/userManagement.py', reloading
+2025-08-26 22:39:04,196  * Restarting with stat
+2025-08-26 22:39:04,398  * Debugger is active!
+2025-08-26 22:39:04,399  * Debugger PIN: 870-082-926
+2025-08-26 22:40:12,578  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:40:12,612  * Restarting with stat
+2025-08-26 22:40:12,825  * Debugger is active!
+2025-08-26 22:40:12,826  * Debugger PIN: 870-082-926
+2025-08-26 22:40:18,714  * Debugger is active!
+2025-08-26 22:40:18,715  * Debugger PIN: 870-082-926
+2025-08-26 22:40:19,796 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 22:40:19,796 [33mPress CTRL+C to quit[0m
+2025-08-26 22:40:19,796  * Restarting with stat
+2025-08-26 22:40:20,008  * Debugger is active!
+2025-08-26 22:40:20,008  * Debugger PIN: 870-082-926
+2025-08-26 22:40:26,933 127.0.0.1 - - [26/Aug/2025 22:40:26] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:40:27,090 127.0.0.1 - - [26/Aug/2025 22:40:27] "[33mGET /login HTTP/1.1[0m" 404 -
+2025-08-26 22:40:32,401  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:40:32,431  * Restarting with stat
+2025-08-26 22:40:32,638  * Debugger is active!
+2025-08-26 22:40:32,638  * Debugger PIN: 870-082-926
+2025-08-26 22:41:29,332  * Detected change in '/workspaces/SEP-new-/userManagement.py', reloading
+2025-08-26 22:41:29,365  * Restarting with stat
+2025-08-26 22:41:29,574  * Debugger is active!
+2025-08-26 22:41:29,574  * Debugger PIN: 870-082-926
+2025-08-26 22:41:32,486 127.0.0.1 - - [26/Aug/2025 22:41:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:41:32,655 127.0.0.1 - - [26/Aug/2025 22:41:32] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:41:35,961 127.0.0.1 - - [26/Aug/2025 22:41:35] "GET /register HTTP/1.1" 200 -
+2025-08-26 22:41:36,082 127.0.0.1 - - [26/Aug/2025 22:41:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:41:36,082 127.0.0.1 - - [26/Aug/2025 22:41:36] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:41:36,083 127.0.0.1 - - [26/Aug/2025 22:41:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:41:36,085 127.0.0.1 - - [26/Aug/2025 22:41:36] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:41:36,226 127.0.0.1 - - [26/Aug/2025 22:41:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:41:36,401 127.0.0.1 - - [26/Aug/2025 22:41:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:41:36,428 127.0.0.1 - - [26/Aug/2025 22:41:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:43:20,451  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:43:20,499  * Restarting with stat
+2025-08-26 22:43:20,715  * Debugger is active!
+2025-08-26 22:43:20,715  * Debugger PIN: 870-082-926
+2025-08-26 22:43:23,648 127.0.0.1 - - [26/Aug/2025 22:43:23] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:43:23,838 127.0.0.1 - - [26/Aug/2025 22:43:23] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:43:25,343 127.0.0.1 - - [26/Aug/2025 22:43:25] "GET /register HTTP/1.1" 200 -
+2025-08-26 22:43:25,420 127.0.0.1 - - [26/Aug/2025 22:43:25] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:43:25,420 127.0.0.1 - - [26/Aug/2025 22:43:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:43:25,453 127.0.0.1 - - [26/Aug/2025 22:43:25] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:43:25,630 127.0.0.1 - - [26/Aug/2025 22:43:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:43:25,637 127.0.0.1 - - [26/Aug/2025 22:43:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:43:25,674 127.0.0.1 - - [26/Aug/2025 22:43:25] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:43:25,705 127.0.0.1 - - [26/Aug/2025 22:43:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:43:30,222 The CSRF token is missing.
+2025-08-26 22:43:30,223 127.0.0.1 - - [26/Aug/2025 22:43:30] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-08-26 22:43:30,288 127.0.0.1 - - [26/Aug/2025 22:43:30] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:43:57,459  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:43:57,494  * Restarting with stat
+2025-08-26 22:43:57,705  * Debugger is active!
+2025-08-26 22:43:57,705  * Debugger PIN: 870-082-926
+2025-08-26 22:43:58,551 127.0.0.1 - - [26/Aug/2025 22:43:58] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:43:58,594 127.0.0.1 - - [26/Aug/2025 22:43:58] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:44:02,791 The CSRF token is missing.
+2025-08-26 22:44:02,791 127.0.0.1 - - [26/Aug/2025 22:44:02] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-08-26 22:44:18,684  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:44:18,720  * Restarting with stat
+2025-08-26 22:44:18,936  * Debugger is active!
+2025-08-26 22:44:18,936  * Debugger PIN: 870-082-926
+2025-08-26 22:44:21,058 127.0.0.1 - - [26/Aug/2025 22:44:21] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:44:21,100 127.0.0.1 - - [26/Aug/2025 22:44:21] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:44:24,125 The CSRF token is missing.
+2025-08-26 22:44:24,125 127.0.0.1 - - [26/Aug/2025 22:44:24] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-08-26 22:44:26,195 127.0.0.1 - - [26/Aug/2025 22:44:26] "GET /register HTTP/1.1" 200 -
+2025-08-26 22:44:26,270 127.0.0.1 - - [26/Aug/2025 22:44:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:44:26,275 127.0.0.1 - - [26/Aug/2025 22:44:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:44:26,276 127.0.0.1 - - [26/Aug/2025 22:44:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:44:26,279 127.0.0.1 - - [26/Aug/2025 22:44:26] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:44:26,329 127.0.0.1 - - [26/Aug/2025 22:44:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:44:26,402 127.0.0.1 - - [26/Aug/2025 22:44:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:44:26,501 127.0.0.1 - - [26/Aug/2025 22:44:26] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:45:07,233  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:45:07,267  * Restarting with stat
+2025-08-26 22:45:07,494  * Debugger is active!
+2025-08-26 22:45:07,495  * Debugger PIN: 870-082-926
+2025-08-26 22:45:08,364 127.0.0.1 - - [26/Aug/2025 22:45:08] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:45:08,407 127.0.0.1 - - [26/Aug/2025 22:45:08] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:45:09,429 127.0.0.1 - - [26/Aug/2025 22:45:09] "GET /register HTTP/1.1" 200 -
+2025-08-26 22:45:09,522 127.0.0.1 - - [26/Aug/2025 22:45:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:45:09,531 127.0.0.1 - - [26/Aug/2025 22:45:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:45:09,540 127.0.0.1 - - [26/Aug/2025 22:45:09] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:45:09,547 127.0.0.1 - - [26/Aug/2025 22:45:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:45:09,553 127.0.0.1 - - [26/Aug/2025 22:45:09] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:45:09,696 127.0.0.1 - - [26/Aug/2025 22:45:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:45:09,731 127.0.0.1 - - [26/Aug/2025 22:45:09] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:45:12,498 127.0.0.1 - - [26/Aug/2025 22:45:12] "GET /register HTTP/1.1" 200 -
+2025-08-26 22:45:12,569 127.0.0.1 - - [26/Aug/2025 22:45:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:45:12,572 127.0.0.1 - - [26/Aug/2025 22:45:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:45:12,574 127.0.0.1 - - [26/Aug/2025 22:45:12] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:45:12,579 127.0.0.1 - - [26/Aug/2025 22:45:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:45:12,605 127.0.0.1 - - [26/Aug/2025 22:45:12] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:45:12,619 127.0.0.1 - - [26/Aug/2025 22:45:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:45:12,708 127.0.0.1 - - [26/Aug/2025 22:45:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:45:13,194 127.0.0.1 - - [26/Aug/2025 22:45:13] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:45:14,611 127.0.0.1 - - [26/Aug/2025 22:45:14] "GET /register HTTP/1.1" 200 -
+2025-08-26 22:45:14,666 127.0.0.1 - - [26/Aug/2025 22:45:14] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:45:14,683 127.0.0.1 - - [26/Aug/2025 22:45:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:45:14,685 127.0.0.1 - - [26/Aug/2025 22:45:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:45:14,688 127.0.0.1 - - [26/Aug/2025 22:45:14] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:45:14,692 127.0.0.1 - - [26/Aug/2025 22:45:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:45:14,722 127.0.0.1 - - [26/Aug/2025 22:45:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:45:14,749 127.0.0.1 - - [26/Aug/2025 22:45:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:45:29,985  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:45:30,018  * Restarting with stat
+2025-08-26 22:45:30,249  * Debugger is active!
+2025-08-26 22:45:30,249  * Debugger PIN: 870-082-926
+2025-08-26 22:52:02,329  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:52:02,359  * Restarting with stat
+2025-08-26 22:52:02,568  * Debugger is active!
+2025-08-26 22:52:02,568  * Debugger PIN: 870-082-926
+2025-08-26 22:52:12,108  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:52:12,139  * Restarting with stat
+2025-08-26 22:52:12,357  * Debugger is active!
+2025-08-26 22:52:12,357  * Debugger PIN: 870-082-926
+2025-08-26 22:52:15,005 127.0.0.1 - - [26/Aug/2025 22:52:15] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:52:15,882 127.0.0.1 - - [26/Aug/2025 22:52:15] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:52:21,368 The CSRF token is missing.
+2025-08-26 22:52:21,368 127.0.0.1 - - [26/Aug/2025 22:52:21] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-08-26 22:52:23,914 127.0.0.1 - - [26/Aug/2025 22:52:23] "GET /register HTTP/1.1" 200 -
+2025-08-26 22:52:24,301 127.0.0.1 - - [26/Aug/2025 22:52:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:52:24,305 127.0.0.1 - - [26/Aug/2025 22:52:24] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:52:24,701 127.0.0.1 - - [26/Aug/2025 22:52:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:52:24,705 127.0.0.1 - - [26/Aug/2025 22:52:24] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:52:24,730 127.0.0.1 - - [26/Aug/2025 22:52:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:52:24,994 127.0.0.1 - - [26/Aug/2025 22:52:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:52:25,041 127.0.0.1 - - [26/Aug/2025 22:52:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:52:32,921 The CSRF token is missing.
+2025-08-26 22:52:32,922 127.0.0.1 - - [26/Aug/2025 22:52:32] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-08-26 22:52:32,986 127.0.0.1 - - [26/Aug/2025 22:52:32] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:55:36,596  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:55:36,626  * Restarting with stat
+2025-08-26 22:55:36,835  * Debugger is active!
+2025-08-26 22:55:36,835  * Debugger PIN: 870-082-926
+2025-08-26 22:55:46,362  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 22:55:46,393  * Restarting with stat
+2025-08-26 22:55:46,624  * Debugger is active!
+2025-08-26 22:55:46,624  * Debugger PIN: 870-082-926
+2025-08-26 22:55:51,998 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 22:55:51,999 [33mPress CTRL+C to quit[0m
+2025-08-26 22:55:51,999  * Restarting with stat
+2025-08-26 22:55:52,206  * Debugger is active!
+2025-08-26 22:55:52,206  * Debugger PIN: 870-082-926
+2025-08-26 22:55:55,875 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 22:55:55,875 [33mPress CTRL+C to quit[0m
+2025-08-26 22:55:55,876  * Restarting with stat
+2025-08-26 22:55:56,081  * Debugger is active!
+2025-08-26 22:55:56,082  * Debugger PIN: 870-082-926
+2025-08-26 22:56:24,056 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 22:56:24,056 [33mPress CTRL+C to quit[0m
+2025-08-26 22:56:24,057  * Restarting with stat
+2025-08-26 22:56:24,261  * Debugger is active!
+2025-08-26 22:56:24,261  * Debugger PIN: 870-082-926
+2025-08-26 22:56:26,618 127.0.0.1 - - [26/Aug/2025 22:56:26] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:56:27,467 127.0.0.1 - - [26/Aug/2025 22:56:27] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:56:30,039 127.0.0.1 - - [26/Aug/2025 22:56:30] "GET /register HTTP/1.1" 200 -
+2025-08-26 22:56:30,119 127.0.0.1 - - [26/Aug/2025 22:56:30] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-26 22:56:30,774 127.0.0.1 - - [26/Aug/2025 22:56:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-26 22:56:30,790 127.0.0.1 - - [26/Aug/2025 22:56:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-26 22:56:30,825 127.0.0.1 - - [26/Aug/2025 22:56:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-26 22:56:31,083 127.0.0.1 - - [26/Aug/2025 22:56:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-26 22:56:31,250 127.0.0.1 - - [26/Aug/2025 22:56:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-26 22:56:31,380 127.0.0.1 - - [26/Aug/2025 22:56:31] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:56:34,959 The CSRF token is missing.
+2025-08-26 22:56:34,959 127.0.0.1 - - [26/Aug/2025 22:56:34] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-08-26 22:56:35,017 127.0.0.1 - - [26/Aug/2025 22:56:35] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-26 22:57:56,311 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 22:57:56,312 [33mPress CTRL+C to quit[0m
+2025-08-26 22:57:56,312  * Restarting with stat
+2025-08-26 22:57:56,521  * Debugger is active!
+2025-08-26 22:57:56,521  * Debugger PIN: 870-082-926
+2025-08-26 22:57:58,283 127.0.0.1 - - [26/Aug/2025 22:57:58] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 22:57:58,467 127.0.0.1 - - [26/Aug/2025 22:57:58] "GET /login HTTP/1.1" 200 -
+2025-08-26 22:58:04,473 The CSRF token is missing.
+2025-08-26 22:58:04,473 127.0.0.1 - - [26/Aug/2025 22:58:04] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-08-26 23:01:01,069 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 23:01:01,069 [33mPress CTRL+C to quit[0m
+2025-08-26 23:01:01,069  * Restarting with stat
+2025-08-26 23:01:01,275  * Debugger is active!
+2025-08-26 23:01:01,275  * Debugger PIN: 870-082-926
+2025-08-26 23:01:03,098 127.0.0.1 - - [26/Aug/2025 23:01:03] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 23:01:03,272 127.0.0.1 - - [26/Aug/2025 23:01:03] "GET /login HTTP/1.1" 200 -
+2025-08-26 23:01:04,842 127.0.0.1 - - [26/Aug/2025 23:01:04] "GET /register HTTP/1.1" 200 -
+2025-08-26 23:01:08,781 The CSRF token is missing.
+2025-08-26 23:01:08,782 127.0.0.1 - - [26/Aug/2025 23:01:08] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-08-26 23:07:46,522  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 23:07:46,567  * Restarting with stat
+2025-08-26 23:07:46,785  * Debugger is active!
+2025-08-26 23:07:46,786  * Debugger PIN: 870-082-926
+2025-08-26 23:10:37,146  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 23:10:37,178  * Restarting with stat
+2025-08-26 23:10:37,393  * Debugger is active!
+2025-08-26 23:10:37,393  * Debugger PIN: 870-082-926
+2025-08-26 23:10:39,939 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 23:10:39,939 [33mPress CTRL+C to quit[0m
+2025-08-26 23:10:39,939  * Restarting with stat
+2025-08-26 23:10:40,160  * Debugger is active!
+2025-08-26 23:10:40,161  * Debugger PIN: 870-082-926
+2025-08-26 23:10:47,812 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 23:10:47,812 [33mPress CTRL+C to quit[0m
+2025-08-26 23:10:47,813  * Restarting with stat
+2025-08-26 23:10:48,015  * Debugger is active!
+2025-08-26 23:10:48,015  * Debugger PIN: 870-082-926
+2025-08-26 23:10:53,099 127.0.0.1 - - [26/Aug/2025 23:10:53] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 23:10:53,301 127.0.0.1 - - [26/Aug/2025 23:10:53] "GET /login HTTP/1.1" 200 -
+2025-08-26 23:10:54,921 127.0.0.1 - - [26/Aug/2025 23:10:54] "GET /register HTTP/1.1" 200 -
+2025-08-26 23:11:00,081 The CSRF token is missing.
+2025-08-26 23:11:00,082 127.0.0.1 - - [26/Aug/2025 23:11:00] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-08-26 23:15:43,459 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 23:15:43,459 [33mPress CTRL+C to quit[0m
+2025-08-26 23:15:43,460  * Restarting with stat
+2025-08-26 23:15:43,663  * Debugger is active!
+2025-08-26 23:15:43,663  * Debugger PIN: 870-082-926
+2025-08-26 23:15:49,380 127.0.0.1 - - [26/Aug/2025 23:15:49] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 23:15:50,288 127.0.0.1 - - [26/Aug/2025 23:15:50] "GET /login HTTP/1.1" 200 -
+2025-08-26 23:15:53,225 127.0.0.1 - - [26/Aug/2025 23:15:53] "GET /register HTTP/1.1" 200 -
+2025-08-26 23:16:04,763 The CSRF token is missing.
+2025-08-26 23:16:04,764 127.0.0.1 - - [26/Aug/2025 23:16:04] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-08-26 23:54:04,927  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-26 23:54:04,958  * Restarting with stat
+2025-08-26 23:54:25,512 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.22:5000
+2025-08-26 23:54:25,512 [33mPress CTRL+C to quit[0m
+2025-08-26 23:54:25,513  * Restarting with stat
+2025-08-26 23:54:25,722  * Debugger is active!
+2025-08-26 23:54:25,722  * Debugger PIN: 870-082-926
+2025-08-26 23:54:26,962 127.0.0.1 - - [26/Aug/2025 23:54:26] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-26 23:54:27,155 127.0.0.1 - - [26/Aug/2025 23:54:27] "GET /login HTTP/1.1" 200 -
+2025-08-26 23:54:28,423 127.0.0.1 - - [26/Aug/2025 23:54:28] "GET /register HTTP/1.1" 200 -
+2025-08-26 23:54:33,971 The CSRF token is missing.
+2025-08-26 23:54:33,972 127.0.0.1 - - [26/Aug/2025 23:54:33] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-08-28 22:29:33,709 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 22:29:33,736 [33mPress CTRL+C to quit[0m
+2025-08-28 22:29:33,737  * Restarting with stat
+2025-08-28 22:29:33,944  * Debugger is active!
+2025-08-28 22:29:33,945  * Debugger PIN: 115-187-223
+2025-08-28 22:29:38,914 127.0.0.1 - - [28/Aug/2025 22:29:38] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:29:39,179 127.0.0.1 - - [28/Aug/2025 22:29:39] "GET /login HTTP/1.1" 200 -
+2025-08-28 22:29:39,419 127.0.0.1 - - [28/Aug/2025 22:29:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-28 22:29:42,672 127.0.0.1 - - [28/Aug/2025 22:29:42] "GET /register HTTP/1.1" 200 -
+2025-08-28 22:29:46,812 The CSRF token is missing.
+2025-08-28 22:29:46,813 127.0.0.1 - - [28/Aug/2025 22:29:46] "[31m[1mPOST /register HTTP/1.1[0m" 400 -
+2025-08-28 22:33:30,838 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 22:33:30,839 [33mPress CTRL+C to quit[0m
+2025-08-28 22:33:30,839  * Restarting with stat
+2025-08-28 22:33:31,038  * Debugger is active!
+2025-08-28 22:33:31,038  * Debugger PIN: 115-187-223
+2025-08-28 22:33:32,737 127.0.0.1 - - [28/Aug/2025 22:33:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:33:32,905 127.0.0.1 - - [28/Aug/2025 22:33:32] "GET /login HTTP/1.1" 200 -
+2025-08-28 22:33:34,477 127.0.0.1 - - [28/Aug/2025 22:33:34] "GET /register HTTP/1.1" 200 -
+2025-08-28 22:33:42,542 127.0.0.1 - - [28/Aug/2025 22:33:42] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-28 22:33:42,716 127.0.0.1 - - [28/Aug/2025 22:33:42] "GET /login HTTP/1.1" 200 -
+2025-08-28 22:33:45,768 127.0.0.1 - - [28/Aug/2025 22:33:45] "GET /register HTTP/1.1" 200 -
+2025-08-28 22:34:13,467 127.0.0.1 - - [28/Aug/2025 22:34:13] "GET /register HTTP/1.1" 200 -
+2025-08-28 22:34:14,787 127.0.0.1 - - [28/Aug/2025 22:34:14] "GET /register HTTP/1.1" 200 -
+2025-08-28 22:34:15,223 127.0.0.1 - - [28/Aug/2025 22:34:15] "GET /register HTTP/1.1" 200 -
+2025-08-28 22:34:15,452 127.0.0.1 - - [28/Aug/2025 22:34:15] "GET /register HTTP/1.1" 200 -
+2025-08-28 22:34:15,570 127.0.0.1 - - [28/Aug/2025 22:34:15] "GET /register HTTP/1.1" 200 -
+2025-08-28 22:34:15,821 127.0.0.1 - - [28/Aug/2025 22:34:15] "GET /register HTTP/1.1" 200 -
+2025-08-28 22:34:21,899 The CSRF token is missing.
+2025-08-28 22:34:21,899 127.0.0.1 - - [28/Aug/2025 22:34:21] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2025-08-28 22:34:43,702 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 22:34:43,703 [33mPress CTRL+C to quit[0m
+2025-08-28 22:34:43,703  * Restarting with stat
+2025-08-28 22:34:43,902  * Debugger is active!
+2025-08-28 22:34:43,903  * Debugger PIN: 115-187-223
+2025-08-28 22:34:51,417 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 22:34:51,417 [33mPress CTRL+C to quit[0m
+2025-08-28 22:34:51,417  * Restarting with stat
+2025-08-28 22:34:51,617  * Debugger is active!
+2025-08-28 22:34:51,617  * Debugger PIN: 115-187-223
+2025-08-28 22:35:01,707 127.0.0.1 - - [28/Aug/2025 22:35:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:35:01,756 127.0.0.1 - - [28/Aug/2025 22:35:01] "GET /login HTTP/1.1" 200 -
+2025-08-28 22:35:07,426 127.0.0.1 - - [28/Aug/2025 22:35:07] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-08-28 22:35:07,486 127.0.0.1 - - [28/Aug/2025 22:35:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-28 22:35:07,486 127.0.0.1 - - [28/Aug/2025 22:35:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:35:07,670 127.0.0.1 - - [28/Aug/2025 22:35:07] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=u4j026odA0C6zrpn8ZRB HTTP/1.1" 200 -
+2025-08-28 22:35:07,769 127.0.0.1 - - [28/Aug/2025 22:35:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:35:07,831 127.0.0.1 - - [28/Aug/2025 22:35:07] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:35:08,031 127.0.0.1 - - [28/Aug/2025 22:35:08] "HEAD /login?__debugger__=yes&cmd=resource&f=console.png&s=u4j026odA0C6zrpn8ZRB HTTP/1.1" 200 -
+2025-08-28 22:37:40,686  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 22:37:40,717  * Restarting with stat
+2025-08-28 22:37:40,932  * Debugger is active!
+2025-08-28 22:37:40,932  * Debugger PIN: 115-187-223
+2025-08-28 22:37:42,800 127.0.0.1 - - [28/Aug/2025 22:37:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:37:43,008 127.0.0.1 - - [28/Aug/2025 22:37:43] "GET /login HTTP/1.1" 200 -
+2025-08-28 22:37:43,325 127.0.0.1 - - [28/Aug/2025 22:37:43] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:37:47,113 127.0.0.1 - - [28/Aug/2025 22:37:47] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-08-28 22:37:47,378 127.0.0.1 - - [28/Aug/2025 22:37:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-28 22:37:47,393 127.0.0.1 - - [28/Aug/2025 22:37:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:37:47,451 127.0.0.1 - - [28/Aug/2025 22:37:47] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=jVef1wBRsQr4xGQoZGx8 HTTP/1.1" 200 -
+2025-08-28 22:37:47,479 127.0.0.1 - - [28/Aug/2025 22:37:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:37:47,510 127.0.0.1 - - [28/Aug/2025 22:37:47] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:37:47,715 127.0.0.1 - - [28/Aug/2025 22:37:47] "HEAD /login?__debugger__=yes&cmd=resource&f=console.png&s=jVef1wBRsQr4xGQoZGx8 HTTP/1.1" 200 -
+2025-08-28 22:37:57,870  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 22:37:57,901  * Restarting with stat
+2025-08-28 22:37:58,112  * Debugger is active!
+2025-08-28 22:37:58,113  * Debugger PIN: 115-187-223
+2025-08-28 22:37:58,872  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 22:37:58,904  * Restarting with stat
+2025-08-28 22:37:59,107  * Debugger is active!
+2025-08-28 22:37:59,108  * Debugger PIN: 115-187-223
+2025-08-28 22:37:59,775 127.0.0.1 - - [28/Aug/2025 22:37:59] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:37:59,812 127.0.0.1 - - [28/Aug/2025 22:37:59] "GET /login HTTP/1.1" 200 -
+2025-08-28 22:37:59,857 127.0.0.1 - - [28/Aug/2025 22:37:59] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:38:04,225 127.0.0.1 - - [28/Aug/2025 22:38:04] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-08-28 22:38:04,283 127.0.0.1 - - [28/Aug/2025 22:38:04] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-28 22:38:04,284 127.0.0.1 - - [28/Aug/2025 22:38:04] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:38:04,344 127.0.0.1 - - [28/Aug/2025 22:38:04] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=NPIWknyiJYSmOmBelu98 HTTP/1.1" 200 -
+2025-08-28 22:38:04,374 127.0.0.1 - - [28/Aug/2025 22:38:04] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:38:04,525 127.0.0.1 - - [28/Aug/2025 22:38:04] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:38:04,817 127.0.0.1 - - [28/Aug/2025 22:38:04] "HEAD /login?__debugger__=yes&cmd=resource&f=console.png&s=NPIWknyiJYSmOmBelu98 HTTP/1.1" 200 -
+2025-08-28 22:38:15,823  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 22:38:15,858  * Restarting with stat
+2025-08-28 22:38:16,067  * Debugger is active!
+2025-08-28 22:38:16,067  * Debugger PIN: 115-187-223
+2025-08-28 22:39:06,952  * Detected change in '/workspaces/SEP-new-/userManagement.py', reloading
+2025-08-28 22:39:06,994  * Restarting with stat
+2025-08-28 22:39:07,228  * Debugger is active!
+2025-08-28 22:39:07,228  * Debugger PIN: 115-187-223
+2025-08-28 22:39:22,640  * Detected change in '/workspaces/SEP-new-/userManagement.py', reloading
+2025-08-28 22:39:22,670  * Restarting with stat
+2025-08-28 22:39:22,918  * Debugger is active!
+2025-08-28 22:39:22,918  * Debugger PIN: 115-187-223
+2025-08-28 22:39:26,021 127.0.0.1 - - [28/Aug/2025 22:39:26] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:39:26,059 127.0.0.1 - - [28/Aug/2025 22:39:26] "GET /login HTTP/1.1" 200 -
+2025-08-28 22:39:26,261 127.0.0.1 - - [28/Aug/2025 22:39:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:39:29,426 127.0.0.1 - - [28/Aug/2025 22:39:29] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-08-28 22:39:29,482 127.0.0.1 - - [28/Aug/2025 22:39:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:39:29,485 127.0.0.1 - - [28/Aug/2025 22:39:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-08-28 22:39:29,676 127.0.0.1 - - [28/Aug/2025 22:39:29] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=nYYkZk07adHZJkYcgFT9 HTTP/1.1" 200 -
+2025-08-28 22:39:29,705 127.0.0.1 - - [28/Aug/2025 22:39:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:39:29,735 127.0.0.1 - - [28/Aug/2025 22:39:29] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:39:30,017 127.0.0.1 - - [28/Aug/2025 22:39:30] "HEAD /login?__debugger__=yes&cmd=resource&f=console.png&s=nYYkZk07adHZJkYcgFT9 HTTP/1.1" 200 -
+2025-08-28 22:39:45,416  * Detected change in '/workspaces/SEP-new-/userManagement.py', reloading
+2025-08-28 22:39:45,454  * Restarting with stat
+2025-08-28 22:39:45,674  * Debugger is active!
+2025-08-28 22:39:45,674  * Debugger PIN: 115-187-223
+2025-08-28 22:39:46,851 127.0.0.1 - - [28/Aug/2025 22:39:46] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:39:46,880 127.0.0.1 - - [28/Aug/2025 22:39:46] "GET /login HTTP/1.1" 200 -
+2025-08-28 22:39:46,923 127.0.0.1 - - [28/Aug/2025 22:39:46] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-08-28 22:39:51,628 127.0.0.1 - - [28/Aug/2025 22:39:51] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-28 22:39:51,659 127.0.0.1 - - [28/Aug/2025 22:39:51] "[35m[1mGET /menu HTTP/1.1[0m" 500 -
+2025-08-28 22:39:51,704 127.0.0.1 - - [28/Aug/2025 22:39:51] "GET /menu?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-28 22:39:51,715 127.0.0.1 - - [28/Aug/2025 22:39:51] "GET /menu?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-28 22:39:51,761 127.0.0.1 - - [28/Aug/2025 22:39:51] "GET /menu?__debugger__=yes&cmd=resource&f=console.png&s=L2RFdNKZr4ba5mpbt5bt HTTP/1.1" 200 -
+2025-08-28 22:39:52,062 127.0.0.1 - - [28/Aug/2025 22:39:52] "GET /menu?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-28 22:39:52,063 127.0.0.1 - - [28/Aug/2025 22:39:52] "GET /menu?__debugger__=yes&cmd=resource&f=console.png&s=L2RFdNKZr4ba5mpbt5bt HTTP/1.1" 200 -
+2025-08-28 22:39:52,065 127.0.0.1 - - [28/Aug/2025 22:39:52] "GET /menu?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-08-28 22:39:52,067 127.0.0.1 - - [28/Aug/2025 22:39:52] "GET /menu?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-08-28 22:39:52,101 127.0.0.1 - - [28/Aug/2025 22:39:52] "GET /menu?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-08-28 22:39:59,438  * Detected change in '/workspaces/SEP-new-/userManagement.py', reloading
+2025-08-28 22:39:59,469  * Restarting with stat
+2025-08-28 22:39:59,671  * Debugger is active!
+2025-08-28 22:39:59,671  * Debugger PIN: 115-187-223
+2025-08-28 22:40:00,122 127.0.0.1 - - [28/Aug/2025 22:40:00] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:40:00,161 127.0.0.1 - - [28/Aug/2025 22:40:00] "GET /play HTTP/1.1" 200 -
+2025-08-28 22:40:00,254 127.0.0.1 - - [28/Aug/2025 22:40:00] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:00,261 127.0.0.1 - - [28/Aug/2025 22:40:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:00,265 127.0.0.1 - - [28/Aug/2025 22:40:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:40:00,268 127.0.0.1 - - [28/Aug/2025 22:40:00] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:00,349 127.0.0.1 - - [28/Aug/2025 22:40:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-08-28 22:40:00,569 127.0.0.1 - - [28/Aug/2025 22:40:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:00,596 127.0.0.1 - - [28/Aug/2025 22:40:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:00,649 127.0.0.1 - - [28/Aug/2025 22:40:00] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-08-28 22:40:00,653 127.0.0.1 - - [28/Aug/2025 22:40:00] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-08-28 22:40:06,735 127.0.0.1 - - [28/Aug/2025 22:40:06] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:40:06,767 127.0.0.1 - - [28/Aug/2025 22:40:06] "GET /play HTTP/1.1" 200 -
+2025-08-28 22:40:06,848 127.0.0.1 - - [28/Aug/2025 22:40:06] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:06,863 127.0.0.1 - - [28/Aug/2025 22:40:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:40:06,866 127.0.0.1 - - [28/Aug/2025 22:40:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 22:40:06,869 127.0.0.1 - - [28/Aug/2025 22:40:06] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:06,871 127.0.0.1 - - [28/Aug/2025 22:40:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:06,936 127.0.0.1 - - [28/Aug/2025 22:40:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:07,139 127.0.0.1 - - [28/Aug/2025 22:40:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:17,698  * Detected change in '/workspaces/SEP-new-/userManagement.py', reloading
+2025-08-28 22:40:17,728  * Restarting with stat
+2025-08-28 22:40:17,928  * Debugger is active!
+2025-08-28 22:40:17,929  * Debugger PIN: 115-187-223
+2025-08-28 22:40:18,453 127.0.0.1 - - [28/Aug/2025 22:40:18] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:40:18,490 127.0.0.1 - - [28/Aug/2025 22:40:18] "GET /play HTTP/1.1" 200 -
+2025-08-28 22:40:18,532 127.0.0.1 - - [28/Aug/2025 22:40:18] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:18,584 127.0.0.1 - - [28/Aug/2025 22:40:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 22:40:18,588 127.0.0.1 - - [28/Aug/2025 22:40:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:18,591 127.0.0.1 - - [28/Aug/2025 22:40:18] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:18,594 127.0.0.1 - - [28/Aug/2025 22:40:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:40:18,645 127.0.0.1 - - [28/Aug/2025 22:40:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:18,687 127.0.0.1 - - [28/Aug/2025 22:40:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:25,940  * Detected change in '/workspaces/SEP-new-/userManagement.py', reloading
+2025-08-28 22:40:25,983  * Restarting with stat
+2025-08-28 22:40:26,197  * Debugger is active!
+2025-08-28 22:40:26,197  * Debugger PIN: 115-187-223
+2025-08-28 22:40:29,290 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 22:40:29,290 [33mPress CTRL+C to quit[0m
+2025-08-28 22:40:29,291  * Restarting with stat
+2025-08-28 22:40:29,492  * Debugger is active!
+2025-08-28 22:40:29,492  * Debugger PIN: 115-187-223
+2025-08-28 22:40:31,005 127.0.0.1 - - [28/Aug/2025 22:40:31] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:40:31,039 127.0.0.1 - - [28/Aug/2025 22:40:31] "GET /play HTTP/1.1" 200 -
+2025-08-28 22:40:31,079 127.0.0.1 - - [28/Aug/2025 22:40:31] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:31,123 127.0.0.1 - - [28/Aug/2025 22:40:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:40:31,127 127.0.0.1 - - [28/Aug/2025 22:40:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 22:40:31,129 127.0.0.1 - - [28/Aug/2025 22:40:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:31,132 127.0.0.1 - - [28/Aug/2025 22:40:31] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:31,186 127.0.0.1 - - [28/Aug/2025 22:40:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:31,224 127.0.0.1 - - [28/Aug/2025 22:40:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:40,526  * Detected change in '/workspaces/SEP-new-/userManagement.py', reloading
+2025-08-28 22:40:40,556  * Restarting with stat
+2025-08-28 22:40:40,757  * Debugger is active!
+2025-08-28 22:40:40,757  * Debugger PIN: 115-187-223
+2025-08-28 22:40:42,682 127.0.0.1 - - [28/Aug/2025 22:40:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:40:42,717 127.0.0.1 - - [28/Aug/2025 22:40:42] "GET /play HTTP/1.1" 200 -
+2025-08-28 22:40:42,758 127.0.0.1 - - [28/Aug/2025 22:40:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:42,810 127.0.0.1 - - [28/Aug/2025 22:40:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:42,814 127.0.0.1 - - [28/Aug/2025 22:40:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 22:40:42,816 127.0.0.1 - - [28/Aug/2025 22:40:42] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:42,819 127.0.0.1 - - [28/Aug/2025 22:40:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:40:42,869 127.0.0.1 - - [28/Aug/2025 22:40:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:42,915 127.0.0.1 - - [28/Aug/2025 22:40:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:57,424  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 22:40:57,460  * Restarting with stat
+2025-08-28 22:40:57,691  * Debugger is active!
+2025-08-28 22:40:57,691  * Debugger PIN: 115-187-223
+2025-08-28 22:40:58,185 127.0.0.1 - - [28/Aug/2025 22:40:58] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:40:58,225 127.0.0.1 - - [28/Aug/2025 22:40:58] "GET /play HTTP/1.1" 200 -
+2025-08-28 22:40:58,335 127.0.0.1 - - [28/Aug/2025 22:40:58] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:58,340 127.0.0.1 - - [28/Aug/2025 22:40:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 22:40:58,343 127.0.0.1 - - [28/Aug/2025 22:40:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:40:58,352 127.0.0.1 - - [28/Aug/2025 22:40:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:58,360 127.0.0.1 - - [28/Aug/2025 22:40:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:40:58,551 127.0.0.1 - - [28/Aug/2025 22:40:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 22:40:58,606 127.0.0.1 - - [28/Aug/2025 22:40:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 22:45:15,932  * Detected change in '/workspaces/SEP-new-/userManagement.py', reloading
+2025-08-28 22:45:15,965  * Restarting with stat
+2025-08-28 22:45:16,174  * Debugger is active!
+2025-08-28 22:45:16,174  * Debugger PIN: 115-187-223
+2025-08-28 22:45:18,345 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 22:45:18,345 [33mPress CTRL+C to quit[0m
+2025-08-28 22:45:18,346  * Restarting with stat
+2025-08-28 22:45:18,546  * Debugger is active!
+2025-08-28 22:45:18,547  * Debugger PIN: 115-187-223
+2025-08-28 22:45:20,403 127.0.0.1 - - [28/Aug/2025 22:45:20] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:45:20,601 127.0.0.1 - - [28/Aug/2025 22:45:20] "GET /play HTTP/1.1" 200 -
+2025-08-28 22:45:21,109 127.0.0.1 - - [28/Aug/2025 22:45:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 22:45:21,131 127.0.0.1 - - [28/Aug/2025 22:45:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:45:21,151 127.0.0.1 - - [28/Aug/2025 22:45:21] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:45:21,154 127.0.0.1 - - [28/Aug/2025 22:45:21] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:45:21,158 127.0.0.1 - - [28/Aug/2025 22:45:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:45:21,204 127.0.0.1 - - [28/Aug/2025 22:45:21] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 22:45:21,233 127.0.0.1 - - [28/Aug/2025 22:45:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 22:45:43,113 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 22:45:43,113 [33mPress CTRL+C to quit[0m
+2025-08-28 22:45:43,114  * Restarting with stat
+2025-08-28 22:45:43,323  * Debugger is active!
+2025-08-28 22:45:43,323  * Debugger PIN: 115-187-223
+2025-08-28 22:45:44,847 127.0.0.1 - - [28/Aug/2025 22:45:44] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:45:44,878 127.0.0.1 - - [28/Aug/2025 22:45:44] "GET /play HTTP/1.1" 200 -
+2025-08-28 22:45:44,918 127.0.0.1 - - [28/Aug/2025 22:45:44] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:45:44,982 127.0.0.1 - - [28/Aug/2025 22:45:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 22:45:44,987 127.0.0.1 - - [28/Aug/2025 22:45:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:45:44,990 127.0.0.1 - - [28/Aug/2025 22:45:44] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:45:44,992 127.0.0.1 - - [28/Aug/2025 22:45:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:45:45,040 127.0.0.1 - - [28/Aug/2025 22:45:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 22:45:45,248 127.0.0.1 - - [28/Aug/2025 22:45:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 22:46:30,093  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 22:46:30,130  * Restarting with stat
+2025-08-28 22:46:30,335  * Debugger is active!
+2025-08-28 22:46:30,335  * Debugger PIN: 115-187-223
+2025-08-28 22:48:42,519  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 22:48:42,550  * Restarting with stat
+2025-08-28 22:48:42,770  * Debugger is active!
+2025-08-28 22:48:42,770  * Debugger PIN: 115-187-223
+2025-08-28 22:48:44,765 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 22:48:44,765 [33mPress CTRL+C to quit[0m
+2025-08-28 22:48:44,765  * Restarting with stat
+2025-08-28 22:48:44,974  * Debugger is active!
+2025-08-28 22:48:44,974  * Debugger PIN: 115-187-223
+2025-08-28 22:48:50,313 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 22:48:50,313 [33mPress CTRL+C to quit[0m
+2025-08-28 22:48:50,314  * Restarting with stat
+2025-08-28 22:48:50,516  * Debugger is active!
+2025-08-28 22:48:50,516  * Debugger PIN: 115-187-223
+2025-08-28 22:48:52,880 127.0.0.1 - - [28/Aug/2025 22:48:52] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:48:53,056 127.0.0.1 - - [28/Aug/2025 22:48:53] "GET /play HTTP/1.1" 200 -
+2025-08-28 22:48:53,167 127.0.0.1 - - [28/Aug/2025 22:48:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 22:48:53,481 127.0.0.1 - - [28/Aug/2025 22:48:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:48:53,500 127.0.0.1 - - [28/Aug/2025 22:48:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:48:53,503 127.0.0.1 - - [28/Aug/2025 22:48:53] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:48:53,524 127.0.0.1 - - [28/Aug/2025 22:48:53] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:49:27,268  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 22:49:27,303  * Restarting with stat
+2025-08-28 22:49:27,531  * Debugger is active!
+2025-08-28 22:49:27,532  * Debugger PIN: 115-187-223
+2025-08-28 22:49:29,007 127.0.0.1 - - [28/Aug/2025 22:49:29] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:49:29,047 127.0.0.1 - - [28/Aug/2025 22:49:29] "GET /play HTTP/1.1" 200 -
+2025-08-28 22:49:29,093 127.0.0.1 - - [28/Aug/2025 22:49:29] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:49:29,147 127.0.0.1 - - [28/Aug/2025 22:49:29] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:49:29,155 127.0.0.1 - - [28/Aug/2025 22:49:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 22:49:29,156 127.0.0.1 - - [28/Aug/2025 22:49:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:49:29,316 127.0.0.1 - - [28/Aug/2025 22:49:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:49:29,430 127.0.0.1 - - [28/Aug/2025 22:49:29] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-08-28 22:49:29,471 127.0.0.1 - - [28/Aug/2025 22:49:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 22:49:32,640  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 22:49:32,672  * Restarting with stat
+2025-08-28 22:49:32,891  * Debugger is active!
+2025-08-28 22:49:32,892  * Debugger PIN: 115-187-223
+2025-08-28 22:49:48,293 127.0.0.1 - - [28/Aug/2025 22:49:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 22:49:48,327 127.0.0.1 - - [28/Aug/2025 22:49:48] "GET /play HTTP/1.1" 200 -
+2025-08-28 22:49:48,364 127.0.0.1 - - [28/Aug/2025 22:49:48] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:49:48,418 127.0.0.1 - - [28/Aug/2025 22:49:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:49:48,422 127.0.0.1 - - [28/Aug/2025 22:49:48] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:49:48,424 127.0.0.1 - - [28/Aug/2025 22:49:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:49:48,426 127.0.0.1 - - [28/Aug/2025 22:49:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 22:49:48,483 127.0.0.1 - - [28/Aug/2025 22:49:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 22:49:48,688 127.0.0.1 - - [28/Aug/2025 22:49:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 22:56:16,873  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 22:56:16,904  * Restarting with stat
+2025-08-28 22:56:17,146  * Debugger is active!
+2025-08-28 22:56:17,146  * Debugger PIN: 115-187-223
+2025-08-28 22:57:21,226  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 22:57:21,263  * Restarting with stat
+2025-08-28 22:59:14,765 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 22:59:14,765 [33mPress CTRL+C to quit[0m
+2025-08-28 22:59:14,765  * Restarting with stat
+2025-08-28 22:59:14,970  * Debugger is active!
+2025-08-28 22:59:14,970  * Debugger PIN: 115-187-223
+2025-08-28 22:59:15,987 127.0.0.1 - - [28/Aug/2025 22:59:15] "GET / HTTP/1.1" 200 -
+2025-08-28 22:59:16,135 127.0.0.1 - - [28/Aug/2025 22:59:16] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 22:59:16,135 127.0.0.1 - - [28/Aug/2025 22:59:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 22:59:16,507 127.0.0.1 - - [28/Aug/2025 22:59:16] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 22:59:16,527 127.0.0.1 - - [28/Aug/2025 22:59:16] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 22:59:16,550 127.0.0.1 - - [28/Aug/2025 22:59:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 22:59:16,568 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":40,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-28 22:59:16,569 127.0.0.1 - - [28/Aug/2025 22:59:16] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 22:59:16,615 127.0.0.1 - - [28/Aug/2025 22:59:16] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 22:59:16,643 127.0.0.1 - - [28/Aug/2025 22:59:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 22:59:16,676 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":222,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-28 22:59:16,676 127.0.0.1 - - [28/Aug/2025 22:59:16] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 22:59:16,680 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":317,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-28 22:59:16,680 127.0.0.1 - - [28/Aug/2025 22:59:16] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 22:59:16,766 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-08-28 22:59:16,766 127.0.0.1 - - [28/Aug/2025 22:59:16] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 23:00:33,273 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 23:00:33,273 [33mPress CTRL+C to quit[0m
+2025-08-28 23:00:33,274  * Restarting with stat
+2025-08-28 23:00:33,502  * Debugger is active!
+2025-08-28 23:00:33,502  * Debugger PIN: 115-187-223
+2025-08-28 23:00:33,987 127.0.0.1 - - [28/Aug/2025 23:00:33] "GET / HTTP/1.1" 200 -
+2025-08-28 23:00:34,120 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":40,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-28 23:00:34,121 127.0.0.1 - - [28/Aug/2025 23:00:34] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 23:00:34,128 127.0.0.1 - - [28/Aug/2025 23:00:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:00:34,131 127.0.0.1 - - [28/Aug/2025 23:00:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:00:34,134 127.0.0.1 - - [28/Aug/2025 23:00:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:00:34,135 127.0.0.1 - - [28/Aug/2025 23:00:34] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:00:34,140 127.0.0.1 - - [28/Aug/2025 23:00:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:00:34,141 127.0.0.1 - - [28/Aug/2025 23:00:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:00:34,172 127.0.0.1 - - [28/Aug/2025 23:00:34] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:00:34,220 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":222,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-28 23:00:34,220 127.0.0.1 - - [28/Aug/2025 23:00:34] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 23:00:34,224 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":317,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-28 23:00:34,224 127.0.0.1 - - [28/Aug/2025 23:00:34] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 23:00:34,494 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-08-28 23:00:34,495 127.0.0.1 - - [28/Aug/2025 23:00:34] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 23:00:50,597  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 23:00:50,628  * Restarting with stat
+2025-08-28 23:00:50,839  * Debugger is active!
+2025-08-28 23:00:50,839  * Debugger PIN: 115-187-223
+2025-08-28 23:00:52,551 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 23:00:52,551 [33mPress CTRL+C to quit[0m
+2025-08-28 23:00:52,552  * Restarting with stat
+2025-08-28 23:00:52,762  * Debugger is active!
+2025-08-28 23:00:52,762  * Debugger PIN: 115-187-223
+2025-08-28 23:00:54,505 127.0.0.1 - - [28/Aug/2025 23:00:54] "GET / HTTP/1.1" 200 -
+2025-08-28 23:00:54,546 127.0.0.1 - - [28/Aug/2025 23:00:54] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:00:54,588 127.0.0.1 - - [28/Aug/2025 23:00:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:00:54,591 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"style-src-elem","effective-directive":"style-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":40,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-28 23:00:54,592 127.0.0.1 - - [28/Aug/2025 23:00:54] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 23:00:54,593 127.0.0.1 - - [28/Aug/2025 23:00:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:00:54,595 127.0.0.1 - - [28/Aug/2025 23:00:54] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:00:54,597 127.0.0.1 - - [28/Aug/2025 23:00:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:00:54,663 127.0.0.1 - - [28/Aug/2025 23:00:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:00:54,701 127.0.0.1 - - [28/Aug/2025 23:00:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:00:54,751 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":317,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-28 23:00:54,751 127.0.0.1 - - [28/Aug/2025 23:00:54] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 23:00:54,757 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":222,"source-file":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2025-08-28 23:00:54,758 127.0.0.1 - - [28/Aug/2025 23:00:54] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 23:00:54,824 {"csp-report":{"document-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/","referrer":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://glorious-broccoli-jjr7vj7qj9vg2j6qq-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2025-08-28 23:00:54,824 127.0.0.1 - - [28/Aug/2025 23:00:54] "POST /csp_report HTTP/1.1" 200 -
+2025-08-28 23:03:14,956  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-28 23:03:14,985  * Restarting with stat
+2025-08-28 23:05:38,720 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 23:05:38,720 [33mPress CTRL+C to quit[0m
+2025-08-28 23:05:38,721  * Restarting with stat
+2025-08-28 23:05:38,936  * Debugger is active!
+2025-08-28 23:05:38,936  * Debugger PIN: 115-187-223
+2025-08-28 23:05:39,809 127.0.0.1 - - [28/Aug/2025 23:05:39] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 23:05:39,987 127.0.0.1 - - [28/Aug/2025 23:05:39] "GET /index HTTP/1.1" 200 -
+2025-08-28 23:05:40,415 127.0.0.1 - - [28/Aug/2025 23:05:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:05:40,417 127.0.0.1 - - [28/Aug/2025 23:05:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:05:40,423 127.0.0.1 - - [28/Aug/2025 23:05:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:05:40,431 127.0.0.1 - - [28/Aug/2025 23:05:40] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:05:40,484 127.0.0.1 - - [28/Aug/2025 23:05:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:05:40,509 127.0.0.1 - - [28/Aug/2025 23:05:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:05:40,581 127.0.0.1 - - [28/Aug/2025 23:05:40] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:33,295 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.204:5000
+2025-08-28 23:06:33,295 [33mPress CTRL+C to quit[0m
+2025-08-28 23:06:33,296  * Restarting with stat
+2025-08-28 23:06:33,535  * Debugger is active!
+2025-08-28 23:06:33,535  * Debugger PIN: 115-187-223
+2025-08-28 23:06:35,129 127.0.0.1 - - [28/Aug/2025 23:06:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-28 23:06:35,163 127.0.0.1 - - [28/Aug/2025 23:06:35] "GET /index HTTP/1.1" 200 -
+2025-08-28 23:06:35,206 127.0.0.1 - - [28/Aug/2025 23:06:35] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:35,263 127.0.0.1 - - [28/Aug/2025 23:06:35] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:35,268 127.0.0.1 - - [28/Aug/2025 23:06:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:35,271 127.0.0.1 - - [28/Aug/2025 23:06:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:35,274 127.0.0.1 - - [28/Aug/2025 23:06:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:35,336 127.0.0.1 - - [28/Aug/2025 23:06:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:35,533 127.0.0.1 - - [28/Aug/2025 23:06:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:37,198 127.0.0.1 - - [28/Aug/2025 23:06:37] "GET /play-terms HTTP/1.1" 200 -
+2025-08-28 23:06:37,276 127.0.0.1 - - [28/Aug/2025 23:06:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:37,282 127.0.0.1 - - [28/Aug/2025 23:06:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:37,283 127.0.0.1 - - [28/Aug/2025 23:06:37] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:37,285 127.0.0.1 - - [28/Aug/2025 23:06:37] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:37,291 127.0.0.1 - - [28/Aug/2025 23:06:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:37,325 127.0.0.1 - - [28/Aug/2025 23:06:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:37,468 127.0.0.1 - - [28/Aug/2025 23:06:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:38,938 127.0.0.1 - - [28/Aug/2025 23:06:38] "[31m[1mPOST /play-terms HTTP/1.1[0m" 405 -
+2025-08-28 23:06:38,997 127.0.0.1 - - [28/Aug/2025 23:06:38] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:40,457 127.0.0.1 - - [28/Aug/2025 23:06:40] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:40,861 127.0.0.1 - - [28/Aug/2025 23:06:40] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:41,812 127.0.0.1 - - [28/Aug/2025 23:06:41] "GET /play-notes HTTP/1.1" 200 -
+2025-08-28 23:06:41,880 127.0.0.1 - - [28/Aug/2025 23:06:41] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:41,883 127.0.0.1 - - [28/Aug/2025 23:06:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:41,885 127.0.0.1 - - [28/Aug/2025 23:06:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:41,889 127.0.0.1 - - [28/Aug/2025 23:06:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:41,890 127.0.0.1 - - [28/Aug/2025 23:06:41] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:41,927 127.0.0.1 - - [28/Aug/2025 23:06:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:41,951 127.0.0.1 - - [28/Aug/2025 23:06:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:43,386 127.0.0.1 - - [28/Aug/2025 23:06:43] "POST /play HTTP/1.1" 200 -
+2025-08-28 23:06:43,423 127.0.0.1 - - [28/Aug/2025 23:06:43] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:43,452 127.0.0.1 - - [28/Aug/2025 23:06:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:43,455 127.0.0.1 - - [28/Aug/2025 23:06:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:43,457 127.0.0.1 - - [28/Aug/2025 23:06:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:43,460 127.0.0.1 - - [28/Aug/2025 23:06:43] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:43,514 127.0.0.1 - - [28/Aug/2025 23:06:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:43,540 127.0.0.1 - - [28/Aug/2025 23:06:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:45,475 127.0.0.1 - - [28/Aug/2025 23:06:45] "GET /play HTTP/1.1" 200 -
+2025-08-28 23:06:45,542 127.0.0.1 - - [28/Aug/2025 23:06:45] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:45,544 127.0.0.1 - - [28/Aug/2025 23:06:45] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:45,548 127.0.0.1 - - [28/Aug/2025 23:06:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:45,551 127.0.0.1 - - [28/Aug/2025 23:06:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:45,554 127.0.0.1 - - [28/Aug/2025 23:06:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:45,594 127.0.0.1 - - [28/Aug/2025 23:06:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:45,624 127.0.0.1 - - [28/Aug/2025 23:06:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:52,428 127.0.0.1 - - [28/Aug/2025 23:06:52] "POST /play HTTP/1.1" 200 -
+2025-08-28 23:06:52,473 127.0.0.1 - - [28/Aug/2025 23:06:52] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:52,487 127.0.0.1 - - [28/Aug/2025 23:06:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:52,496 127.0.0.1 - - [28/Aug/2025 23:06:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:52,500 127.0.0.1 - - [28/Aug/2025 23:06:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:52,503 127.0.0.1 - - [28/Aug/2025 23:06:52] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:52,547 127.0.0.1 - - [28/Aug/2025 23:06:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:52,573 127.0.0.1 - - [28/Aug/2025 23:06:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:53,527 127.0.0.1 - - [28/Aug/2025 23:06:53] "GET /play HTTP/1.1" 200 -
+2025-08-28 23:06:53,593 127.0.0.1 - - [28/Aug/2025 23:06:53] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:53,597 127.0.0.1 - - [28/Aug/2025 23:06:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:53,599 127.0.0.1 - - [28/Aug/2025 23:06:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:53,601 127.0.0.1 - - [28/Aug/2025 23:06:53] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:53,604 127.0.0.1 - - [28/Aug/2025 23:06:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:53,640 127.0.0.1 - - [28/Aug/2025 23:06:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:53,667 127.0.0.1 - - [28/Aug/2025 23:06:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:58,290 127.0.0.1 - - [28/Aug/2025 23:06:58] "POST /play HTTP/1.1" 200 -
+2025-08-28 23:06:58,338 127.0.0.1 - - [28/Aug/2025 23:06:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:58,354 127.0.0.1 - - [28/Aug/2025 23:06:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:58,361 127.0.0.1 - - [28/Aug/2025 23:06:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:58,366 127.0.0.1 - - [28/Aug/2025 23:06:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:58,375 127.0.0.1 - - [28/Aug/2025 23:06:58] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:58,408 127.0.0.1 - - [28/Aug/2025 23:06:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:58,435 127.0.0.1 - - [28/Aug/2025 23:06:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:59,172 127.0.0.1 - - [28/Aug/2025 23:06:59] "GET /play HTTP/1.1" 200 -
+2025-08-28 23:06:59,365 127.0.0.1 - - [28/Aug/2025 23:06:59] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:59,401 127.0.0.1 - - [28/Aug/2025 23:06:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:59,404 127.0.0.1 - - [28/Aug/2025 23:06:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:59,407 127.0.0.1 - - [28/Aug/2025 23:06:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:06:59,408 127.0.0.1 - - [28/Aug/2025 23:06:59] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:06:59,461 127.0.0.1 - - [28/Aug/2025 23:06:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:06:59,488 127.0.0.1 - - [28/Aug/2025 23:06:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:07:05,285 127.0.0.1 - - [28/Aug/2025 23:07:05] "POST /play HTTP/1.1" 200 -
+2025-08-28 23:07:05,358 127.0.0.1 - - [28/Aug/2025 23:07:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:07:05,362 127.0.0.1 - - [28/Aug/2025 23:07:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:07:05,365 127.0.0.1 - - [28/Aug/2025 23:07:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:07:05,366 127.0.0.1 - - [28/Aug/2025 23:07:05] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:07:05,369 127.0.0.1 - - [28/Aug/2025 23:07:05] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:07:05,406 127.0.0.1 - - [28/Aug/2025 23:07:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:07:05,431 127.0.0.1 - - [28/Aug/2025 23:07:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:07:07,108 127.0.0.1 - - [28/Aug/2025 23:07:07] "GET /play HTTP/1.1" 200 -
+2025-08-28 23:07:07,150 127.0.0.1 - - [28/Aug/2025 23:07:07] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:07:07,180 127.0.0.1 - - [28/Aug/2025 23:07:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-28 23:07:07,182 127.0.0.1 - - [28/Aug/2025 23:07:07] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-28 23:07:07,185 127.0.0.1 - - [28/Aug/2025 23:07:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-28 23:07:07,189 127.0.0.1 - - [28/Aug/2025 23:07:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-28 23:07:07,226 127.0.0.1 - - [28/Aug/2025 23:07:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-28 23:07:07,383 127.0.0.1 - - [28/Aug/2025 23:07:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-28 23:07:09,262 127.0.0.1 - - [28/Aug/2025 23:07:09] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:07:10,613 127.0.0.1 - - [28/Aug/2025 23:07:10] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-28 23:07:14,507 127.0.0.1 - - [28/Aug/2025 23:07:14] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:08:11,982 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.121:5000
+2025-08-29 01:08:11,983 [33mPress CTRL+C to quit[0m
+2025-08-29 01:08:11,985  * Restarting with stat
+2025-08-29 01:08:12,260  * Debugger is active!
+2025-08-29 01:08:12,262  * Debugger PIN: 874-017-404
+2025-08-29 01:08:26,836 127.0.0.1 - - [29/Aug/2025 01:08:26] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-29 01:08:27,107 127.0.0.1 - - [29/Aug/2025 01:08:27] "GET /index HTTP/1.1" 200 -
+2025-08-29 01:08:27,683 127.0.0.1 - - [29/Aug/2025 01:08:27] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-29 01:08:27,693 127.0.0.1 - - [29/Aug/2025 01:08:27] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:08:27,702 127.0.0.1 - - [29/Aug/2025 01:08:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 01:08:27,739 127.0.0.1 - - [29/Aug/2025 01:08:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 01:08:27,746 127.0.0.1 - - [29/Aug/2025 01:08:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 01:08:27,831 127.0.0.1 - - [29/Aug/2025 01:08:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-29 01:08:27,872 127.0.0.1 - - [29/Aug/2025 01:08:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-29 01:11:20,380  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-29 01:11:20,416  * Restarting with stat
+2025-08-29 01:11:20,630  * Debugger is active!
+2025-08-29 01:11:20,631  * Debugger PIN: 874-017-404
+2025-08-29 01:11:40,721  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-29 01:11:40,755  * Restarting with stat
+2025-08-29 01:11:40,967  * Debugger is active!
+2025-08-29 01:11:40,967  * Debugger PIN: 874-017-404
+2025-08-29 01:11:42,006 127.0.0.1 - - [29/Aug/2025 01:11:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-29 01:11:42,213 127.0.0.1 - - [29/Aug/2025 01:11:42] "GET /index HTTP/1.1" 200 -
+2025-08-29 01:11:42,322 127.0.0.1 - - [29/Aug/2025 01:11:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 01:11:42,327 127.0.0.1 - - [29/Aug/2025 01:11:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 01:11:42,334 127.0.0.1 - - [29/Aug/2025 01:11:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-29 01:11:42,750 127.0.0.1 - - [29/Aug/2025 01:11:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:11:42,788 127.0.0.1 - - [29/Aug/2025 01:11:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 01:11:42,858 127.0.0.1 - - [29/Aug/2025 01:11:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-29 01:11:42,859 127.0.0.1 - - [29/Aug/2025 01:11:42] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-29 01:14:52,565 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.121:5000
+2025-08-29 01:14:52,565 [33mPress CTRL+C to quit[0m
+2025-08-29 01:14:52,566  * Restarting with stat
+2025-08-29 01:14:52,773  * Debugger is active!
+2025-08-29 01:14:52,774  * Debugger PIN: 874-017-404
+2025-08-29 01:14:57,434 127.0.0.1 - - [29/Aug/2025 01:14:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-29 01:14:57,627 127.0.0.1 - - [29/Aug/2025 01:14:57] "GET /index HTTP/1.1" 200 -
+2025-08-29 01:14:57,740 127.0.0.1 - - [29/Aug/2025 01:14:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 01:14:58,109 127.0.0.1 - - [29/Aug/2025 01:14:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 01:14:58,129 127.0.0.1 - - [29/Aug/2025 01:14:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 01:14:58,134 127.0.0.1 - - [29/Aug/2025 01:14:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:14:58,138 127.0.0.1 - - [29/Aug/2025 01:14:58] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-29 01:14:58,197 127.0.0.1 - - [29/Aug/2025 01:14:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-29 01:14:58,227 127.0.0.1 - - [29/Aug/2025 01:14:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-29 01:14:59,690 127.0.0.1 - - [29/Aug/2025 01:14:59] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2025-08-29 01:15:02,851 127.0.0.1 - - [29/Aug/2025 01:15:02] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:15:07,390 127.0.0.1 - - [29/Aug/2025 01:15:07] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:15:09,783 127.0.0.1 - - [29/Aug/2025 01:15:09] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2025-08-29 01:18:07,978  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-08-29 01:18:08,011  * Restarting with stat
+2025-08-29 01:18:08,232  * Debugger is active!
+2025-08-29 01:18:08,233  * Debugger PIN: 874-017-404
+2025-08-29 01:18:11,482 127.0.0.1 - - [29/Aug/2025 01:18:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-29 01:18:11,524 127.0.0.1 - - [29/Aug/2025 01:18:11] "GET /index HTTP/1.1" 200 -
+2025-08-29 01:18:11,750 127.0.0.1 - - [29/Aug/2025 01:18:11] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:18:12,056 127.0.0.1 - - [29/Aug/2025 01:18:12] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-29 01:18:12,094 127.0.0.1 - - [29/Aug/2025 01:18:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 01:18:12,125 127.0.0.1 - - [29/Aug/2025 01:18:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 01:18:12,135 127.0.0.1 - - [29/Aug/2025 01:18:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 01:18:12,210 127.0.0.1 - - [29/Aug/2025 01:18:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-29 01:18:12,238 127.0.0.1 - - [29/Aug/2025 01:18:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-29 01:18:13,947 127.0.0.1 - - [29/Aug/2025 01:18:13] "[33mGET /login.html HTTP/1.1[0m" 404 -
+2025-08-29 01:19:05,698 127.0.0.1 - - [29/Aug/2025 01:19:05] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-29 01:19:05,730 127.0.0.1 - - [29/Aug/2025 01:19:05] "GET /index HTTP/1.1" 200 -
+2025-08-29 01:19:05,777 127.0.0.1 - - [29/Aug/2025 01:19:05] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:19:05,821 127.0.0.1 - - [29/Aug/2025 01:19:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 01:19:05,826 127.0.0.1 - - [29/Aug/2025 01:19:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 01:19:05,828 127.0.0.1 - - [29/Aug/2025 01:19:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 01:19:05,831 127.0.0.1 - - [29/Aug/2025 01:19:05] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-29 01:19:05,904 127.0.0.1 - - [29/Aug/2025 01:19:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-29 01:19:06,175 127.0.0.1 - - [29/Aug/2025 01:19:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-29 01:19:06,874 127.0.0.1 - - [29/Aug/2025 01:19:06] "[33mGET /templates/login.html HTTP/1.1[0m" 404 -
+2025-08-29 01:19:32,452 127.0.0.1 - - [29/Aug/2025 01:19:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-29 01:19:32,481 127.0.0.1 - - [29/Aug/2025 01:19:32] "GET /index HTTP/1.1" 200 -
+2025-08-29 01:19:32,531 127.0.0.1 - - [29/Aug/2025 01:19:32] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:19:32,580 127.0.0.1 - - [29/Aug/2025 01:19:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 01:19:32,583 127.0.0.1 - - [29/Aug/2025 01:19:32] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-29 01:19:32,589 127.0.0.1 - - [29/Aug/2025 01:19:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 01:19:32,596 127.0.0.1 - - [29/Aug/2025 01:19:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 01:19:32,661 127.0.0.1 - - [29/Aug/2025 01:19:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-29 01:19:32,909 127.0.0.1 - - [29/Aug/2025 01:19:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-29 01:19:34,081 127.0.0.1 - - [29/Aug/2025 01:19:34] "[33mGET /templates/login.html HTTP/1.1[0m" 404 -
+2025-08-29 01:19:48,591 127.0.0.1 - - [29/Aug/2025 01:19:48] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-29 01:19:48,622 127.0.0.1 - - [29/Aug/2025 01:19:48] "GET /index HTTP/1.1" 200 -
+2025-08-29 01:19:48,686 127.0.0.1 - - [29/Aug/2025 01:19:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 01:19:48,691 127.0.0.1 - - [29/Aug/2025 01:19:48] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-29 01:19:48,695 127.0.0.1 - - [29/Aug/2025 01:19:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 01:19:48,707 127.0.0.1 - - [29/Aug/2025 01:19:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 01:19:48,718 127.0.0.1 - - [29/Aug/2025 01:19:48] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:19:48,888 127.0.0.1 - - [29/Aug/2025 01:19:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-29 01:19:49,016 127.0.0.1 - - [29/Aug/2025 01:19:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-29 01:19:55,497 127.0.0.1 - - [29/Aug/2025 01:19:55] "GET /login HTTP/1.1" 200 -
+2025-08-29 01:20:07,726 127.0.0.1 - - [29/Aug/2025 01:20:07] "[32mGET / HTTP/1.1[0m" 302 -
+2025-08-29 01:20:07,754 127.0.0.1 - - [29/Aug/2025 01:20:07] "GET /index HTTP/1.1" 200 -
+2025-08-29 01:20:07,797 127.0.0.1 - - [29/Aug/2025 01:20:07] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:20:07,852 127.0.0.1 - - [29/Aug/2025 01:20:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 01:20:07,853 127.0.0.1 - - [29/Aug/2025 01:20:07] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-29 01:20:07,856 127.0.0.1 - - [29/Aug/2025 01:20:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 01:20:07,858 127.0.0.1 - - [29/Aug/2025 01:20:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 01:20:07,931 127.0.0.1 - - [29/Aug/2025 01:20:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-29 01:20:08,251 127.0.0.1 - - [29/Aug/2025 01:20:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-29 01:20:09,305 127.0.0.1 - - [29/Aug/2025 01:20:09] "GET /login HTTP/1.1" 200 -
+2025-08-29 01:20:22,755 127.0.0.1 - - [29/Aug/2025 01:20:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-29 01:20:22,790 127.0.0.1 - - [29/Aug/2025 01:20:22] "GET /index HTTP/1.1" 200 -
+2025-08-29 01:20:22,855 127.0.0.1 - - [29/Aug/2025 01:20:22] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-29 01:20:22,866 127.0.0.1 - - [29/Aug/2025 01:20:22] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:20:22,868 127.0.0.1 - - [29/Aug/2025 01:20:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 01:20:22,870 127.0.0.1 - - [29/Aug/2025 01:20:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 01:20:22,873 127.0.0.1 - - [29/Aug/2025 01:20:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 01:20:22,928 127.0.0.1 - - [29/Aug/2025 01:20:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-29 01:20:23,262 127.0.0.1 - - [29/Aug/2025 01:20:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-08-29 01:20:45,698 127.0.0.1 - - [29/Aug/2025 01:20:45] "GET /register HTTP/1.1" 200 -
+2025-08-29 01:20:55,818 127.0.0.1 - - [29/Aug/2025 01:20:55] "[32mPOST /register HTTP/1.1[0m" 302 -
+2025-08-29 01:20:55,852 127.0.0.1 - - [29/Aug/2025 01:20:55] "GET /login HTTP/1.1" 200 -
+2025-08-29 01:21:01,264 127.0.0.1 - - [29/Aug/2025 01:21:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-08-29 01:21:01,293 127.0.0.1 - - [29/Aug/2025 01:21:01] "GET /index HTTP/1.1" 200 -
+2025-08-29 01:21:01,353 127.0.0.1 - - [29/Aug/2025 01:21:01] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-08-29 01:21:01,362 127.0.0.1 - - [29/Aug/2025 01:21:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-08-29 01:21:01,362 127.0.0.1 - - [29/Aug/2025 01:21:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-08-29 01:21:01,364 127.0.0.1 - - [29/Aug/2025 01:21:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-08-29 01:21:01,367 127.0.0.1 - - [29/Aug/2025 01:21:01] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-08-29 01:21:01,404 127.0.0.1 - - [29/Aug/2025 01:21:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-08-29 01:21:01,633 127.0.0.1 - - [29/Aug/2025 01:21:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -

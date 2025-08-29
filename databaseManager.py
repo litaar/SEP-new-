@@ -1,4 +1,28 @@
 import sqlite3 as sql
+import random
+
+def getTermsQMC(exclude_ids=[]):
+    """Get a random musical terms multiple-choice question"""
+    con = sql.connect("databaseFiles/database.db")
+    cur = con.cursor()
+
+    if exclude_ids:
+        placeholders = ",".join("?" * len(exclude_ids))
+        query = f"SELECT * FROM QuizQ WHERE category='terms' AND id NOT IN ({placeholders}) ORDER BY RANDOM() LIMIT 1"
+        cur.execute(query, exclude_ids)
+    else:
+        cur.execute("SELECT * FROM QuizQ WHERE category='terms' ORDER BY RANDOM() LIMIT 1")
+
+    row = cur.fetchone()
+    con.close()
+
+    if row:
+        # row structure: id, question, correct_answer, wrong1, wrong2, wrong3, category
+        qid, question, correct, w1, w2, w3, category = row
+        choices = [correct, w1, w2, w3]
+        random.shuffle(choices)
+        return qid, question, correct, choices
+    return None
 
 def getQ():
     """Get a random question from QuizQ table"""
@@ -10,18 +34,8 @@ def getQ():
     print(ans)
     return ans
 
-def getTermsQ():
-    """Get a random musical terms question from QuizQ table"""
-    con = sql.connect("databaseFiles/database.db")
-    cur = con.cursor()
-    # If you have a category/type column to filter musical terms questions
-    # cur.execute("SELECT * FROM QuizQ WHERE category='terms' ORDER BY RANDOM() LIMIT 1")
-    # Otherwise, get any random question
-    cur.execute("SELECT * FROM QuizQ ORDER BY RANDOM() LIMIT 1")
-    ans = cur.fetchone()
-    con.close()
-    print("Terms question:", ans)
-    return ans
+
+
 
 def getNotesQ():
     """Get a random note identification question from QuizQ table"""

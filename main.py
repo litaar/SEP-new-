@@ -194,9 +194,57 @@ def form():
 def play_notes():
     return render_template("play.html")
 
-@app.route("/play-terms")
+
+#Music terms quizzer
+@app.route("/play-terms", methods=["GET", "POST"])
 def play_terms():
-    return render_template("terms.html")
+    if "user_id" not in session:
+        return redirect("/login")
+
+    if "score_terms" not in session:
+        session["score_terms"] = 0
+    if "asked_terms" not in session:
+        session["asked_terms"] = []
+
+    alert_message = ""
+    # Handle form submission
+    if request.method == "POST":
+        selected = request.form.get("option")
+        correct = request.form.get("correct_option")
+        if selected == correct:
+            session["score_terms"] += 1
+            alert_message = "✅ Correct!"
+        else:
+            alert_message = f"❌ Incorrect! The answer was {correct}"
+
+    # GET: fetch new question
+    q = dbHandler.getTermsQMC(session["asked_terms"])
+    if not q:
+        final_score = session["score_terms"]
+        session.pop("score_terms", None)
+        session.pop("asked_terms", None)
+        return render_template(
+            "terms.html",
+            quiz="🎉 All questions finished!",
+            alert_message=f"Your final score: {final_score}",
+            score=final_score,
+            finished=True,
+        )
+
+    qid, question, correct, choices = q
+    session["asked_terms"].append(qid)
+
+    return render_template(
+        "terms.html",
+        quiz=question,
+        choices=choices,
+        answer=correct,
+        alert_message=alert_message,
+        score=session["score_terms"],
+        finished=False,
+    )
+
+
 
 # CSP report endpoint
 @app.route("/csp_report", methods=["POST"])

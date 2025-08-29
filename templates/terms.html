@@ -1,24 +1,23 @@
 {% extends 'layout.html' %} {% block content %}
 <div class="quiz-container">
-  <div class="quiz-display">
-    <h2>Musical Terms Quiz</h2>
-    {% if alert_message %}
-    <p>{{ alert_message }}</p>
-    {% endif %} {% if finished %}
-    <p><strong>Final Score:</strong> {{ score }}</p>
-    <a href="/play"><button class="quiz-btn">Play Again</button></a>
-    {% endif %}
-  </div>
+  <h2>{{ quiz }}</h2>
+  <p><strong>Score:</strong> {{ score }}</p>
 
   {% if not finished %}
-  <form method="POST">
-    <p>{{ quiz }}</p>
-    <input type="hidden" name="actual_answer" value="{{ answer }}" />
-    <input type="hidden" name="quiz" value="{{ quiz }}" />
-    <input type="text" name="user_answer" placeholder="Type your answer..." />
-    <button type="submit" class="quiz-btn">Submit</button>
+  <form method="POST" action="/play-terms">
+    {% for choice in choices %}
+    <label>
+      <input type="radio" name="option" value="{{ choice }}" required /> {{
+      choice }} </label
+    ><br />
+    {% endfor %}
+
+    <input type="hidden" name="correct_option" value="{{ answer }}" />
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    <button type="submit">Submit / Next</button>
   </form>
-  <p>Score: {{ score }}</p>
+  {% endif %} {% if alert_message %}
+  <p>{{ alert_message }}</p>
   {% endif %}
 </div>
 {% endblock %}

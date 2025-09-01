@@ -122,6 +122,9 @@ def play():
     # Protect route: force login
     if "user_id" not in session:
         return redirect("/login")
+    
+    conn = sqlite3.connect("databaseFiles/database.db")
+    cur = conn.cursor()
 
     # Initialize session vars if not set
     if "score" not in session:
@@ -137,9 +140,7 @@ def play():
 
         if user_answer == actual_answer:
             session["score"] += 1
-            alert_message = "✅ Correct!"
-        else:
-            alert_message = f"❌ Incorrect! The answer was {actual_answer}"
+            
 
         return render_template(
             "play.html",
@@ -156,17 +157,37 @@ def play():
     if not row:  # no more questions
         final_score = session["score"]
         total_questions = len(session["asked_ids"])
-        session.pop("score", None)
-        session.pop("asked_ids", None)
 
-        return render_template(
-            "play.html",
-            quiz=f"🎉 You finished all {total_questions} questions!",
-            answer="",
-            alert_message=f"Your final score: {final_score}/{total_questions}",
-            score=final_score,
-            finished=True,
+    # Save score in database
+    conn = sqlite3.connect("databaseFiles/database.db/scores")
+    cur = conn.cursor()
+
+    # get current user’s id
+    cur.execute("SELECT id FROM users WHERE username = ?", (session["user_id"],))
+    user_row = cur.fetchone()
+    if user_row:
+        user_id = user_row[0]
+        cur.execute(
+            "INSERT INTO Scores (user_id, score, user_score, date) VALUES (?, ?, ?, datetime('now'))",
+            (user_id, 15, final_score),  # 15 = total possible score
         )
+        conn.commit()
+
+    conn.close()
+
+    # clear session vars
+    session.pop("score", None)
+    session.pop("asked_ids", None)
+
+    return render_template(
+        "play.html",
+        quiz=f"🎉 You finished all {total_questions} questions!",
+        answer="",
+        alert_message=f"Your final score: {final_score}/{15}",
+        score=final_score,
+        finished=True,
+    )
+
 
     qid, name, qtype, answer, category = row
     session["asked_ids"].append(qid)
@@ -213,20 +234,35 @@ def play_terms():
         correct = request.form.get("correct_option")
         if selected == correct:
             session["score_terms"] += 1
-            alert_message = "✅ Correct!"
-        else:
-            alert_message = f"❌ Incorrect! The answer was {correct}"
+        
 
     # GET: fetch new question
     q = dbHandler.getTermsQMC(session["asked_terms"])
     if not q:
         final_score = session["score_terms"]
+
+        # ✅ Save score in database here
+        conn = sqlite3.connect("databaseFiles/database.db")
+        cur = conn.cursor()
+        cur.execute("SELECT id FROM users WHERE username = ?", (session["user_id"],))
+        user_row = cur.fetchone()
+        if user_row:
+            user_id = user_row[0]
+            cur.execute(
+                "INSERT INTO Scores (user_id, score, user_score, date) VALUES (?, ?, ?, datetime('now'))",
+                (user_id, 15, final_score),   # score = total possible (15), user_score = actual
+            )
+            conn.commit()
+        conn.close()
+
+        # clear quiz session
         session.pop("score_terms", None)
         session.pop("asked_terms", None)
+
         return render_template(
             "terms.html",
             quiz="🎉 All questions finished!",
-            alert_message=f"Your final score: {final_score}",
+            alert_message=f"Your final score: {final_score}/15",
             score=final_score,
             finished=True,
         )
@@ -243,7 +279,6 @@ def play_terms():
         score=session["score_terms"],
         finished=False,
     )
-
 
 
 # CSP report endpoint

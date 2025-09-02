@@ -1,28 +1,33 @@
-import sqlite3 as sql
-import random
+import sqlite3
 
-def getTermsQMC(exclude_ids=[]):
-    """Get a random musical terms multiple-choice question"""
-    con = sql.connect("databaseFiles/database.db")
-    cur = con.cursor()
 
-    if exclude_ids:
-        placeholders = ",".join("?" * len(exclude_ids))
-        query = f"SELECT * FROM QuizQ WHERE category='terms' AND id NOT IN ({placeholders}) ORDER BY RANDOM() LIMIT 1"
-        cur.execute(query, exclude_ids)
+def getTermsQMC(asked_ids):
+    conn = sqlite3.connect("databaseFiles/database.db")
+    cur = conn.cursor()
+
+    # Exclude previously asked question IDs
+    if asked_ids:
+        placeholders = ",".join(["?"] * len(asked_ids))
+        query = f"""
+            SELECT id, question, correct_answer, wrong1, wrong2, wrong3
+            FROM QuizQ
+            WHERE id NOT IN ({placeholders})
+            ORDER BY RANDOM()
+            LIMIT 1
+        """
+        cur.execute(query, asked_ids)
     else:
-        cur.execute("SELECT * FROM QuizQ WHERE category='terms' ORDER BY RANDOM() LIMIT 1")
+        cur.execute("""
+            SELECT id, question, correct_answer, wrong1, wrong2, wrong3
+            FROM QuizQ
+            ORDER BY RANDOM()
+            LIMIT 1
+        """)
 
     row = cur.fetchone()
-    con.close()
+    conn.close()
+    return row
 
-    if row:
-        # row structure: id, question, correct_answer, wrong1, wrong2, wrong3, category
-        qid, question, correct, w1, w2, w3, category = row
-        choices = [correct, w1, w2, w3]
-        random.shuffle(choices)
-        return qid, question, correct, choices
-    return None
 
 def getQ():
     """Get a random question from QuizQ table"""

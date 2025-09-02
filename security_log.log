@@ -7087,3 +7087,962 @@
 2025-09-01 02:19:36,448 127.0.0.1 - - [01/Sep/2025 02:19:36] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
 2025-09-01 02:19:36,673 127.0.0.1 - - [01/Sep/2025 02:19:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2025-09-01 02:19:36,763 127.0.0.1 - - [01/Sep/2025 02:19:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:29:31,689  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 02:29:31,719  * Restarting with stat
+2025-09-01 02:29:31,956  * Debugger is active!
+2025-09-01 02:29:31,957  * Debugger PIN: 129-843-865
+2025-09-01 02:29:50,898 127.0.0.1 - - [01/Sep/2025 02:29:50] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 02:29:51,110 127.0.0.1 - - [01/Sep/2025 02:29:51] "GET /index HTTP/1.1" 200 -
+2025-09-01 02:29:51,383 127.0.0.1 - - [01/Sep/2025 02:29:51] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:29:51,656 127.0.0.1 - - [01/Sep/2025 02:29:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:29:51,664 127.0.0.1 - - [01/Sep/2025 02:29:51] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:29:51,693 127.0.0.1 - - [01/Sep/2025 02:29:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:29:51,695 127.0.0.1 - - [01/Sep/2025 02:29:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:29:51,910 127.0.0.1 - - [01/Sep/2025 02:29:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:29:51,988 127.0.0.1 - - [01/Sep/2025 02:29:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:29:52,480 127.0.0.1 - - [01/Sep/2025 02:29:52] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 02:29:52,584 127.0.0.1 - - [01/Sep/2025 02:29:52] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 02:29:52,587 127.0.0.1 - - [01/Sep/2025 02:29:52] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:29:52,593 127.0.0.1 - - [01/Sep/2025 02:29:52] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:29:52,678 127.0.0.1 - - [01/Sep/2025 02:29:52] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=nn9MQFcmTDDOZ3OjtCV2 HTTP/1.1" 200 -
+2025-09-01 02:29:52,890 127.0.0.1 - - [01/Sep/2025 02:29:52] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 02:29:52,906 127.0.0.1 - - [01/Sep/2025 02:29:52] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=nn9MQFcmTDDOZ3OjtCV2 HTTP/1.1" 200 -
+2025-09-01 02:29:52,911 127.0.0.1 - - [01/Sep/2025 02:29:52] "HEAD /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=nn9MQFcmTDDOZ3OjtCV2 HTTP/1.1" 200 -
+2025-09-01 02:29:52,950 127.0.0.1 - - [01/Sep/2025 02:29:52] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 02:30:01,686 127.0.0.1 - - [01/Sep/2025 02:30:01] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 02:30:01,700  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 02:30:01,733  * Restarting with stat
+2025-09-01 02:30:01,941  * Debugger is active!
+2025-09-01 02:30:01,942  * Debugger PIN: 129-843-865
+2025-09-01 02:30:02,403 127.0.0.1 - - [01/Sep/2025 02:30:02] "GET /index HTTP/1.1" 200 -
+2025-09-01 02:30:02,492 127.0.0.1 - - [01/Sep/2025 02:30:02] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:30:02,554 127.0.0.1 - - [01/Sep/2025 02:30:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:30:02,556 127.0.0.1 - - [01/Sep/2025 02:30:02] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:30:02,562 127.0.0.1 - - [01/Sep/2025 02:30:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:30:02,569 127.0.0.1 - - [01/Sep/2025 02:30:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:30:02,796 127.0.0.1 - - [01/Sep/2025 02:30:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:30:02,850 127.0.0.1 - - [01/Sep/2025 02:30:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:30:03,245 127.0.0.1 - - [01/Sep/2025 02:30:03] "GET /play-terms HTTP/1.1" 200 -
+2025-09-01 02:30:03,361 127.0.0.1 - - [01/Sep/2025 02:30:03] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 02:30:03,365 127.0.0.1 - - [01/Sep/2025 02:30:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:30:03,367 127.0.0.1 - - [01/Sep/2025 02:30:03] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:30:03,370 127.0.0.1 - - [01/Sep/2025 02:30:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:30:03,373 127.0.0.1 - - [01/Sep/2025 02:30:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:30:03,589 127.0.0.1 - - [01/Sep/2025 02:30:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:30:03,640 127.0.0.1 - - [01/Sep/2025 02:30:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:30:03,719 127.0.0.1 - - [01/Sep/2025 02:30:03] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:32:53,359  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 02:32:53,394  * Restarting with stat
+2025-09-01 02:34:05,306 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.148:5000
+2025-09-01 02:34:05,306 [33mPress CTRL+C to quit[0m
+2025-09-01 02:34:05,307  * Restarting with stat
+2025-09-01 02:34:05,509  * Debugger is active!
+2025-09-01 02:34:05,510  * Debugger PIN: 129-843-865
+2025-09-01 02:34:08,062 127.0.0.1 - - [01/Sep/2025 02:34:08] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 02:34:08,278 127.0.0.1 - - [01/Sep/2025 02:34:08] "GET /index HTTP/1.1" 200 -
+2025-09-01 02:34:08,458 127.0.0.1 - - [01/Sep/2025 02:34:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:34:08,460 127.0.0.1 - - [01/Sep/2025 02:34:08] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:34:08,773 127.0.0.1 - - [01/Sep/2025 02:34:08] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:34:08,779 127.0.0.1 - - [01/Sep/2025 02:34:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:34:08,781 127.0.0.1 - - [01/Sep/2025 02:34:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:34:08,788 127.0.0.1 - - [01/Sep/2025 02:34:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:34:08,791 127.0.0.1 - - [01/Sep/2025 02:34:08] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:34:09,776 127.0.0.1 - - [01/Sep/2025 02:34:09] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 02:34:09,888 127.0.0.1 - - [01/Sep/2025 02:34:09] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:34:09,892 127.0.0.1 - - [01/Sep/2025 02:34:09] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:34:09,893 127.0.0.1 - - [01/Sep/2025 02:34:09] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 02:34:09,977 127.0.0.1 - - [01/Sep/2025 02:34:09] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=PSSgmS1WgTNjo5Yf6Y8V HTTP/1.1" 200 -
+2025-09-01 02:34:10,079 127.0.0.1 - - [01/Sep/2025 02:34:10] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 02:34:10,157 127.0.0.1 - - [01/Sep/2025 02:34:10] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 02:34:10,160 127.0.0.1 - - [01/Sep/2025 02:34:10] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=PSSgmS1WgTNjo5Yf6Y8V HTTP/1.1" 200 -
+2025-09-01 02:34:55,197  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 02:34:55,227  * Restarting with stat
+2025-09-01 02:34:55,435  * Debugger is active!
+2025-09-01 02:34:55,435  * Debugger PIN: 129-843-865
+2025-09-01 02:35:25,226  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 02:35:25,257  * Restarting with stat
+2025-09-01 02:35:25,485  * Debugger is active!
+2025-09-01 02:35:25,486  * Debugger PIN: 129-843-865
+2025-09-01 02:35:32,406 127.0.0.1 - - [01/Sep/2025 02:35:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 02:35:32,675 127.0.0.1 - - [01/Sep/2025 02:35:32] "GET /index HTTP/1.1" 200 -
+2025-09-01 02:35:32,819 127.0.0.1 - - [01/Sep/2025 02:35:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:32,819 127.0.0.1 - - [01/Sep/2025 02:35:32] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:32,886 127.0.0.1 - - [01/Sep/2025 02:35:32] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:33,089 127.0.0.1 - - [01/Sep/2025 02:35:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:33,093 127.0.0.1 - - [01/Sep/2025 02:35:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:33,182 127.0.0.1 - - [01/Sep/2025 02:35:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:33,243 127.0.0.1 - - [01/Sep/2025 02:35:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:33,510  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 02:35:33,540  * Restarting with stat
+2025-09-01 02:35:33,767  * Debugger is active!
+2025-09-01 02:35:33,767  * Debugger PIN: 129-843-865
+2025-09-01 02:35:34,217 127.0.0.1 - - [01/Sep/2025 02:35:34] "GET /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:34,567 127.0.0.1 - - [01/Sep/2025 02:35:34] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:34,570 127.0.0.1 - - [01/Sep/2025 02:35:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:34,572 127.0.0.1 - - [01/Sep/2025 02:35:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:34,572 127.0.0.1 - - [01/Sep/2025 02:35:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:34,574 127.0.0.1 - - [01/Sep/2025 02:35:34] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:34,781 127.0.0.1 - - [01/Sep/2025 02:35:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:34,842 127.0.0.1 - - [01/Sep/2025 02:35:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:34,905 127.0.0.1 - - [01/Sep/2025 02:35:34] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:36,818 127.0.0.1 - - [01/Sep/2025 02:35:36] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:36,939 127.0.0.1 - - [01/Sep/2025 02:35:36] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:36,940 127.0.0.1 - - [01/Sep/2025 02:35:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:36,944 127.0.0.1 - - [01/Sep/2025 02:35:36] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:36,947 127.0.0.1 - - [01/Sep/2025 02:35:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:36,952 127.0.0.1 - - [01/Sep/2025 02:35:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:37,182 127.0.0.1 - - [01/Sep/2025 02:35:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:37,250 127.0.0.1 - - [01/Sep/2025 02:35:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:38,819 127.0.0.1 - - [01/Sep/2025 02:35:38] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:38,929 127.0.0.1 - - [01/Sep/2025 02:35:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:38,932 127.0.0.1 - - [01/Sep/2025 02:35:38] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:38,935 127.0.0.1 - - [01/Sep/2025 02:35:38] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:38,938 127.0.0.1 - - [01/Sep/2025 02:35:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:38,941 127.0.0.1 - - [01/Sep/2025 02:35:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:39,089 127.0.0.1 - - [01/Sep/2025 02:35:39] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:39,140 127.0.0.1 - - [01/Sep/2025 02:35:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:39,895 127.0.0.1 - - [01/Sep/2025 02:35:39] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:39,992 127.0.0.1 - - [01/Sep/2025 02:35:39] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:39,996 127.0.0.1 - - [01/Sep/2025 02:35:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:39,998 127.0.0.1 - - [01/Sep/2025 02:35:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:40,004 127.0.0.1 - - [01/Sep/2025 02:35:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:40,006 127.0.0.1 - - [01/Sep/2025 02:35:40] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:40,064 127.0.0.1 - - [01/Sep/2025 02:35:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:40,223 127.0.0.1 - - [01/Sep/2025 02:35:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:40,809 127.0.0.1 - - [01/Sep/2025 02:35:40] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:40,897 127.0.0.1 - - [01/Sep/2025 02:35:40] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:40,902 127.0.0.1 - - [01/Sep/2025 02:35:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:40,905 127.0.0.1 - - [01/Sep/2025 02:35:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:40,908 127.0.0.1 - - [01/Sep/2025 02:35:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:40,909 127.0.0.1 - - [01/Sep/2025 02:35:40] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:40,995 127.0.0.1 - - [01/Sep/2025 02:35:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:41,132 127.0.0.1 - - [01/Sep/2025 02:35:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:41,546 127.0.0.1 - - [01/Sep/2025 02:35:41] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:41,666 127.0.0.1 - - [01/Sep/2025 02:35:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:41,669 127.0.0.1 - - [01/Sep/2025 02:35:41] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:41,671 127.0.0.1 - - [01/Sep/2025 02:35:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:41,677 127.0.0.1 - - [01/Sep/2025 02:35:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:41,677 127.0.0.1 - - [01/Sep/2025 02:35:41] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:41,886 127.0.0.1 - - [01/Sep/2025 02:35:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:41,942 127.0.0.1 - - [01/Sep/2025 02:35:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:42,367 127.0.0.1 - - [01/Sep/2025 02:35:42] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:42,449 127.0.0.1 - - [01/Sep/2025 02:35:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:42,465 127.0.0.1 - - [01/Sep/2025 02:35:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:42,468 127.0.0.1 - - [01/Sep/2025 02:35:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:42,473 127.0.0.1 - - [01/Sep/2025 02:35:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:42,476 127.0.0.1 - - [01/Sep/2025 02:35:42] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:42,538 127.0.0.1 - - [01/Sep/2025 02:35:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:42,666 127.0.0.1 - - [01/Sep/2025 02:35:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:43,588 127.0.0.1 - - [01/Sep/2025 02:35:43] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:43,669 127.0.0.1 - - [01/Sep/2025 02:35:43] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:43,690 127.0.0.1 - - [01/Sep/2025 02:35:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:43,693 127.0.0.1 - - [01/Sep/2025 02:35:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:43,696 127.0.0.1 - - [01/Sep/2025 02:35:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:43,699 127.0.0.1 - - [01/Sep/2025 02:35:43] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:43,765 127.0.0.1 - - [01/Sep/2025 02:35:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:43,866 127.0.0.1 - - [01/Sep/2025 02:35:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:44,366 127.0.0.1 - - [01/Sep/2025 02:35:44] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:44,440 127.0.0.1 - - [01/Sep/2025 02:35:44] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:44,459 127.0.0.1 - - [01/Sep/2025 02:35:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:44,470 127.0.0.1 - - [01/Sep/2025 02:35:44] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:44,476 127.0.0.1 - - [01/Sep/2025 02:35:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:44,478 127.0.0.1 - - [01/Sep/2025 02:35:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:44,541 127.0.0.1 - - [01/Sep/2025 02:35:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:44,641 127.0.0.1 - - [01/Sep/2025 02:35:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:45,244 127.0.0.1 - - [01/Sep/2025 02:35:45] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:45,305 127.0.0.1 - - [01/Sep/2025 02:35:45] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:45,330 127.0.0.1 - - [01/Sep/2025 02:35:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:45,333 127.0.0.1 - - [01/Sep/2025 02:35:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:45,336 127.0.0.1 - - [01/Sep/2025 02:35:45] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:45,338 127.0.0.1 - - [01/Sep/2025 02:35:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:45,385 127.0.0.1 - - [01/Sep/2025 02:35:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:45,586 127.0.0.1 - - [01/Sep/2025 02:35:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:46,076 127.0.0.1 - - [01/Sep/2025 02:35:46] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:46,170 127.0.0.1 - - [01/Sep/2025 02:35:46] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:46,176 127.0.0.1 - - [01/Sep/2025 02:35:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:46,178 127.0.0.1 - - [01/Sep/2025 02:35:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:46,179 127.0.0.1 - - [01/Sep/2025 02:35:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:46,181 127.0.0.1 - - [01/Sep/2025 02:35:46] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:46,249 127.0.0.1 - - [01/Sep/2025 02:35:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:46,341 127.0.0.1 - - [01/Sep/2025 02:35:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:46,869 127.0.0.1 - - [01/Sep/2025 02:35:46] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:46,959 127.0.0.1 - - [01/Sep/2025 02:35:46] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:46,992 127.0.0.1 - - [01/Sep/2025 02:35:46] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:46,996 127.0.0.1 - - [01/Sep/2025 02:35:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:46,998 127.0.0.1 - - [01/Sep/2025 02:35:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:47,000 127.0.0.1 - - [01/Sep/2025 02:35:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:47,201 127.0.0.1 - - [01/Sep/2025 02:35:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:47,262 127.0.0.1 - - [01/Sep/2025 02:35:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:47,828 127.0.0.1 - - [01/Sep/2025 02:35:47] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:47,924 127.0.0.1 - - [01/Sep/2025 02:35:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:47,926 127.0.0.1 - - [01/Sep/2025 02:35:47] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:47,929 127.0.0.1 - - [01/Sep/2025 02:35:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:47,933 127.0.0.1 - - [01/Sep/2025 02:35:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:47,935 127.0.0.1 - - [01/Sep/2025 02:35:47] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:47,979 127.0.0.1 - - [01/Sep/2025 02:35:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:48,100 127.0.0.1 - - [01/Sep/2025 02:35:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:48,648 127.0.0.1 - - [01/Sep/2025 02:35:48] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:48,731 127.0.0.1 - - [01/Sep/2025 02:35:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:48,737 127.0.0.1 - - [01/Sep/2025 02:35:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:48,738 127.0.0.1 - - [01/Sep/2025 02:35:48] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:48,740 127.0.0.1 - - [01/Sep/2025 02:35:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:48,745 127.0.0.1 - - [01/Sep/2025 02:35:48] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:48,798 127.0.0.1 - - [01/Sep/2025 02:35:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:48,970 127.0.0.1 - - [01/Sep/2025 02:35:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:49,467 127.0.0.1 - - [01/Sep/2025 02:35:49] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:49,538 127.0.0.1 - - [01/Sep/2025 02:35:49] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:49,568 127.0.0.1 - - [01/Sep/2025 02:35:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:49,585 127.0.0.1 - - [01/Sep/2025 02:35:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:49,589 127.0.0.1 - - [01/Sep/2025 02:35:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:49,592 127.0.0.1 - - [01/Sep/2025 02:35:49] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:49,739 127.0.0.1 - - [01/Sep/2025 02:35:49] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:49,784 127.0.0.1 - - [01/Sep/2025 02:35:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:50,146 127.0.0.1 - - [01/Sep/2025 02:35:50] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:50,231 127.0.0.1 - - [01/Sep/2025 02:35:50] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:50,240 127.0.0.1 - - [01/Sep/2025 02:35:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:50,245 127.0.0.1 - - [01/Sep/2025 02:35:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:50,248 127.0.0.1 - - [01/Sep/2025 02:35:50] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:50,251 127.0.0.1 - - [01/Sep/2025 02:35:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:50,304 127.0.0.1 - - [01/Sep/2025 02:35:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:50,410 127.0.0.1 - - [01/Sep/2025 02:35:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:51,075 127.0.0.1 - - [01/Sep/2025 02:35:51] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:51,184 127.0.0.1 - - [01/Sep/2025 02:35:51] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:51,187 127.0.0.1 - - [01/Sep/2025 02:35:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:51,190 127.0.0.1 - - [01/Sep/2025 02:35:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:51,192 127.0.0.1 - - [01/Sep/2025 02:35:51] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:51,194 127.0.0.1 - - [01/Sep/2025 02:35:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:51,404 127.0.0.1 - - [01/Sep/2025 02:35:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:51,459 127.0.0.1 - - [01/Sep/2025 02:35:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:51,969 127.0.0.1 - - [01/Sep/2025 02:35:51] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:52,085 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:52,085 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:52,088 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:52,091 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:52,094 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:52,259 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:52,324 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:52,727 127.0.0.1 - - [01/Sep/2025 02:35:52] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:52,778 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:52,807 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:52,839 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:52,842 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:52,848 127.0.0.1 - - [01/Sep/2025 02:35:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:53,047 127.0.0.1 - - [01/Sep/2025 02:35:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:53,097 127.0.0.1 - - [01/Sep/2025 02:35:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:53,994 127.0.0.1 - - [01/Sep/2025 02:35:53] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:54,082 127.0.0.1 - - [01/Sep/2025 02:35:54] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:54,122 127.0.0.1 - - [01/Sep/2025 02:35:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:54,127 127.0.0.1 - - [01/Sep/2025 02:35:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:54,130 127.0.0.1 - - [01/Sep/2025 02:35:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:54,135 127.0.0.1 - - [01/Sep/2025 02:35:54] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:54,325 127.0.0.1 - - [01/Sep/2025 02:35:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:54,387 127.0.0.1 - - [01/Sep/2025 02:35:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:54,869 127.0.0.1 - - [01/Sep/2025 02:35:54] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:54,970 127.0.0.1 - - [01/Sep/2025 02:35:54] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:54,991 127.0.0.1 - - [01/Sep/2025 02:35:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:54,994 127.0.0.1 - - [01/Sep/2025 02:35:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:54,999 127.0.0.1 - - [01/Sep/2025 02:35:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:55,000 127.0.0.1 - - [01/Sep/2025 02:35:55] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:55,215 127.0.0.1 - - [01/Sep/2025 02:35:55] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:55,257 127.0.0.1 - - [01/Sep/2025 02:35:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:56,170 127.0.0.1 - - [01/Sep/2025 02:35:56] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:56,238 127.0.0.1 - - [01/Sep/2025 02:35:56] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:56,289 127.0.0.1 - - [01/Sep/2025 02:35:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:56,292 127.0.0.1 - - [01/Sep/2025 02:35:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:56,294 127.0.0.1 - - [01/Sep/2025 02:35:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:56,297 127.0.0.1 - - [01/Sep/2025 02:35:56] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:56,508 127.0.0.1 - - [01/Sep/2025 02:35:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:56,559 127.0.0.1 - - [01/Sep/2025 02:35:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:57,027 127.0.0.1 - - [01/Sep/2025 02:35:57] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:57,098 127.0.0.1 - - [01/Sep/2025 02:35:57] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:57,123 127.0.0.1 - - [01/Sep/2025 02:35:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:57,138 127.0.0.1 - - [01/Sep/2025 02:35:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:57,140 127.0.0.1 - - [01/Sep/2025 02:35:57] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:57,142 127.0.0.1 - - [01/Sep/2025 02:35:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:57,198 127.0.0.1 - - [01/Sep/2025 02:35:57] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:57,293 127.0.0.1 - - [01/Sep/2025 02:35:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:57,972 127.0.0.1 - - [01/Sep/2025 02:35:57] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:58,080 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:58,084 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:58,086 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:58,089 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:58,092 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:58,335 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:58,391 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:58,826 127.0.0.1 - - [01/Sep/2025 02:35:58] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:35:58,927 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:58,944 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:58,947 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:58,951 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:35:58,954 127.0.0.1 - - [01/Sep/2025 02:35:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:35:59,161 127.0.0.1 - - [01/Sep/2025 02:35:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:59,228 127.0.0.1 - - [01/Sep/2025 02:35:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:35:59,975 127.0.0.1 - - [01/Sep/2025 02:35:59] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:36:00,040 127.0.0.1 - - [01/Sep/2025 02:36:00] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:00,060 127.0.0.1 - - [01/Sep/2025 02:36:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:00,076 127.0.0.1 - - [01/Sep/2025 02:36:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:00,079 127.0.0.1 - - [01/Sep/2025 02:36:00] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:00,089 127.0.0.1 - - [01/Sep/2025 02:36:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:00,267 127.0.0.1 - - [01/Sep/2025 02:36:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:00,306 127.0.0.1 - - [01/Sep/2025 02:36:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:01,325 127.0.0.1 - - [01/Sep/2025 02:36:01] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:36:01,400 127.0.0.1 - - [01/Sep/2025 02:36:01] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:01,419 127.0.0.1 - - [01/Sep/2025 02:36:01] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:01,422 127.0.0.1 - - [01/Sep/2025 02:36:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:01,424 127.0.0.1 - - [01/Sep/2025 02:36:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:01,426 127.0.0.1 - - [01/Sep/2025 02:36:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:01,498 127.0.0.1 - - [01/Sep/2025 02:36:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:01,637 127.0.0.1 - - [01/Sep/2025 02:36:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:03,437 127.0.0.1 - - [01/Sep/2025 02:36:03] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:36:03,585 127.0.0.1 - - [01/Sep/2025 02:36:03] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:03,589 127.0.0.1 - - [01/Sep/2025 02:36:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:03,592 127.0.0.1 - - [01/Sep/2025 02:36:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:03,595 127.0.0.1 - - [01/Sep/2025 02:36:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:03,604 127.0.0.1 - - [01/Sep/2025 02:36:03] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:03,824 127.0.0.1 - - [01/Sep/2025 02:36:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:03,883 127.0.0.1 - - [01/Sep/2025 02:36:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:04,428 127.0.0.1 - - [01/Sep/2025 02:36:04] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:36:04,513 127.0.0.1 - - [01/Sep/2025 02:36:04] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:04,543 127.0.0.1 - - [01/Sep/2025 02:36:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:04,546 127.0.0.1 - - [01/Sep/2025 02:36:04] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:04,548 127.0.0.1 - - [01/Sep/2025 02:36:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:04,551 127.0.0.1 - - [01/Sep/2025 02:36:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:04,706 127.0.0.1 - - [01/Sep/2025 02:36:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:04,766 127.0.0.1 - - [01/Sep/2025 02:36:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:05,289 127.0.0.1 - - [01/Sep/2025 02:36:05] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:36:05,358 127.0.0.1 - - [01/Sep/2025 02:36:05] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:05,384 127.0.0.1 - - [01/Sep/2025 02:36:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:05,398 127.0.0.1 - - [01/Sep/2025 02:36:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:05,403 127.0.0.1 - - [01/Sep/2025 02:36:05] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:05,406 127.0.0.1 - - [01/Sep/2025 02:36:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:05,485 127.0.0.1 - - [01/Sep/2025 02:36:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:05,549 127.0.0.1 - - [01/Sep/2025 02:36:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:11,855 127.0.0.1 - - [01/Sep/2025 02:36:11] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:36:11,999 127.0.0.1 - - [01/Sep/2025 02:36:11] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:12,002 127.0.0.1 - - [01/Sep/2025 02:36:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:12,004 127.0.0.1 - - [01/Sep/2025 02:36:12] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:36:12,008 127.0.0.1 - - [01/Sep/2025 02:36:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:36:12,009 127.0.0.1 - - [01/Sep/2025 02:36:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:12,241 127.0.0.1 - - [01/Sep/2025 02:36:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:12,304 127.0.0.1 - - [01/Sep/2025 02:36:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:36:12,361 127.0.0.1 - - [01/Sep/2025 02:36:12] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:38:29,329 127.0.0.1 - - [01/Sep/2025 02:38:29] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 02:38:29,553 127.0.0.1 - - [01/Sep/2025 02:38:29] "GET /index HTTP/1.1" 200 -
+2025-09-01 02:38:30,194 127.0.0.1 - - [01/Sep/2025 02:38:30] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:38:30,210 127.0.0.1 - - [01/Sep/2025 02:38:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:38:30,230 127.0.0.1 - - [01/Sep/2025 02:38:30] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:38:30,233 127.0.0.1 - - [01/Sep/2025 02:38:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:38:30,240 127.0.0.1 - - [01/Sep/2025 02:38:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:38:30,349 127.0.0.1 - - [01/Sep/2025 02:38:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:38:30,407 127.0.0.1 - - [01/Sep/2025 02:38:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:38:31,069 127.0.0.1 - - [01/Sep/2025 02:38:31] "GET /play-terms HTTP/1.1" 200 -
+2025-09-01 02:38:31,170 127.0.0.1 - - [01/Sep/2025 02:38:31] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:38:33,430 The CSRF token is missing.
+2025-09-01 02:38:33,430 127.0.0.1 - - [01/Sep/2025 02:38:33] "[31m[1mPOST /play-terms HTTP/1.1[0m" 400 -
+2025-09-01 02:38:35,541 The CSRF token is missing.
+2025-09-01 02:38:35,541 127.0.0.1 - - [01/Sep/2025 02:38:35] "[31m[1mPOST /play-terms HTTP/1.1[0m" 400 -
+2025-09-01 02:39:35,284 127.0.0.1 - - [01/Sep/2025 02:39:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 02:39:35,346 127.0.0.1 - - [01/Sep/2025 02:39:35] "GET /index HTTP/1.1" 200 -
+2025-09-01 02:39:35,450 127.0.0.1 - - [01/Sep/2025 02:39:35] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:39:35,482 127.0.0.1 - - [01/Sep/2025 02:39:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:39:35,486 127.0.0.1 - - [01/Sep/2025 02:39:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:39:35,489 127.0.0.1 - - [01/Sep/2025 02:39:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:39:35,491 127.0.0.1 - - [01/Sep/2025 02:39:35] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:39:35,807 127.0.0.1 - - [01/Sep/2025 02:39:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:39:35,867 127.0.0.1 - - [01/Sep/2025 02:39:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:39:36,200 127.0.0.1 - - [01/Sep/2025 02:39:36] "GET /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:37,430 127.0.0.1 - - [01/Sep/2025 02:39:37] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:38,630 127.0.0.1 - - [01/Sep/2025 02:39:38] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:39,327 127.0.0.1 - - [01/Sep/2025 02:39:39] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:40,025 127.0.0.1 - - [01/Sep/2025 02:39:40] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:40,710 127.0.0.1 - - [01/Sep/2025 02:39:40] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:41,387 127.0.0.1 - - [01/Sep/2025 02:39:41] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:42,029 127.0.0.1 - - [01/Sep/2025 02:39:42] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:42,656 127.0.0.1 - - [01/Sep/2025 02:39:42] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:43,279 127.0.0.1 - - [01/Sep/2025 02:39:43] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:43,903 127.0.0.1 - - [01/Sep/2025 02:39:43] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:44,540 127.0.0.1 - - [01/Sep/2025 02:39:44] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:45,345 127.0.0.1 - - [01/Sep/2025 02:39:45] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:45,964 127.0.0.1 - - [01/Sep/2025 02:39:45] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:48,766 127.0.0.1 - - [01/Sep/2025 02:39:48] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:49,449 127.0.0.1 - - [01/Sep/2025 02:39:49] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:50,206 127.0.0.1 - - [01/Sep/2025 02:39:50] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:50,951 127.0.0.1 - - [01/Sep/2025 02:39:50] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:51,586 127.0.0.1 - - [01/Sep/2025 02:39:51] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:52,984 127.0.0.1 - - [01/Sep/2025 02:39:52] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:53,810 127.0.0.1 - - [01/Sep/2025 02:39:53] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:55,710 127.0.0.1 - - [01/Sep/2025 02:39:55] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:56,677 127.0.0.1 - - [01/Sep/2025 02:39:56] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:58,435 127.0.0.1 - - [01/Sep/2025 02:39:58] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:59,211 127.0.0.1 - - [01/Sep/2025 02:39:59] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:39:59,972 127.0.0.1 - - [01/Sep/2025 02:39:59] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:40:00,667 127.0.0.1 - - [01/Sep/2025 02:40:00] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:40:01,351 127.0.0.1 - - [01/Sep/2025 02:40:01] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:40:02,149 127.0.0.1 - - [01/Sep/2025 02:40:02] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:40:02,775 127.0.0.1 - - [01/Sep/2025 02:40:02] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:40:03,537 127.0.0.1 - - [01/Sep/2025 02:40:03] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:40:05,717 127.0.0.1 - - [01/Sep/2025 02:40:05] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:40:06,518 127.0.0.1 - - [01/Sep/2025 02:40:06] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:40:08,352 127.0.0.1 - - [01/Sep/2025 02:40:08] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:48:18,247  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 02:48:18,279  * Restarting with stat
+2025-09-01 02:48:18,500  * Debugger is active!
+2025-09-01 02:48:18,501  * Debugger PIN: 129-843-865
+2025-09-01 02:48:27,301 127.0.0.1 - - [01/Sep/2025 02:48:27] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 02:48:27,524 127.0.0.1 - - [01/Sep/2025 02:48:27] "GET /index HTTP/1.1" 200 -
+2025-09-01 02:48:27,673 127.0.0.1 - - [01/Sep/2025 02:48:27] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:48:27,774 127.0.0.1 - - [01/Sep/2025 02:48:27] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:48:27,971 127.0.0.1 - - [01/Sep/2025 02:48:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:48:27,976 127.0.0.1 - - [01/Sep/2025 02:48:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:48:27,981 127.0.0.1 - - [01/Sep/2025 02:48:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:48:28,200 127.0.0.1 - - [01/Sep/2025 02:48:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:48:28,266 127.0.0.1 - - [01/Sep/2025 02:48:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:48:29,461 127.0.0.1 - - [01/Sep/2025 02:48:29] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 02:48:29,671 127.0.0.1 - - [01/Sep/2025 02:48:29] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:48:29,674 127.0.0.1 - - [01/Sep/2025 02:48:29] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 02:48:29,809 127.0.0.1 - - [01/Sep/2025 02:48:29] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=XX00njp9fc324mHMJilN HTTP/1.1" 200 -
+2025-09-01 02:48:29,885 127.0.0.1 - - [01/Sep/2025 02:48:29] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 02:48:29,890 127.0.0.1 - - [01/Sep/2025 02:48:29] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=XX00njp9fc324mHMJilN HTTP/1.1" 200 -
+2025-09-01 02:48:29,960 127.0.0.1 - - [01/Sep/2025 02:48:29] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 02:49:24,026  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 02:49:24,059  * Restarting with stat
+2025-09-01 02:49:24,280  * Debugger is active!
+2025-09-01 02:49:24,280  * Debugger PIN: 129-843-865
+2025-09-01 02:50:43,736  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 02:50:43,771  * Restarting with stat
+2025-09-01 02:50:43,982  * Debugger is active!
+2025-09-01 02:50:43,982  * Debugger PIN: 129-843-865
+2025-09-01 02:50:52,947 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.148:5000
+2025-09-01 02:50:52,947 [33mPress CTRL+C to quit[0m
+2025-09-01 02:50:52,948  * Restarting with stat
+2025-09-01 02:50:53,149  * Debugger is active!
+2025-09-01 02:50:53,150  * Debugger PIN: 129-843-865
+2025-09-01 02:51:05,936 127.0.0.1 - - [01/Sep/2025 02:51:05] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 02:51:06,117 127.0.0.1 - - [01/Sep/2025 02:51:06] "GET /index HTTP/1.1" 200 -
+2025-09-01 02:51:06,274 127.0.0.1 - - [01/Sep/2025 02:51:06] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 02:51:06,599 127.0.0.1 - - [01/Sep/2025 02:51:06] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 02:51:06,603 127.0.0.1 - - [01/Sep/2025 02:51:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:51:06,619 127.0.0.1 - - [01/Sep/2025 02:51:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 02:51:06,635 127.0.0.1 - - [01/Sep/2025 02:51:06] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 02:51:06,720 127.0.0.1 - - [01/Sep/2025 02:51:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 02:51:06,755 127.0.0.1 - - [01/Sep/2025 02:51:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 02:51:07,467 127.0.0.1 - - [01/Sep/2025 02:51:07] "GET /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:07,513 127.0.0.1 - - [01/Sep/2025 02:51:07] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 02:51:09,039 127.0.0.1 - - [01/Sep/2025 02:51:09] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:09,970 127.0.0.1 - - [01/Sep/2025 02:51:09] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:10,646 127.0.0.1 - - [01/Sep/2025 02:51:10] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:11,541 127.0.0.1 - - [01/Sep/2025 02:51:11] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:12,143 127.0.0.1 - - [01/Sep/2025 02:51:12] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:13,090 127.0.0.1 - - [01/Sep/2025 02:51:13] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:13,781 127.0.0.1 - - [01/Sep/2025 02:51:13] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:14,449 127.0.0.1 - - [01/Sep/2025 02:51:14] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:15,108 127.0.0.1 - - [01/Sep/2025 02:51:15] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:17,356 127.0.0.1 - - [01/Sep/2025 02:51:17] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:18,174 127.0.0.1 - - [01/Sep/2025 02:51:18] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:18,826 127.0.0.1 - - [01/Sep/2025 02:51:18] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:19,535 127.0.0.1 - - [01/Sep/2025 02:51:19] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:20,195 127.0.0.1 - - [01/Sep/2025 02:51:20] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:22,258 127.0.0.1 - - [01/Sep/2025 02:51:22] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:23,162 127.0.0.1 - - [01/Sep/2025 02:51:23] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:25,814 127.0.0.1 - - [01/Sep/2025 02:51:25] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:26,791 127.0.0.1 - - [01/Sep/2025 02:51:26] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:28,135 127.0.0.1 - - [01/Sep/2025 02:51:28] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:29,001 127.0.0.1 - - [01/Sep/2025 02:51:29] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:29,888 127.0.0.1 - - [01/Sep/2025 02:51:29] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:30,849 127.0.0.1 - - [01/Sep/2025 02:51:30] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:31,666 127.0.0.1 - - [01/Sep/2025 02:51:31] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:32,489 127.0.0.1 - - [01/Sep/2025 02:51:32] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:33,349 127.0.0.1 - - [01/Sep/2025 02:51:33] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:34,241 127.0.0.1 - - [01/Sep/2025 02:51:34] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:35,070 127.0.0.1 - - [01/Sep/2025 02:51:35] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:35,948 127.0.0.1 - - [01/Sep/2025 02:51:35] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:36,823 127.0.0.1 - - [01/Sep/2025 02:51:36] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:38,679 127.0.0.1 - - [01/Sep/2025 02:51:38] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:39,363 127.0.0.1 - - [01/Sep/2025 02:51:39] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:39,962 127.0.0.1 - - [01/Sep/2025 02:51:39] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:40,542 127.0.0.1 - - [01/Sep/2025 02:51:40] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:41,230 127.0.0.1 - - [01/Sep/2025 02:51:41] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:45,754 127.0.0.1 - - [01/Sep/2025 02:51:45] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:48,394 127.0.0.1 - - [01/Sep/2025 02:51:48] "POST /play-terms HTTP/1.1" 200 -
+2025-09-01 02:51:50,905 127.0.0.1 - - [01/Sep/2025 02:51:50] "[35m[1mPOST /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 02:51:50,962 127.0.0.1 - - [01/Sep/2025 02:51:50] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 02:51:50,965 127.0.0.1 - - [01/Sep/2025 02:51:50] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 02:51:51,018 127.0.0.1 - - [01/Sep/2025 02:51:51] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=ENe8SklGxyz5CaqzwGQq HTTP/1.1" 200 -
+2025-09-01 02:51:51,059 127.0.0.1 - - [01/Sep/2025 02:51:51] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 02:51:51,095 127.0.0.1 - - [01/Sep/2025 02:51:51] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 02:51:51,510 127.0.0.1 - - [01/Sep/2025 02:51:51] "HEAD /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=ENe8SklGxyz5CaqzwGQq HTTP/1.1" 200 -
+2025-09-01 03:03:35,303 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.148:5000
+2025-09-01 03:03:35,303 [33mPress CTRL+C to quit[0m
+2025-09-01 03:03:35,304  * Restarting with stat
+2025-09-01 03:03:35,505  * Debugger is active!
+2025-09-01 03:03:35,505  * Debugger PIN: 129-843-865
+2025-09-01 03:03:45,256 127.0.0.1 - - [01/Sep/2025 03:03:45] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 03:03:45,421 127.0.0.1 - - [01/Sep/2025 03:03:45] "GET /index HTTP/1.1" 200 -
+2025-09-01 03:03:45,744 127.0.0.1 - - [01/Sep/2025 03:03:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:03:45,756 127.0.0.1 - - [01/Sep/2025 03:03:45] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 03:03:45,917 127.0.0.1 - - [01/Sep/2025 03:03:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 03:03:45,926 127.0.0.1 - - [01/Sep/2025 03:03:45] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 03:03:45,941 127.0.0.1 - - [01/Sep/2025 03:03:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 03:03:46,049 127.0.0.1 - - [01/Sep/2025 03:03:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 03:03:46,103 127.0.0.1 - - [01/Sep/2025 03:03:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 03:03:47,125 127.0.0.1 - - [01/Sep/2025 03:03:47] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 03:03:47,184 127.0.0.1 - - [01/Sep/2025 03:03:47] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:03:47,187 127.0.0.1 - - [01/Sep/2025 03:03:47] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:03:47,191 127.0.0.1 - - [01/Sep/2025 03:03:47] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 03:03:47,262 127.0.0.1 - - [01/Sep/2025 03:03:47] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=GdQIdZlLHabxueILY9Nz HTTP/1.1" 200 -
+2025-09-01 03:03:47,503 127.0.0.1 - - [01/Sep/2025 03:03:47] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=GdQIdZlLHabxueILY9Nz HTTP/1.1" 200 -
+2025-09-01 03:10:33,332 127.0.0.1 - - [01/Sep/2025 03:10:33] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 03:10:33,582 127.0.0.1 - - [01/Sep/2025 03:10:33] "GET /index HTTP/1.1" 200 -
+2025-09-01 03:10:33,604  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 03:10:33,646  * Restarting with stat
+2025-09-01 03:10:33,927  * Debugger is active!
+2025-09-01 03:10:33,928  * Debugger PIN: 129-843-865
+2025-09-01 03:10:34,488 127.0.0.1 - - [01/Sep/2025 03:10:34] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 03:10:34,490 127.0.0.1 - - [01/Sep/2025 03:10:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 03:10:34,492 127.0.0.1 - - [01/Sep/2025 03:10:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 03:10:34,494 127.0.0.1 - - [01/Sep/2025 03:10:34] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 03:10:34,496 127.0.0.1 - - [01/Sep/2025 03:10:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:10:34,647 127.0.0.1 - - [01/Sep/2025 03:10:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 03:10:34,683 127.0.0.1 - - [01/Sep/2025 03:10:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 03:10:35,477 127.0.0.1 - - [01/Sep/2025 03:10:35] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 03:10:35,530 127.0.0.1 - - [01/Sep/2025 03:10:35] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:10:35,534 127.0.0.1 - - [01/Sep/2025 03:10:35] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 03:10:35,539 127.0.0.1 - - [01/Sep/2025 03:10:35] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:10:35,583 127.0.0.1 - - [01/Sep/2025 03:10:35] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=IW29RX0lH5MmrLqJ1v8a HTTP/1.1" 200 -
+2025-09-01 03:10:35,828 127.0.0.1 - - [01/Sep/2025 03:10:35] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=IW29RX0lH5MmrLqJ1v8a HTTP/1.1" 200 -
+2025-09-01 03:12:01,058  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 03:12:01,094  * Restarting with stat
+2025-09-01 03:12:01,323  * Debugger is active!
+2025-09-01 03:12:01,324  * Debugger PIN: 129-843-865
+2025-09-01 03:12:06,901 127.0.0.1 - - [01/Sep/2025 03:12:06] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 03:12:06,948 127.0.0.1 - - [01/Sep/2025 03:12:06] "GET /index HTTP/1.1" 200 -
+2025-09-01 03:12:07,014 127.0.0.1 - - [01/Sep/2025 03:12:07] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 03:12:07,057 127.0.0.1 - - [01/Sep/2025 03:12:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 03:12:07,319 127.0.0.1 - - [01/Sep/2025 03:12:07] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 03:12:07,322 127.0.0.1 - - [01/Sep/2025 03:12:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:12:07,323 127.0.0.1 - - [01/Sep/2025 03:12:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 03:12:07,443 127.0.0.1 - - [01/Sep/2025 03:12:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 03:12:07,474 127.0.0.1 - - [01/Sep/2025 03:12:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 03:12:08,034 127.0.0.1 - - [01/Sep/2025 03:12:08] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 03:12:08,085 127.0.0.1 - - [01/Sep/2025 03:12:08] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:12:08,088 127.0.0.1 - - [01/Sep/2025 03:12:08] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:12:08,090 127.0.0.1 - - [01/Sep/2025 03:12:08] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 03:12:08,168 127.0.0.1 - - [01/Sep/2025 03:12:08] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=wX4SK5iNQO6Vn5aLlBhR HTTP/1.1" 200 -
+2025-09-01 03:12:08,378 127.0.0.1 - - [01/Sep/2025 03:12:08] "HEAD /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=wX4SK5iNQO6Vn5aLlBhR HTTP/1.1" 200 -
+2025-09-01 03:12:08,381 127.0.0.1 - - [01/Sep/2025 03:12:08] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=wX4SK5iNQO6Vn5aLlBhR HTTP/1.1" 200 -
+2025-09-01 03:12:15,135  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 03:12:15,165  * Restarting with stat
+2025-09-01 03:12:15,367  * Debugger is active!
+2025-09-01 03:12:15,368  * Debugger PIN: 129-843-865
+2025-09-01 03:21:12,162 127.0.0.1 - - [01/Sep/2025 03:21:12] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 03:21:12,341 127.0.0.1 - - [01/Sep/2025 03:21:12] "GET /index HTTP/1.1" 200 -
+2025-09-01 03:21:12,632 127.0.0.1 - - [01/Sep/2025 03:21:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 03:21:12,652 127.0.0.1 - - [01/Sep/2025 03:21:12] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 03:21:12,716 127.0.0.1 - - [01/Sep/2025 03:21:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 03:21:12,784 127.0.0.1 - - [01/Sep/2025 03:21:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:21:12,832 127.0.0.1 - - [01/Sep/2025 03:21:12] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 03:21:13,036 127.0.0.1 - - [01/Sep/2025 03:21:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 03:21:13,066 127.0.0.1 - - [01/Sep/2025 03:21:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 03:21:13,900 127.0.0.1 - - [01/Sep/2025 03:21:13] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 03:21:13,983 127.0.0.1 - - [01/Sep/2025 03:21:13] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:21:13,999 127.0.0.1 - - [01/Sep/2025 03:21:13] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 03:21:14,003 127.0.0.1 - - [01/Sep/2025 03:21:14] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:21:14,161 127.0.0.1 - - [01/Sep/2025 03:21:14] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=nmREQTS535TSBjv8klPd HTTP/1.1" 200 -
+2025-09-01 03:21:14,288 127.0.0.1 - - [01/Sep/2025 03:21:14] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=nmREQTS535TSBjv8klPd HTTP/1.1" 200 -
+2025-09-01 03:23:34,066  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 03:23:34,099  * Restarting with stat
+2025-09-01 03:24:39,395 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.148:5000
+2025-09-01 03:24:39,395 [33mPress CTRL+C to quit[0m
+2025-09-01 03:24:39,396  * Restarting with stat
+2025-09-01 03:24:39,594  * Debugger is active!
+2025-09-01 03:24:39,594  * Debugger PIN: 129-843-865
+2025-09-01 03:24:43,744 127.0.0.1 - - [01/Sep/2025 03:24:43] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 03:24:43,909 127.0.0.1 - - [01/Sep/2025 03:24:43] "GET /index HTTP/1.1" 200 -
+2025-09-01 03:24:44,530 127.0.0.1 - - [01/Sep/2025 03:24:44] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 03:24:44,532 127.0.0.1 - - [01/Sep/2025 03:24:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 03:24:44,552 127.0.0.1 - - [01/Sep/2025 03:24:44] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 03:24:44,559 127.0.0.1 - - [01/Sep/2025 03:24:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 03:24:44,567 127.0.0.1 - - [01/Sep/2025 03:24:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:24:44,710 127.0.0.1 - - [01/Sep/2025 03:24:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 03:24:44,741 127.0.0.1 - - [01/Sep/2025 03:24:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 03:24:45,294 127.0.0.1 - - [01/Sep/2025 03:24:45] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 03:24:45,346 127.0.0.1 - - [01/Sep/2025 03:24:45] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:24:45,348 127.0.0.1 - - [01/Sep/2025 03:24:45] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 03:24:45,364 127.0.0.1 - - [01/Sep/2025 03:24:45] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:24:45,421 127.0.0.1 - - [01/Sep/2025 03:24:45] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=dC5xuIkvtsmjbIFIzc50 HTTP/1.1" 200 -
+2025-09-01 03:24:45,617 127.0.0.1 - - [01/Sep/2025 03:24:45] "HEAD /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=dC5xuIkvtsmjbIFIzc50 HTTP/1.1" 200 -
+2025-09-01 03:24:45,622 127.0.0.1 - - [01/Sep/2025 03:24:45] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=dC5xuIkvtsmjbIFIzc50 HTTP/1.1" 200 -
+2025-09-01 03:24:51,995  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 03:24:52,027  * Restarting with stat
+2025-09-01 03:26:18,905 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.148:5000
+2025-09-01 03:26:18,905 [33mPress CTRL+C to quit[0m
+2025-09-01 03:26:18,905  * Restarting with stat
+2025-09-01 03:26:19,110  * Debugger is active!
+2025-09-01 03:26:19,110  * Debugger PIN: 129-843-865
+2025-09-01 03:26:22,983 127.0.0.1 - - [01/Sep/2025 03:26:22] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 03:26:23,023 127.0.0.1 - - [01/Sep/2025 03:26:23] "GET /index HTTP/1.1" 200 -
+2025-09-01 03:26:23,095 127.0.0.1 - - [01/Sep/2025 03:26:23] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 03:26:23,124 127.0.0.1 - - [01/Sep/2025 03:26:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 03:26:23,406 127.0.0.1 - - [01/Sep/2025 03:26:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 03:26:23,413 127.0.0.1 - - [01/Sep/2025 03:26:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:26:23,418 127.0.0.1 - - [01/Sep/2025 03:26:23] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 03:26:23,501 127.0.0.1 - - [01/Sep/2025 03:26:23] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 03:26:23,529 127.0.0.1 - - [01/Sep/2025 03:26:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 03:26:24,183 127.0.0.1 - - [01/Sep/2025 03:26:24] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 03:26:24,229 127.0.0.1 - - [01/Sep/2025 03:26:24] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:26:24,246 127.0.0.1 - - [01/Sep/2025 03:26:24] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 03:26:24,258 127.0.0.1 - - [01/Sep/2025 03:26:24] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:26:24,309 127.0.0.1 - - [01/Sep/2025 03:26:24] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=OYph0lN3BI2rxieqqPqY HTTP/1.1" 200 -
+2025-09-01 03:26:24,491 127.0.0.1 - - [01/Sep/2025 03:26:24] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=OYph0lN3BI2rxieqqPqY HTTP/1.1" 200 -
+2025-09-01 03:27:59,966 127.0.0.1 - - [01/Sep/2025 03:27:59] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 03:28:00,000 127.0.0.1 - - [01/Sep/2025 03:28:00] "GET /index HTTP/1.1" 200 -
+2025-09-01 03:28:00,101 127.0.0.1 - - [01/Sep/2025 03:28:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 03:28:00,111 127.0.0.1 - - [01/Sep/2025 03:28:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 03:28:00,117 127.0.0.1 - - [01/Sep/2025 03:28:00] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 03:28:00,307 127.0.0.1 - - [01/Sep/2025 03:28:00] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 03:28:00,309 127.0.0.1 - - [01/Sep/2025 03:28:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:28:00,454 127.0.0.1 - - [01/Sep/2025 03:28:00] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 03:28:00,487 127.0.0.1 - - [01/Sep/2025 03:28:00] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 03:28:01,111 127.0.0.1 - - [01/Sep/2025 03:28:01] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 03:28:01,158 127.0.0.1 - - [01/Sep/2025 03:28:01] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:28:01,162 127.0.0.1 - - [01/Sep/2025 03:28:01] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:28:01,167 127.0.0.1 - - [01/Sep/2025 03:28:01] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 03:28:01,239 127.0.0.1 - - [01/Sep/2025 03:28:01] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=OYph0lN3BI2rxieqqPqY HTTP/1.1[0m" 304 -
+2025-09-01 03:28:47,294  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-01 03:28:47,331  * Restarting with stat
+2025-09-01 03:28:47,536  * Debugger is active!
+2025-09-01 03:28:47,537  * Debugger PIN: 129-843-865
+2025-09-01 03:28:50,139 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.148:5000
+2025-09-01 03:28:50,139 [33mPress CTRL+C to quit[0m
+2025-09-01 03:28:50,140  * Restarting with stat
+2025-09-01 03:28:50,355  * Debugger is active!
+2025-09-01 03:28:50,356  * Debugger PIN: 129-843-865
+2025-09-01 03:28:53,861 127.0.0.1 - - [01/Sep/2025 03:28:53] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-01 03:28:53,896 127.0.0.1 - - [01/Sep/2025 03:28:53] "GET /index HTTP/1.1" 200 -
+2025-09-01 03:28:53,978 127.0.0.1 - - [01/Sep/2025 03:28:53] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 03:28:54,001 127.0.0.1 - - [01/Sep/2025 03:28:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-01 03:28:54,005 127.0.0.1 - - [01/Sep/2025 03:28:54] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-01 03:28:54,008 127.0.0.1 - - [01/Sep/2025 03:28:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:28:54,012 127.0.0.1 - - [01/Sep/2025 03:28:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-01 03:28:54,102 127.0.0.1 - - [01/Sep/2025 03:28:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-01 03:28:54,164 127.0.0.1 - - [01/Sep/2025 03:28:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-01 03:28:54,853 127.0.0.1 - - [01/Sep/2025 03:28:54] "GET /play-terms HTTP/1.1" 200 -
+2025-09-01 03:28:54,908 127.0.0.1 - - [01/Sep/2025 03:28:54] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:28:58,803 127.0.0.1 - - [01/Sep/2025 03:28:58] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 03:28:58,857 127.0.0.1 - - [01/Sep/2025 03:28:58] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 03:28:58,860 127.0.0.1 - - [01/Sep/2025 03:28:58] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:28:58,902 127.0.0.1 - - [01/Sep/2025 03:28:58] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=zSMoLfQFVKeke8pTHhT1 HTTP/1.1" 200 -
+2025-09-01 03:28:58,949 127.0.0.1 - - [01/Sep/2025 03:28:58] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:28:58,976 127.0.0.1 - - [01/Sep/2025 03:28:58] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:28:59,383 127.0.0.1 - - [01/Sep/2025 03:28:59] "HEAD /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=zSMoLfQFVKeke8pTHhT1 HTTP/1.1" 200 -
+2025-09-01 03:28:59,665 127.0.0.1 - - [01/Sep/2025 03:28:59] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 03:28:59,715 127.0.0.1 - - [01/Sep/2025 03:28:59] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:28:59,718 127.0.0.1 - - [01/Sep/2025 03:28:59] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 03:28:59,721 127.0.0.1 - - [01/Sep/2025 03:28:59] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:28:59,754 127.0.0.1 - - [01/Sep/2025 03:28:59] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=zSMoLfQFVKeke8pTHhT1 HTTP/1.1[0m" 304 -
+2025-09-01 03:28:59,795 127.0.0.1 - - [01/Sep/2025 03:28:59] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:29:00,248 127.0.0.1 - - [01/Sep/2025 03:29:00] "HEAD /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=zSMoLfQFVKeke8pTHhT1 HTTP/1.1" 200 -
+2025-09-01 03:29:01,824 127.0.0.1 - - [01/Sep/2025 03:29:01] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-09-01 03:29:02,613 127.0.0.1 - - [01/Sep/2025 03:29:02] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-01 03:29:02,670 127.0.0.1 - - [01/Sep/2025 03:29:02] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-01 03:29:02,675 127.0.0.1 - - [01/Sep/2025 03:29:02] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-01 03:29:02,676 127.0.0.1 - - [01/Sep/2025 03:29:02] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-01 03:29:02,740 127.0.0.1 - - [01/Sep/2025 03:29:02] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=zSMoLfQFVKeke8pTHhT1 HTTP/1.1[0m" 304 -
+2025-09-01 03:29:03,209 127.0.0.1 - - [01/Sep/2025 03:29:03] "HEAD /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=zSMoLfQFVKeke8pTHhT1 HTTP/1.1" 200 -
+2025-09-02 00:49:14,343 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.250:5000
+2025-09-02 00:49:14,380 [33mPress CTRL+C to quit[0m
+2025-09-02 00:49:14,381  * Restarting with stat
+2025-09-02 00:49:14,595  * Debugger is active!
+2025-09-02 00:49:14,596  * Debugger PIN: 742-706-903
+2025-09-02 00:49:19,080 127.0.0.1 - - [02/Sep/2025 00:49:19] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 00:49:19,200 127.0.0.1 - - [02/Sep/2025 00:49:19] "GET /login HTTP/1.1" 200 -
+2025-09-02 00:49:19,576 127.0.0.1 - - [02/Sep/2025 00:49:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,090 127.0.0.1 - - [02/Sep/2025 00:49:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-09-02 00:49:42,231 127.0.0.1 - - [02/Sep/2025 00:49:42] "GET /index HTTP/1.1" 200 -
+2025-09-02 00:49:42,356 127.0.0.1 - - [02/Sep/2025 00:49:42] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2025-09-02 00:49:42,358 127.0.0.1 - - [02/Sep/2025 00:49:42] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2025-09-02 00:49:42,358 127.0.0.1 - - [02/Sep/2025 00:49:42] "GET /static/images/boarder.png HTTP/1.1" 200 -
+2025-09-02 00:49:42,441 127.0.0.1 - - [02/Sep/2025 00:49:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-09-02 00:49:42,532 127.0.0.1 - - [02/Sep/2025 00:49:42] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2025-09-02 00:49:42,564 127.0.0.1 - - [02/Sep/2025 00:49:42] "GET /static/js/app.js HTTP/1.1" 200 -
+2025-09-02 00:49:42,672 127.0.0.1 - - [02/Sep/2025 00:49:42] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-09-02 00:49:42,690 127.0.0.1 - - [02/Sep/2025 00:49:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 00:49:42,805 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,810 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/css/style.css/bootstrap.min.css HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,811 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/js/app.js HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,812 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,814 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/images/logo.png HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,818 127.0.0.1 - - [02/Sep/2025 00:49:42] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 00:49:42,819 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/images/favicon.jpg HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,824 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/icons/icon-384x384.png HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,825 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/icons/icon-192x192.png HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,829 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/icons/icon-512x512.png HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,830 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/icons/icon-128x128.png HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,831 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/icons/desktop_screenshot.png HTTP/1.1[0m" 404 -
+2025-09-02 00:49:42,837 127.0.0.1 - - [02/Sep/2025 00:49:42] "[33mGET /static/js/static/icons/mobile_screenshot.png HTTP/1.1[0m" 404 -
+2025-09-02 00:49:45,663 127.0.0.1 - - [02/Sep/2025 00:49:45] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-02 00:49:45,855 127.0.0.1 - - [02/Sep/2025 00:49:45] "GET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-09-02 00:49:45,864 127.0.0.1 - - [02/Sep/2025 00:49:45] "GET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-09-02 00:49:46,007 127.0.0.1 - - [02/Sep/2025 00:49:46] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=FvPzICAWs39vKFyJsdsb HTTP/1.1" 200 -
+2025-09-02 00:49:46,130 127.0.0.1 - - [02/Sep/2025 00:49:46] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-09-02 00:52:36,490  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-02 00:52:36,541  * Restarting with stat
+2025-09-02 00:52:36,792  * Debugger is active!
+2025-09-02 00:52:36,792  * Debugger PIN: 742-706-903
+2025-09-02 00:52:39,691 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.250:5000
+2025-09-02 00:52:39,691 [33mPress CTRL+C to quit[0m
+2025-09-02 00:52:39,692  * Restarting with stat
+2025-09-02 00:52:39,919  * Debugger is active!
+2025-09-02 00:52:39,919  * Debugger PIN: 742-706-903
+2025-09-02 00:52:45,682 127.0.0.1 - - [02/Sep/2025 00:52:45] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 00:52:45,804 127.0.0.1 - - [02/Sep/2025 00:52:45] "GET /index HTTP/1.1" 200 -
+2025-09-02 00:52:45,953 127.0.0.1 - - [02/Sep/2025 00:52:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-02 00:52:46,071 127.0.0.1 - - [02/Sep/2025 00:52:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-02 00:52:46,084 127.0.0.1 - - [02/Sep/2025 00:52:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-02 00:52:46,088 127.0.0.1 - - [02/Sep/2025 00:52:46] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-02 00:52:46,149 127.0.0.1 - - [02/Sep/2025 00:52:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 00:52:46,286 127.0.0.1 - - [02/Sep/2025 00:52:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-02 00:52:46,861 127.0.0.1 - - [02/Sep/2025 00:52:46] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-02 00:52:46,913 127.0.0.1 - - [02/Sep/2025 00:52:46] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-02 00:52:46,916 127.0.0.1 - - [02/Sep/2025 00:52:46] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-02 00:52:46,956 127.0.0.1 - - [02/Sep/2025 00:52:46] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=rOc9MhEY1o018a3P4xuu HTTP/1.1" 200 -
+2025-09-02 00:53:42,927  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-02 00:53:42,963  * Restarting with stat
+2025-09-02 00:53:43,181  * Debugger is active!
+2025-09-02 00:53:43,182  * Debugger PIN: 742-706-903
+2025-09-02 00:56:18,466  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-02 00:56:18,520  * Restarting with stat
+2025-09-02 01:04:09,542 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.250:5000
+2025-09-02 01:04:09,542 [33mPress CTRL+C to quit[0m
+2025-09-02 01:04:09,543  * Restarting with stat
+2025-09-02 01:04:09,762  * Debugger is active!
+2025-09-02 01:04:09,762  * Debugger PIN: 742-706-903
+2025-09-02 01:04:11,358 127.0.0.1 - - [02/Sep/2025 01:04:11] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 01:04:11,913 127.0.0.1 - - [02/Sep/2025 01:04:11] "GET /index HTTP/1.1" 200 -
+2025-09-02 01:04:12,562 127.0.0.1 - - [02/Sep/2025 01:04:12] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-02 01:04:12,569 127.0.0.1 - - [02/Sep/2025 01:04:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-02 01:04:12,612 127.0.0.1 - - [02/Sep/2025 01:04:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:04:12,623 127.0.0.1 - - [02/Sep/2025 01:04:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-02 01:04:12,820 127.0.0.1 - - [02/Sep/2025 01:04:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 01:04:12,860 127.0.0.1 - - [02/Sep/2025 01:04:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-02 01:04:14,041 127.0.0.1 - - [02/Sep/2025 01:04:14] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-02 01:04:14,110 127.0.0.1 - - [02/Sep/2025 01:04:14] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:04:14,216 127.0.0.1 - - [02/Sep/2025 01:04:14] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-02 01:04:14,266 127.0.0.1 - - [02/Sep/2025 01:04:14] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=PPp9iXacX9bbeHCrJfjb HTTP/1.1" 200 -
+2025-09-02 01:06:36,499  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-02 01:06:36,532  * Restarting with stat
+2025-09-02 01:06:36,779  * Debugger is active!
+2025-09-02 01:06:36,779  * Debugger PIN: 742-706-903
+2025-09-02 01:06:38,781 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.250:5000
+2025-09-02 01:06:38,781 [33mPress CTRL+C to quit[0m
+2025-09-02 01:06:38,782  * Restarting with stat
+2025-09-02 01:06:39,026  * Debugger is active!
+2025-09-02 01:06:39,027  * Debugger PIN: 742-706-903
+2025-09-02 01:06:46,240 127.0.0.1 - - [02/Sep/2025 01:06:46] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 01:06:47,105 127.0.0.1 - - [02/Sep/2025 01:06:47] "GET /index HTTP/1.1" 200 -
+2025-09-02 01:06:47,748 127.0.0.1 - - [02/Sep/2025 01:06:47] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-02 01:06:47,844 127.0.0.1 - - [02/Sep/2025 01:06:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:06:47,848 127.0.0.1 - - [02/Sep/2025 01:06:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-02 01:06:47,854 127.0.0.1 - - [02/Sep/2025 01:06:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-02 01:06:48,041 127.0.0.1 - - [02/Sep/2025 01:06:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 01:06:48,145 127.0.0.1 - - [02/Sep/2025 01:06:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-02 01:06:48,807 127.0.0.1 - - [02/Sep/2025 01:06:48] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-02 01:06:48,881 127.0.0.1 - - [02/Sep/2025 01:06:48] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-02 01:06:48,887 127.0.0.1 - - [02/Sep/2025 01:06:48] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:06:48,939 127.0.0.1 - - [02/Sep/2025 01:06:48] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=zVD8Du8CZkZZ3mAdJeVY HTTP/1.1" 200 -
+2025-09-02 01:07:15,880  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-02 01:07:15,914  * Restarting with stat
+2025-09-02 01:07:16,130  * Debugger is active!
+2025-09-02 01:07:16,130  * Debugger PIN: 742-706-903
+2025-09-02 01:07:34,551  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-02 01:07:34,586  * Restarting with stat
+2025-09-02 01:07:34,810  * Debugger is active!
+2025-09-02 01:07:34,810  * Debugger PIN: 742-706-903
+2025-09-02 01:07:35,969 127.0.0.1 - - [02/Sep/2025 01:07:35] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 01:07:36,060 127.0.0.1 - - [02/Sep/2025 01:07:36] "GET /index HTTP/1.1" 200 -
+2025-09-02 01:07:36,153 127.0.0.1 - - [02/Sep/2025 01:07:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-02 01:07:36,157 127.0.0.1 - - [02/Sep/2025 01:07:36] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-02 01:07:36,160 127.0.0.1 - - [02/Sep/2025 01:07:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-02 01:07:36,164 127.0.0.1 - - [02/Sep/2025 01:07:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:07:36,237 127.0.0.1 - - [02/Sep/2025 01:07:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 01:07:36,281 127.0.0.1 - - [02/Sep/2025 01:07:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-02 01:07:37,057 127.0.0.1 - - [02/Sep/2025 01:07:37] "GET /play-terms HTTP/1.1" 200 -
+2025-09-02 01:07:56,467  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-02 01:07:56,503  * Restarting with stat
+2025-09-02 01:07:56,727  * Debugger is active!
+2025-09-02 01:07:56,728  * Debugger PIN: 742-706-903
+2025-09-02 01:07:57,207 127.0.0.1 - - [02/Sep/2025 01:07:57] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 01:07:57,262 127.0.0.1 - - [02/Sep/2025 01:07:57] "GET /index HTTP/1.1" 200 -
+2025-09-02 01:07:57,363 127.0.0.1 - - [02/Sep/2025 01:07:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-02 01:07:57,374 127.0.0.1 - - [02/Sep/2025 01:07:57] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-02 01:07:57,385 127.0.0.1 - - [02/Sep/2025 01:07:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-02 01:07:57,386 127.0.0.1 - - [02/Sep/2025 01:07:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:07:57,460 127.0.0.1 - - [02/Sep/2025 01:07:57] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 01:07:57,508 127.0.0.1 - - [02/Sep/2025 01:07:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-02 01:07:58,411 127.0.0.1 - - [02/Sep/2025 01:07:58] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-02 01:07:58,470 127.0.0.1 - - [02/Sep/2025 01:07:58] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:07:58,473 127.0.0.1 - - [02/Sep/2025 01:07:58] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-02 01:07:58,529 127.0.0.1 - - [02/Sep/2025 01:07:58] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=Mc3vKmhSWpHH9mzjMdrJ HTTP/1.1" 200 -
+2025-09-02 01:07:58,585 127.0.0.1 - - [02/Sep/2025 01:07:58] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-09-02 01:09:37,277  * Detected change in '/workspaces/SEP-new-/main.py', reloading
+2025-09-02 01:09:37,310  * Restarting with stat
+2025-09-02 01:09:37,522  * Debugger is active!
+2025-09-02 01:09:37,522  * Debugger PIN: 742-706-903
+2025-09-02 01:09:38,862 127.0.0.1 - - [02/Sep/2025 01:09:38] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 01:09:39,432 127.0.0.1 - - [02/Sep/2025 01:09:39] "GET /index HTTP/1.1" 200 -
+2025-09-02 01:09:40,041 127.0.0.1 - - [02/Sep/2025 01:09:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:09:40,113 127.0.0.1 - - [02/Sep/2025 01:09:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-02 01:09:40,120 127.0.0.1 - - [02/Sep/2025 01:09:40] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-02 01:09:40,170 127.0.0.1 - - [02/Sep/2025 01:09:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-02 01:09:40,288 127.0.0.1 - - [02/Sep/2025 01:09:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 01:09:40,329 127.0.0.1 - - [02/Sep/2025 01:09:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-02 01:09:40,831 127.0.0.1 - - [02/Sep/2025 01:09:40] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-02 01:09:40,888 127.0.0.1 - - [02/Sep/2025 01:09:40] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:09:40,893 127.0.0.1 - - [02/Sep/2025 01:09:40] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-02 01:09:40,944 127.0.0.1 - - [02/Sep/2025 01:09:40] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=fiQm6L4NS0Zob1CHZEck HTTP/1.1" 200 -
+2025-09-02 01:11:54,026  * Detected change in '/workspaces/SEP-new-/databaseManager.py', reloading
+2025-09-02 01:11:54,072  * Restarting with stat
+2025-09-02 01:11:54,305  * Debugger is active!
+2025-09-02 01:11:54,305  * Debugger PIN: 742-706-903
+2025-09-02 01:11:56,729 127.0.0.1 - - [02/Sep/2025 01:11:56] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 01:11:57,448 127.0.0.1 - - [02/Sep/2025 01:11:57] "GET /index HTTP/1.1" 200 -
+2025-09-02 01:11:58,197 127.0.0.1 - - [02/Sep/2025 01:11:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-02 01:11:58,241 127.0.0.1 - - [02/Sep/2025 01:11:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-02 01:11:58,295 127.0.0.1 - - [02/Sep/2025 01:11:58] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-02 01:11:58,295 127.0.0.1 - - [02/Sep/2025 01:11:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:11:58,368 127.0.0.1 - - [02/Sep/2025 01:11:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 01:11:58,410 127.0.0.1 - - [02/Sep/2025 01:11:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-02 01:11:59,456 127.0.0.1 - - [02/Sep/2025 01:11:59] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-02 01:11:59,522 127.0.0.1 - - [02/Sep/2025 01:11:59] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:11:59,535 127.0.0.1 - - [02/Sep/2025 01:11:59] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-02 01:11:59,581 127.0.0.1 - - [02/Sep/2025 01:11:59] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=5tiltchMAhRCBLhDqIRC HTTP/1.1" 200 -
+2025-09-02 01:12:12,662  * Detected change in '/workspaces/SEP-new-/databaseManager.py', reloading
+2025-09-02 01:12:12,694  * Restarting with stat
+2025-09-02 01:12:12,908  * Debugger is active!
+2025-09-02 01:12:12,908  * Debugger PIN: 742-706-903
+2025-09-02 01:12:17,893 127.0.0.1 - - [02/Sep/2025 01:12:17] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 01:12:17,947 127.0.0.1 - - [02/Sep/2025 01:12:17] "GET /index HTTP/1.1" 200 -
+2025-09-02 01:12:18,034 127.0.0.1 - - [02/Sep/2025 01:12:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:12:18,034 127.0.0.1 - - [02/Sep/2025 01:12:18] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-02 01:12:18,035 127.0.0.1 - - [02/Sep/2025 01:12:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-02 01:12:18,036 127.0.0.1 - - [02/Sep/2025 01:12:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-02 01:12:18,109 127.0.0.1 - - [02/Sep/2025 01:12:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 01:12:18,153 127.0.0.1 - - [02/Sep/2025 01:12:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-02 01:12:18,754 127.0.0.1 - - [02/Sep/2025 01:12:18] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-02 01:12:18,817 127.0.0.1 - - [02/Sep/2025 01:12:18] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:12:18,831 127.0.0.1 - - [02/Sep/2025 01:12:18] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-02 01:12:18,889 127.0.0.1 - - [02/Sep/2025 01:12:18] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=P6QR60qeUHhFpAIv9e2g HTTP/1.1" 200 -
+2025-09-02 01:12:38,270  * Detected change in '/workspaces/SEP-new-/databaseManager.py', reloading
+2025-09-02 01:12:38,303  * Restarting with stat
+2025-09-02 01:12:38,508  * Debugger is active!
+2025-09-02 01:12:38,509  * Debugger PIN: 742-706-903
+2025-09-02 01:12:57,301 127.0.0.1 - - [02/Sep/2025 01:12:57] "[35m[1mPOST /play-terms HTTP/1.1[0m" 500 -
+2025-09-02 01:12:57,364 127.0.0.1 - - [02/Sep/2025 01:12:57] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:12:57,375 127.0.0.1 - - [02/Sep/2025 01:12:57] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-02 01:12:57,426 127.0.0.1 - - [02/Sep/2025 01:12:57] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=QJeXusOPynitbiAg16dl HTTP/1.1" 200 -
+2025-09-02 01:13:03,843  * Detected change in '/workspaces/SEP-new-/databaseManager.py', reloading
+2025-09-02 01:13:03,879  * Restarting with stat
+2025-09-02 01:13:04,090  * Debugger is active!
+2025-09-02 01:13:04,091  * Debugger PIN: 742-706-903
+2025-09-02 01:13:05,054 127.0.0.1 - - [02/Sep/2025 01:13:05] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 01:13:05,097 127.0.0.1 - - [02/Sep/2025 01:13:05] "GET /index HTTP/1.1" 200 -
+2025-09-02 01:13:05,175 127.0.0.1 - - [02/Sep/2025 01:13:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:13:05,182 127.0.0.1 - - [02/Sep/2025 01:13:05] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-02 01:13:05,185 127.0.0.1 - - [02/Sep/2025 01:13:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-02 01:13:05,193 127.0.0.1 - - [02/Sep/2025 01:13:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-02 01:13:05,261 127.0.0.1 - - [02/Sep/2025 01:13:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 01:13:05,303 127.0.0.1 - - [02/Sep/2025 01:13:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-02 01:13:05,965 127.0.0.1 - - [02/Sep/2025 01:13:05] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-02 01:13:06,037 127.0.0.1 - - [02/Sep/2025 01:13:06] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-02 01:13:06,040 127.0.0.1 - - [02/Sep/2025 01:13:06] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:13:06,086 127.0.0.1 - - [02/Sep/2025 01:13:06] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=2RhyEWHpLCxZxkO0NV04 HTTP/1.1" 200 -
+2025-09-02 01:13:31,263  * Detected change in '/workspaces/SEP-new-/databaseManager.py', reloading
+2025-09-02 01:13:31,301  * Restarting with stat
+2025-09-02 01:13:31,514  * Debugger is active!
+2025-09-02 01:13:31,515  * Debugger PIN: 742-706-903
+2025-09-02 01:13:32,327 127.0.0.1 - - [02/Sep/2025 01:13:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 01:13:32,380 127.0.0.1 - - [02/Sep/2025 01:13:32] "GET /index HTTP/1.1" 200 -
+2025-09-02 01:13:32,464 127.0.0.1 - - [02/Sep/2025 01:13:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:13:32,467 127.0.0.1 - - [02/Sep/2025 01:13:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-02 01:13:32,476 127.0.0.1 - - [02/Sep/2025 01:13:32] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-02 01:13:32,481 127.0.0.1 - - [02/Sep/2025 01:13:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-02 01:13:32,533 127.0.0.1 - - [02/Sep/2025 01:13:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 01:13:32,574 127.0.0.1 - - [02/Sep/2025 01:13:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-02 01:13:33,022 127.0.0.1 - - [02/Sep/2025 01:13:33] "[35m[1mGET /play-terms HTTP/1.1[0m" 500 -
+2025-09-02 01:13:33,080 127.0.0.1 - - [02/Sep/2025 01:13:33] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:13:33,083 127.0.0.1 - - [02/Sep/2025 01:13:33] "[36mGET /play-terms?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-09-02 01:13:33,135 127.0.0.1 - - [02/Sep/2025 01:13:33] "GET /play-terms?__debugger__=yes&cmd=resource&f=console.png&s=R3n7Mm7qDXomOb9JScic HTTP/1.1" 200 -
+2025-09-02 01:14:31,423  * Detected change in '/workspaces/SEP-new-/databaseManager.py', reloading
+2025-09-02 01:14:31,455  * Restarting with stat
+2025-09-02 01:14:31,674  * Debugger is active!
+2025-09-02 01:14:31,674  * Debugger PIN: 742-706-903
+2025-09-02 01:14:32,300 127.0.0.1 - - [02/Sep/2025 01:14:32] "[32mGET / HTTP/1.1[0m" 302 -
+2025-09-02 01:14:32,422 127.0.0.1 - - [02/Sep/2025 01:14:32] "GET /index HTTP/1.1" 200 -
+2025-09-02 01:14:32,514 127.0.0.1 - - [02/Sep/2025 01:14:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-09-02 01:14:32,522 127.0.0.1 - - [02/Sep/2025 01:14:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2025-09-02 01:14:32,524 127.0.0.1 - - [02/Sep/2025 01:14:32] "[36mGET /static/images/boarder.png HTTP/1.1[0m" 304 -
+2025-09-02 01:14:32,529 127.0.0.1 - - [02/Sep/2025 01:14:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2025-09-02 01:14:32,599 127.0.0.1 - - [02/Sep/2025 01:14:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2025-09-02 01:14:32,639 127.0.0.1 - - [02/Sep/2025 01:14:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2025-09-02 01:14:33,358 127.0.0.1 - - [02/Sep/2025 01:14:33] "GET /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:36,177 127.0.0.1 - - [02/Sep/2025 01:14:36] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:38,844 127.0.0.1 - - [02/Sep/2025 01:14:38] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:44,508 127.0.0.1 - - [02/Sep/2025 01:14:44] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:46,230 127.0.0.1 - - [02/Sep/2025 01:14:46] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:47,451 127.0.0.1 - - [02/Sep/2025 01:14:47] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:51,078 127.0.0.1 - - [02/Sep/2025 01:14:51] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:52,708 127.0.0.1 - - [02/Sep/2025 01:14:52] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:53,505 127.0.0.1 - - [02/Sep/2025 01:14:53] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:54,292 127.0.0.1 - - [02/Sep/2025 01:14:54] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:56,080 127.0.0.1 - - [02/Sep/2025 01:14:56] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:56,898 127.0.0.1 - - [02/Sep/2025 01:14:56] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:57,494 127.0.0.1 - - [02/Sep/2025 01:14:57] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:58,147 127.0.0.1 - - [02/Sep/2025 01:14:58] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:59,162 127.0.0.1 - - [02/Sep/2025 01:14:59] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:14:59,815 127.0.0.1 - - [02/Sep/2025 01:14:59] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:00,429 127.0.0.1 - - [02/Sep/2025 01:15:00] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:01,387 127.0.0.1 - - [02/Sep/2025 01:15:01] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:02,135 127.0.0.1 - - [02/Sep/2025 01:15:02] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:02,740 127.0.0.1 - - [02/Sep/2025 01:15:02] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:04,444 127.0.0.1 - - [02/Sep/2025 01:15:04] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:05,198 127.0.0.1 - - [02/Sep/2025 01:15:05] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:06,354 127.0.0.1 - - [02/Sep/2025 01:15:06] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:07,144 127.0.0.1 - - [02/Sep/2025 01:15:07] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:08,745 127.0.0.1 - - [02/Sep/2025 01:15:08] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:09,526 127.0.0.1 - - [02/Sep/2025 01:15:09] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:11,847 127.0.0.1 - - [02/Sep/2025 01:15:11] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:15,065 127.0.0.1 - - [02/Sep/2025 01:15:15] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:17,428 127.0.0.1 - - [02/Sep/2025 01:15:17] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:20,097 127.0.0.1 - - [02/Sep/2025 01:15:20] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:22,864 127.0.0.1 - - [02/Sep/2025 01:15:22] "POST /play-terms HTTP/1.1" 200 -
+2025-09-02 01:15:25,246 127.0.0.1 - - [02/Sep/2025 01:15:25] "POST /play-terms HTTP/1.1" 200 -

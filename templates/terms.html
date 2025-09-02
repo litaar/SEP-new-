@@ -1,23 +1,60 @@
-{% extends 'layout.html' %} {% block content %}
-<div class="quiz-container">
-  <h2>{{ quiz }}</h2>
-  <p><strong>Score:</strong> {{ score }}</p>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Music Terms Quiz</title>
+    <style>
+      .correct {
+        color: green;
+        font-weight: bold;
+      }
+      .wrong {
+        color: red;
+        font-weight: bold;
+      }
+      .review {
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Music Terms Quiz</h1>
 
-  {% if not finished %}
-  <form method="POST" action="/play-terms">
-    {% for choice in choices %}
-    <label>
-      <input type="radio" name="option" value="{{ choice }}" required /> {{
-      choice }} </label
-    ><br />
-    {% endfor %}
+    <p>{{ alert_message }}</p>
+    <p>Score: {{ score }}/15</p>
 
-    <input type="hidden" name="correct_option" value="{{ answer }}" />
-    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
-    <button type="submit">Submit / Next</button>
-  </form>
-  {% endif %} {% if alert_message %}
-  <p>{{ alert_message }}</p>
-  {% endif %}
-</div>
-{% endblock %}
+    {% if not finished %}
+    <form method="POST">
+      <p><strong>{{ quiz }}</strong></p>
+      {% for choice in choices %}
+      <label>
+        <input type="radio" name="option" value="{{ choice }}" required />
+        {{ choice }} </label
+      ><br />
+      {% endfor %}
+
+      <!-- Hidden fields to keep track of question and correct answer -->
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+      <input type="hidden" name="correct_option" value="{{ answer }}" />
+      <input type="hidden" name="question_text" value="{{ quiz }}" />
+
+      <button type="submit">Submit</button>
+    </form>
+    {% endif %} {% if finished and answers %}
+    <div class="review">
+      <h2>Review Your Answers</h2>
+      <ul>
+        {% for a in answers %}
+        <li>
+          <strong>{{ a.question }}</strong><br />
+          Your answer: {% if a.selected == a.correct %} ✅
+          <span class="correct">{{ a.selected }}</span> {% else %} ❌
+          <span class="wrong">{{ a.selected }}</span> (Correct:
+          <span class="correct">{{ a.correct }}</span>) {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </body>
+</html>
